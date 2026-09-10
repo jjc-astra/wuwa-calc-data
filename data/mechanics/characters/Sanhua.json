@@ -181,7 +181,6 @@
   "Sanhua_Forte Hold Press": {
     "name": "Forte Hold Press",
     "category": "Forte Circuit",
-    "triggerRule": "IF (NOT(@Self.HasBuff(Forte_Holding)))",
     "castTypes": ["Heavy"],
     "effects": [
       {
@@ -199,7 +198,6 @@
   "Sanhua_Forte Hold Release": {
     "name": "Forte Hold Release",
     "category": "Forte Circuit",
-    "triggerRule": "IF (@Self.HasBuff(Forte_Holding))",
     "castTypes": ["Heavy"],
     "effects": [
       {
