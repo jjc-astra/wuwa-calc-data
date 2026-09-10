@@ -185,14 +185,6 @@
     "castTypes": ["Heavy"],
     "effects": [
       {
-        "type": "buff",
-        "name": "Forte_Holding",
-        "label": "Forte Aiming",
-        "target": "@Self",
-        "duration": "@Default.PermanentDuration",
-        "maxStacks": 1
-      },
-      {
         "type": "tracker",
         "name": "Hold_Start",
         "action": "set",
@@ -211,11 +203,9 @@
     "castTypes": ["Heavy"],
     "effects": [
       {
-        "type": "buffAction",
-        "name": "Forte_Holding",
-        "target": "@Self",
-        "action": "remove",
-        "value": "ALL"
+        "type": "tracker",
+        "name": "Hold_Start",
+        "action": "delete"
       }
     ],
     "input": "Basic",
