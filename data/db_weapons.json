@@ -1,4 +1,5 @@
 {
+  "Thousandfold Deliverance": { "weaponType": "Broadblade", "rarity": 5, "baseAtk": 412.0, "subStatType": "HP %", "subStatValue": 72.23 },
   "Starfield Calibrator": { "weaponType": "Broadblade", "rarity": 5, "baseAtk": 412.0, "subStatType": "ER %", "subStatValue": 77.04 },
   "Kumokiri": { "weaponType": "Broadblade", "rarity": 5, "baseAtk": 500, "subStatType": "CR Rate", "subStatValue": 36.0 },
   "Thunderflare Dominion": { "weaponType": "Broadblade", "rarity": 5, "baseAtk": 675, "subStatType": "CR Rate", "subStatValue": 12.15 },
@@ -11,6 +12,9 @@
   "Helios Cleaver": { "weaponType": "Broadblade", "rarity": 4, "baseAtk": 412.00, "subStatType": "ATK %", "subStatValue": 30.38 },
   "Discord": { "weaponType": "Broadblade", "rarity": 4, "baseAtk": 337.00, "subStatType": "ER %", "subStatValue": 51.84 },
 
+  "Glint of Clouds": { "weaponType": "Sword", "rarity": 5, "baseAtk": 500.0, "subStatType": "CR Rate", "subStatValue": 36 },
+  "Azure Oath": { "weaponType": "Sword", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
+  "Frostburn": { "weaponType": "Sword", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Everbright Polestar": { "weaponType": "Sword", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Emerald Sentence": { "weaponType": "Sword", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Defiers Thorn": { "weaponType": "Sword", "rarity": 5, "baseAtk": 412.00, "subStatType": "HP %", "subStatValue": 72.33 },
@@ -24,6 +28,9 @@
   "Lumingloss": { "weaponType": "Sword", "rarity": 4, "baseAtk": 387.00, "subStatType": "ATK %", "subStatValue": 36.45 },
   "Overture": { "weaponType": "Sword", "rarity": 4, "baseAtk": 337.00, "subStatType": "ER %", "subStatValue": 51.84 },
 
+  "Firstlights Herald": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 412.0, "subStatType": "ER %", "subStatValue": 77.4 },
+  "Freeze Frame": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
+  "Forged Dwarf Star": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 500.0, "subStatType": "CR Rate", "subStatValue": 36.0 },
   "Lethean Elegy": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Whispers of Sirens": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 500, "subStatType": "CR DMG", "subStatValue": 72.0 },
   "Luminous Hymn": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 500, "subStatType": "CR Rate", "subStatValue": 36.0 },
@@ -35,6 +42,7 @@
   "Fusion Accretion": { "weaponType": "Rectifier", "rarity": 4, "baseAtk": 462.0, "subStatType": "ATK %", "subStatValue": 18.23 },
   "Variation": { "weaponType": "Rectifier", "rarity": 4, "baseAtk": 387, "subStatType": "ER %", "subStatValue": 51.8 },
 
+  "Solsworn Ciphers": { "weaponType": "Gauntlets", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
   "Daybreakers Spine": { "weaponType": "Gauntlets", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Moongazers Sigil": { "weaponType": "Gauntlets", "rarity": 5, "baseAtk": 500, "subStatType": "CR Rate", "subStatValue": 36.0 },
   "Blazing Justice": { "weaponType": "Gauntlets", "rarity": 5,  "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
@@ -45,6 +53,8 @@
   "Celestial Spiral": { "weaponType": "Gauntlets", "rarity": 4, "baseAtk": 462.0, "subStatType": "ATK %", "subStatValue": 18.23 },
   "Marcato": { "weaponType": "Gauntlets", "rarity": 4, "baseAtk": 337.00, "subStatType": "ER %", "subStatValue": 51.84 },
   
+  "Skull Thrasher": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 500.0, "subStatType": "CR DMG", "subStatValue": 72.0 },
+  "Spectral Trigger": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
   "Spectrum Blaster": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Lux and Umbra": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
   "Woodland Aria": { "weaponType": "Pistols", "rarity": 5,"baseAtk": 500, "subStatType": "CR Rate", "subStatValue": 36.0 },

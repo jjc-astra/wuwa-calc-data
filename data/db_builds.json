@@ -1,4 +1,24 @@
 {
+  "Denia": {
+    "Main DPS": {
+      "weapon": "Forged Dwarf Star",
+      "echoLayout": "4 3 3 1 1",
+      "mainSet": "Denia",
+      "mainEcho": "Rem - Denia",
+      "mainStats": { "cost4": "CR DMG", "cost3": ["ATK %", "Fusion DMG"], "cost1": ["ATK %", "ATK %"] },
+      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %": 2, "ER %": 2, "Lib DMG": 2 }
+    }
+  },
+  "Sigrika": {
+    "Main DPS": {
+      "weapon": "Solsworn Ciphers",
+      "echoLayout": "4 3 3 1 1",
+      "mainSet": "Sound of True Name",
+      "mainEcho": "Nameless Explorer",
+      "mainStats": { "cost4": "CR DMG", "cost3": ["ATK %", "ER %"], "cost1": ["ATK %", "ATK %"] },
+      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %": 2, "ER %": 3, "ATK": 2 }
+    }
+  },
   "Luuk": {
     "Main DPS": {
       "weapon": "Daybreakers Spine",
@@ -6,7 +26,7 @@
       "mainSet": "Rite of Gilded Revelation",
       "mainEcho": "Twin Nova - Nebulous Cannon",
       "mainStats": { "cost4": "CR Rate", "cost3": ["Spectro DMG", "Spectro DMG"], "cost1": ["ATK %", "ATK %"] },
-      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %": 2, "ER %": 2, "Basic DMG": 2 }
+      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %": 3, "ER %": 2, "Basic DMG": 2 }
     }
   },
   "Aemeath": {

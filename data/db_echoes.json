@@ -1,15 +1,24 @@
 {
-  "TRIGGER_SETS": [
+  "THREE_PC_SETS": [
     "Dream of the Lost",
     "Crown of Valor",
     "Law of Harmony",
     "Flamewings Shadow",
     "Thread of Severed Fate"
   ],
+  "ONE_PC_SETS": [
+    "Shadow of Shattered Dreams"
+  ],
   "SET_ECHO_MAPPING": {
+    "Lamp of Nether Road": ["Calamity Effigy","Rustfire Chassis"],
+    "Heart of Evils Purge": ["Calamity Effigy","Rustfire Chassis"],
+    "Song of Feathered Trace": ["Thousand-Puppet Pavilion"],
+    "Shadow of Shattered Dreams": ["Nm Adam Smasher"],
+    "Reel of Spliced Memories": ["Nameless Explorer"],
+    "Wishes of Quiet Snowfall": ["Threnodian - Voidborne Construct","Glommoth"],
     "Sound of True Name": ["Nameless Explorer"],
     "Trailblazing Star": ["Sigilum"],
-    "Chromatic Foam": ["Reactor Husk"],
+    "Chromatic Foam": ["Reactor Husk","Rem - Denia"],
     "Rite of Gilded Revelation": ["Hyvatia","Twin Nova - Nebulous Cannon"],
     "Halo of Starry Radiance": ["Reactor Husk"],
     "Pact of Neonlight Leap": ["Hyvatia"],
