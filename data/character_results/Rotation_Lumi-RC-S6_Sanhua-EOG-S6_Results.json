@@ -12,7 +12,7 @@
     },
     {
       "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold Press",
+      "action": "Sanhua_Forte Hold",
       "timing": "Simultaneous"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold Release",
+      "action": "Sanhua_Forte Hold (Release)",
       "timing": "Auto"
     },
     {
@@ -88,32 +88,10 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
+      "timing": "Auto",
+      "repeatBlockStart": "47d3eded-79e5-4c7a-9d2f-1657ab27e7ec",
+      "repeatCount": 6,
+      "repeatBlockEnd": "47d3eded-79e5-4c7a-9d2f-1657ab27e7ec"
     },
     {
       "unit": "Lumi",
@@ -148,32 +126,10 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
+      "timing": "Auto",
+      "repeatBlockStart": "993456c3-a146-4064-aead-9b0641a44dab",
+      "repeatCount": 6,
+      "repeatBlockEnd": "993456c3-a146-4064-aead-9b0641a44dab"
     },
     {
       "unit": "Lumi",
@@ -192,7 +148,7 @@
     },
     {
       "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold Press",
+      "action": "Sanhua_Forte Hold",
       "timing": "Simultaneous"
     },
     {
@@ -207,7 +163,7 @@
     },
     {
       "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold Release",
+      "action": "Sanhua_Forte Hold (Release)",
       "timing": "Auto"
     },
     {
@@ -268,32 +224,10 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
+      "timing": "Auto",
+      "repeatBlockStart": "b4d1d4e5-5dd4-4d64-bb27-7b8ff248145a",
+      "repeatCount": 6,
+      "repeatBlockEnd": "b4d1d4e5-5dd4-4d64-bb27-7b8ff248145a"
     },
     {
       "unit": "Lumi",
@@ -328,32 +262,11 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Full"
+      "timing": "Auto",
+      "repeatBlockStart": "47625ac2-af36-4c8c-9ed5-e138af61fe90",
+      "repeatCount": 6,
+      "repeatBlockEnd": "47625ac2-af36-4c8c-9ed5-e138af61fe90",
+      "repeatFinalTiming": "Full"
     },
     {
       "unit": "Lumi",
@@ -698,7 +611,9 @@
         "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
         "havocDmgBonus": 0
-      }
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Moonlit Clouds"
     },
     {
       "index": 2,
@@ -710,6 +625,8 @@
       "layout": "4 3 3 1 1",
       "mainSet": "",
       "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
       "mainEcho": "",
       "echoes": [
         {
@@ -848,6 +765,7 @@
         "critRate": 22,
         "critDamage": 0,
         "energyRegen": 0,
+        "healingBonus": 0,
         "skillDmgBonus": 0,
         "basicDmgBonus": 0,
         "heavyDmgBonus": 0,
@@ -857,8 +775,7 @@
         "electroDmgBonus": 0,
         "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0,
-        "healingBonus": 0
+        "havocDmgBonus": 0
       }
     }
   ],
