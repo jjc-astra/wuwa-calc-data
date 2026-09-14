@@ -178,8 +178,8 @@
     "actionDuration": 60,
     "cooldown": 10
   },
-  "Sanhua_Forte Hold Press": {
-    "name": "Forte Hold Press",
+  "Sanhua_Forte Hold": {
+    "name": "Forte Hold",
     "category": "Forte Circuit",
     "castTypes": ["Heavy"],
     "effects": [
@@ -195,8 +195,8 @@
     "priority": "@Default.HeavyPriority + 10",
     "actionDuration": 6
   },
-  "Sanhua_Forte Hold Release": {
-    "name": "Forte Hold Release",
+  "Sanhua_Forte Hold (Release)": {
+    "name": "Forte Hold (Release)",
     "category": "Forte Circuit",
     "castTypes": ["Heavy"],
     "effects": [
@@ -219,7 +219,7 @@
     "name": "Forte Detonate Base",
     "category": "Forte Circuit",
     "isPassive": true,
-    "triggerRule": "OnCast[@Sanhua(Forte Hold Release)] IF (@Move.IsInHoldWindow == true)",
+    "triggerRule": "OnCast[@Sanhua(Forte Hold (Release))] IF (@Move.IsInHoldWindow == true)",
     "dmgTypes": ["Glacio", "Heavy"],
     "hitResources": {
       "energy": [2.34, 2.34],
@@ -245,7 +245,7 @@
     "name": "Ice Thorn Burst",
     "category": "Forte Circuit",
     "isPassive": true,
-    "triggerRule": "OnCast[@Sanhua(Forte Hold Release)] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Ice_Thorn))",
+    "triggerRule": "OnCast[@Sanhua(Forte Hold (Release))] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Ice_Thorn))",
     "dmgTypes": ["Glacio", "Heavy"],
     "hitResources": {
       "energy": [7]
@@ -270,7 +270,7 @@
     "name": "Ice Prism Burst",
     "category": "Forte Circuit",
     "isPassive": true,
-    "triggerRule": "OnCast[@Sanhua(Forte Hold Release)] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Ice_Prism))",
+    "triggerRule": "OnCast[@Sanhua(Forte Hold (Release))] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Ice_Prism))",
     "dmgTypes": ["Glacio", "Heavy"],
     "hitResources": {
       "energy": [7],
@@ -295,7 +295,7 @@
     "name": "Glacier Burst",
     "category": "Forte Circuit",
     "isPassive": true,
-    "triggerRule": "OnCast[@Sanhua(Forte Hold Release)] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Glacier))",
+    "triggerRule": "OnCast[@Sanhua(Forte Hold (Release))] IF (@Move.IsInHoldWindow == true AND @Self.HasBuff(Glacier))",
     "dmgTypes": ["Glacio", "Heavy"],
     "hitResources": {
       "energy": [2],
