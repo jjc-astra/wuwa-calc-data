@@ -9,9 +9,9 @@
   "mechanics/characters/Sanhua.json": "f5cf49f4aef5b7a1",
   "mechanics/echoes/Impermanence_Heron.json": "cde7717b321950d2",
   "mechanics/echoes/NM_Thundering_Mephis.json": "af10093f8add2886",
-  "mechanics/generic/generic.json": "dd8eac50da21927f",
   "mechanics/sets/Moonlit_Clouds.json": "586735863671670e",
   "mechanics/sets/Void_Thunder.json": "33c95d3f0a2cf76d",
+  "mechanics/system/system.json": "dd8eac50da21927f",
   "mechanics/weapons/Emerald_of_Genesis.json": "e6b30e3964ebbff6",
   "mechanics/weapons/Radiance_Cleaver.json": "7214631449a56c90"
 }
