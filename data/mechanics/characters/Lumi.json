@@ -297,6 +297,7 @@
       }
     ],
     "hitMults": ["81.52%"],
+    "input": "Dodge",
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority",
     "comboWindow": "@Default.ComboWindow",
