@@ -269,9 +269,13 @@
     "stanceReq": "Grounded",
     "priority": "@Default.LibPriority",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 120,
+    "actionDuration": 150,
     "cooldown": 20,
-    "freezeTime": 120
+    "freezeTime": 120,
+    "damageTimeframe": {
+      "start": 1,
+      "end": 1
+    }
   },
   "Lumi_Yellow Spotlight: Glare": {
     "name": "Yellow Spotlight: Glare",
