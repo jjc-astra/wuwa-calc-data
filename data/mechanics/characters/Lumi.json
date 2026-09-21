@@ -551,7 +551,12 @@
       }
     ],
     "hitMults": ["56.33%", "56.33%"],
-    "stanceResult": "Grounded",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 0
+      }
+    ],
     "priority": "@Default.IntroPriority",
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 60,
@@ -705,6 +710,22 @@
       }
     ]
   },
+  "Lumi_Sequence 5: Parcel Collected On Time": {
+    "name": "Sequence 5: Parcel Collected On Time",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Outro] IF (@Self.Sequence >= 5 && ((@Self.YellowLightSpark >= @Self.MaxYellowLightSpark && @Self.HasBuff(@Lumi(Yellow Light Form))) || (@Self.RedLightSpark >= @Self.MaxRedLightSpark && @Self.HasBuff(@Lumi(Red Light Form)))))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Lumi_Laser Mult Boost",
+        "applyTo": ["@Lumi(Laser Beam (Yellow Form))", "@Lumi(Laser Beam (Red Form))"],
+        "stat": "Multiplicative Mult",
+        "value": "100%",
+        "duration": 1.1
+      }
+    ]
+  },
   "Lumi_Sequence 6: Give Me A Five-star Rating": {
     "name": "Sequence 6: Give Me A Five-star Rating",
     "category": "Resonance Chain",
@@ -718,22 +739,6 @@
         "duration": 20,
         "stat": "ATK %",
         "value": "20%"
-      }
-    ]
-  },
-  "Lumi_Sequence 5: Parcel Collected On Time": {
-    "name": "Sequence 5: Parcel Collected On Time",
-    "category": "Resonance Chain",
-    "isPassive": true,
-    "triggerRule": "OnCast[Outro] IF (@Self.Sequence >= 5 && ((@Self.YellowLightSpark >= @Self.MaxYellowLightSpark && @Self.HasBuff(@Lumi(Yellow Light Form))) || (@Self.RedLightSpark >= @Self.MaxRedLightSpark && @Self.HasBuff(@Lumi(Red Light Form)))))",
-    "effects": [
-      {
-        "type": "buff",
-        "name": "Lumi_Laser Mult Boost",
-        "applyTo": ["@Lumi(Laser Beam (Yellow Form))", "@Lumi(Laser Beam (Red Form))"],
-        "duration": 1,
-        "stat": "Multiplicative Mult",
-        "value": "100%"
       }
     ]
   }
