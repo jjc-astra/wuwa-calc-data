@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "gen:manifest": "node scripts/generate-manifest.mjs"
+    "gen:index": "node scripts/generate-rankings-index.mjs",
+    "gen:manifest": "node scripts/generate-manifest.mjs",
+    "gen": "node scripts/generate-rankings-index.mjs && node scripts/generate-manifest.mjs"
   }
 }

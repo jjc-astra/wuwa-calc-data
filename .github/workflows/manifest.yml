@@ -1,4 +1,4 @@
-name: Regenerate manifest
+name: Regenerate rankings index and manifest
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/**.json'
       - '!data/manifest.json'
+      - '!data/character_results/index.json'
 
 permissions:
   contents: write
@@ -18,11 +19,13 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Index first: it's a data file the manifest hashes too.
+      - run: node scripts/generate-rankings-index.mjs
       - run: node scripts/generate-manifest.mjs
 
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/manifest.json
-          git diff --cached --quiet || git commit -m "Regenerate data manifest [skip ci]"
+          git add data/manifest.json data/character_results/index.json
+          git diff --cached --quiet || git commit -m "Regenerate rankings index and data manifest [skip ci]"
           git push
