@@ -549,6 +549,11 @@
       {
         "type": "buff",
         "name": "Lumi_Yellow Light Form"
+      },
+      {
+        "type": "buffAction",
+        "name": "Lumi_Red Light Form",
+        "action": "remove"
       }
     ],
     "hitMults": ["56.33%", "56.33%"],
@@ -739,6 +744,24 @@
         "duration": 20,
         "stat": "ATK %",
         "value": "20%"
+      }
+    ]
+  },
+  "Lumi_Laser Beam (Tracker Clear)": {
+    "name": "Laser Beam (Tracker Clear)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "ANY(AfterHit(all)[@Lumi(Laser Beam (Yellow Form))],AfterHit(all)[@Lumi(Laser Beam (Red Form))])",
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Laser Beam Forte1",
+        "action": "delete"
+      },
+      {
+        "type": "tracker",
+        "name": "Laser Beam Forte2",
+        "action": "delete"
       }
     ]
   }
