@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "6d05c2445400e034",
+  "hash": "3b0366ada4e482aa",
   "rotation": [
     {
       "unit": "Sanhua",
@@ -417,7 +417,7 @@
           "substats": [
             {
               "name": "CR Rate",
-              "value": 8.1
+              "value": 7.5
             },
             {
               "name": "CR DMG",
@@ -425,132 +425,132 @@
             },
             {
               "name": "ATK %",
-              "value": 9.4
-            },
-            {
-              "name": "HP %",
-              "value": 10.1
-            },
-            {
-              "name": "Basic DMG",
-              "value": 7.1
-            }
-          ]
-        },
-        {
-          "mainStat": "Electro DMG",
-          "substats": [
-            {
-              "name": "CR Rate",
-              "value": 8.1
-            },
-            {
-              "name": "CR DMG",
-              "value": 13.8
-            },
-            {
-              "name": "ATK %",
-              "value": 7.9
-            },
-            {
-              "name": "ER %",
-              "value": 7.6
-            },
-            {
-              "name": "DEF %",
-              "value": 12.8
-            }
-          ]
-        },
-        {
-          "mainStat": "Electro DMG",
-          "substats": [
-            {
-              "name": "CR Rate",
-              "value": 10.5
-            },
-            {
-              "name": "CR DMG",
-              "value": 15
-            },
-            {
-              "name": "Basic DMG",
-              "value": 9.4
-            },
-            {
-              "name": "ATK %",
-              "value": 6.4
-            },
-            {
-              "name": "DEF %",
-              "value": 11.8
-            }
-          ]
-        },
-        {
-          "mainStat": "ATK %",
-          "substats": [
-            {
-              "name": "CR Rate",
-              "value": 8.7
-            },
-            {
-              "name": "CR DMG",
-              "value": 15
-            },
-            {
-              "name": "ATK %",
-              "value": 9.4
-            },
-            {
-              "name": "ATK",
-              "value": 40
-            },
-            {
-              "name": "DEF",
-              "value": 60
-            }
-          ]
-        },
-        {
-          "mainStat": "ATK %",
-          "substats": [
-            {
-              "name": "CR Rate",
-              "value": 6.9
-            },
-            {
-              "name": "CR DMG",
-              "value": 15
-            },
-            {
-              "name": "ATK",
-              "value": 40
-            },
-            {
-              "name": "Basic DMG",
-              "value": 9.4
+              "value": 8.6
             },
             {
               "name": "ER %",
               "value": 9.2
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
             }
           ]
         }
       ],
       "echoStats": {
         "flatHP": 4560,
-        "percentHP": 10.1,
-        "flatAtk": 430,
-        "percentAtk": 69.1,
-        "flatDef": 60,
-        "percentDef": 24.6,
-        "critRate": 64.30000000000001,
-        "critDamage": 73.8,
-        "energyRegen": 16.799999999999997,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 18.4,
         "healingBonus": 0,
         "skillDmgBonus": 0,
-        "basicDmgBonus": 25.9,
+        "basicDmgBonus": 17.2,
         "heavyDmgBonus": 0,
         "libDmgBonus": 0,
         "glacioDmgBonus": 0,
