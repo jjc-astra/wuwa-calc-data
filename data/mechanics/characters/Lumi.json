@@ -593,12 +593,18 @@
     "dmgTypes": ["Electro", "Basic"],
     "effects": [
       {
+        "type": "tracker",
+        "name": "Laser Beam Forte1",
+        "action": "set",
+        "value": "@Self.Forte1"
+      },
+      {
         "type": "resource",
         "name": "forte1",
         "value": -100
       }
     ],
-    "hitMults": ["(@Self.Forte1 >= 25 ? 74.56 : 0)%", "(@Self.Forte1 >= 50 ? 74.56 : 0)%", "(@Self.Forte1 >= 75 ? 74.56 : 0)%", "(@Self.Forte1 >= 100 ? 74.56 : 0)%"],
+    "hitMults": ["(@Self.Tracker(Laser Beam Forte1) >= 25 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte1) >= 50 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte1) >= 75 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte1) >= 100 ? 74.56 : 0)%"],
     "damageTimeframe": {
       "end": 60
     }
@@ -611,28 +617,21 @@
     "dmgTypes": ["Electro", "Basic"],
     "effects": [
       {
+        "type": "tracker",
+        "name": "Laser Beam Forte2",
+        "action": "set",
+        "value": "@Self.Forte2"
+      },
+      {
         "type": "resource",
         "name": "forte2",
         "value": -100
       }
     ],
-    "hitMults": ["(@Self.Forte2 >= 25 ? 74.56 : 0)%", "(@Self.Forte2 >= 50 ? 74.56 : 0)%", "(@Self.Forte2 >= 75 ? 74.56 : 0)%", "(@Self.Forte2 >= 100 ? 74.56 : 0)%"],
+    "hitMults": ["(@Self.Tracker(Laser Beam Forte2) >= 25 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte2) >= 50 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte2) >= 75 ? 74.56 : 0)%", "(@Self.Tracker(Laser Beam Forte2) >= 100 ? 74.56 : 0)%"],
     "damageTimeframe": {
       "end": 60
     }
-  },
-  "Lumi_Form Initialization": {
-    "name": "Form Initialization",
-    "category": "Inherent Skill",
-    "isPassive": true,
-    "triggerRule": "OnStart IF (true)",
-    "effects": [
-      {
-        "type": "buff",
-        "name": "Lumi_Red Light Form",
-        "duration": "@Default.PermanentDuration"
-      }
-    ]
   },
   "Lumi_Inherent Skill: Pathfinding": {
     "name": "Inherent Skill: Pathfinding",
