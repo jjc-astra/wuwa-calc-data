@@ -1,6 +1,6 @@
 # wuwa-calc-data
 
-Character/weapon/echo mechanics and image assets for [wuwa-calc](https://github.com/jred1/wuwa-calc)
+Character/weapon/echo mechanics and image assets for [wuwa-calc-site](https://github.com/jjc-astra/wuwa-calc-site)
 (the site repo). Kept separate so publishing new data doesn't require rebuilding or redeploying
 the site.
 
