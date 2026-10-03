@@ -353,7 +353,8 @@
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 97,
     "cooldown": 16,
-    "freezeTime": 89
+    "freezeTime": 89,
+    "motionStop": 89
   },
   "Sanhua_Intro Skill": {
     "name": "Intro Skill",

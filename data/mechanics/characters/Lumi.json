@@ -272,6 +272,7 @@
     "actionDuration": 150,
     "cooldown": 20,
     "freezeTime": 120,
+    "motionStop": 120,
     "damageTimeframe": {
       "start": 1,
       "end": 1

@@ -43,7 +43,8 @@
     "hitMults": ["1600%"],
     "priority": "@Default.IntroPriority - 10",
     "actionDuration": 120,
-    "freezeTime": 120
+    "freezeTime": 120,
+    "motionStop": 120
   },
   "System_NegativeStatus_Dictionary": {
     "name": "Negative Status Dictionary",
