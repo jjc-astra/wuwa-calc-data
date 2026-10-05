@@ -21,8 +21,8 @@ The site's Export Rotation dialog downloads two files per submission:
   settings, plus a short `hash` of those.
 - `results/<name>.json` -- one calculation of that rotation: `rotationFile` names the rotation file,
   `hash` repeats its hash, `team` and `enemy` are the exact team and target calculated, `results`
-  holds DPS + contribution. `build` is `"default"` (recommended echo layout, main stats and
-  substats, with set, main echo and weapon as submitted; default target) or `"custom"` (the
+  holds DPS + contribution. `build` is `"default"` (the unit's recommended substats and its weapon
+  at R1, everything else as submitted; default target) or `"custom"` (the
   submitted echoes and target). Set `rotationType` to `"linear"` or
   `"quickswap"` by hand to classify it.
 
