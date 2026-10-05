@@ -8,7 +8,7 @@
         "target": "@Equipper",
         "name": "Stormy Resolution ER",
         "label": "ER",
-        "stat": "ER",
+        "stat": "ER %",
         "value": "12%/15%/18%/21%/24%",
         "duration": "@Default.PermanentDuration",
         "maxStacks": 1

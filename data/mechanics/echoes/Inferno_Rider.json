@@ -1,0 +1,90 @@
+{
+  "Inferno Rider_Inferno Rider 3": {
+    "name": "Inferno Rider 3",
+    "category": "Echo Skill",
+    "triggerRule": "IF (@Self.PrevAction == @Inferno Rider(Inferno Rider 2))",
+    "dmgTypes": ["Echo", "Fusion"],
+    "hitResources": {
+      "energy": [4.41]
+    },
+    "hitMults": ["282.8%"],
+    "scalar": "ATK",
+    "input": "Echo",
+    "stanceReq": "Grounded",
+    "priority": 2,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 101,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 65,
+      "end": 65
+    }
+  },
+  "Inferno Rider_Inferno Rider 2": {
+    "name": "Inferno Rider 2",
+    "category": "Echo Skill",
+    "triggerRule": "IF (@Prev.Action == @Inferno Rider(Inferno Rider 1))",
+    "dmgTypes": ["Echo", "Fusion"],
+    "hitResources": {
+      "energy": [4.41]
+    },
+    "hitMults": ["282.8%"],
+    "scalar": "ATK",
+    "input": "Echo",
+    "stanceReq": "Grounded",
+    "priority": 1,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 40,
+    "swapTiming": "@Default.SwapTime"
+  },
+  "Inferno Rider_Inferno Rider 1": {
+    "name": "Inferno Rider 1",
+    "category": "Echo Skill",
+    "castTypes": ["Echo"],
+    "dmgTypes": ["Echo", "Fusion"],
+    "hitResources": {
+      "energy": [3.78],
+      "concerto": [0],
+      "forte1": [0]
+    },
+    "hitMults": ["242.4%"],
+    "scalar": "ATK",
+    "input": "Echo",
+    "stanceReq": "Grounded",
+    "priority": 0,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 27,
+    "cooldown": 25,
+    "swapTiming": 9,
+    "damageTimeframe": {
+      "start": 15,
+      "end": 41
+    }
+  },
+  "Inferno Rider_Inferno Rider Buffs": {
+    "name": "Inferno Rider Buffs",
+    "category": "Echo Passive",
+    "isPassive": true,
+    "triggerRule": "OnHit[@Inferno Rider(Inferno Rider 3)]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Inferno Rider-Basic",
+        "target": "@Equipper",
+        "stat": "Basic DMG Bonus",
+        "value": "12%",
+        "duration": 15,
+        "maxStacks": 1
+      },
+      {
+        "type": "buff",
+        "name": "Inferno Rider-Fusion",
+        "target": "@Equipper",
+        "stat": "Fusion DMG Bonus",
+        "value": "12%",
+        "duration": 15,
+        "maxStacks": 1
+      }
+    ]
+  }
+}

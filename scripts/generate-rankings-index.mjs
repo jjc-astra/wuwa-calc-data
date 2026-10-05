@@ -1,6 +1,8 @@
 // scripts/generate-rankings-index.mjs
-// Builds data/character_results/index.json -- everything the site's Rotation Rankings page needs
-// in one small file -- from the default-build results files in character_results/results/.
+// Builds data/character_results/index.json from the default-build results files in
+// character_results/results/. It holds only what the site's Rankings search, filters and sort read
+// -- characters, sequences, rotation type, DPS and the 2-minute majority element/category. Rows
+// load the rest (team details, author, contribution) from their results file, page by page.
 //
 // Each results file names the rotation file it was calculated from and that file's hash. The hash
 // is recomputed here from the rotation file (sha256 of JSON.stringify({ rotation, team, settings, enemy }),
@@ -19,13 +21,38 @@ const resultsDir = join(rankingsDir, 'results');
 const rotationsDir = join(rankingsDir, 'rotations');
 const indexPath = join(rankingsDir, 'index.json');
 
-// The only team fields a ranking row shows or filters on.
-const ROSTER_FIELDS = ['character', 'sequence', 'weapon', 'rank', 'mainSet', 'subSet', 'subSet2a', 'subSet2b', 'mainEcho', 'layout'];
+// The DMG Type filter's categories -- keep in sync with the site's RANKING_DMG_CATEGORIES.
+const DMG_CATEGORIES = ['Basic', 'Heavy', 'Skill', 'Liberation', 'Echo'];
 
 const hashRotationInputs = ({ rotation, team, settings, enemy }) =>
   createHash('sha256').update(JSON.stringify({ rotation, team, settings, enemy })).digest('hex').slice(0, 16);
 
 const readJson = path => JSON.parse(readFileSync(path, 'utf8'));
+
+// Character elements: this repo's db_characters.json, with the data directory's own on top (the
+// WIP mirror's holds only what it overrides, as the site merges them).
+const characterDB = { ...readJson(join(__dirname, '..', 'data', 'db_characters.json')), ...(existsSync(join(dataDir, 'db_characters.json')) ? readJson(join(dataDir, 'db_characters.json')) : {}) };
+
+// The key with the largest total, or null.
+const largest = totals => Object.entries(totals).reduce((best, [key, dmg]) => (dmg > (best?.[1] ?? 0) ? [key, dmg] : best), null)?.[0] ?? null;
+
+// The element the team's members dealt the most damage as (by each member's element) and the DMG
+// Type category they dealt the most of, over the 2-minute window -- what the Element / DMG Type
+// filters match. The other windows wouldn't realistically differ.
+const majorityOf = ({ team: split = [], units = {} } = {}, team) => {
+  const members = new Set(team.map(slot => slot.character).filter(Boolean));
+  const elements = {};
+  for (const { label, dmg } of split) {
+    const element = members.has(label) ? characterDB[label]?.element : undefined;
+    if (element) elements[element] = (elements[element] || 0) + dmg;
+  }
+  const categories = {};
+  for (const [unit, slices] of Object.entries(units)) {
+    if (!members.has(unit)) continue;
+    for (const { castType, dmg } of slices) if (DMG_CATEGORIES.includes(castType)) categories[castType] = (categories[castType] || 0) + dmg;
+  }
+  return { element: largest(elements), category: largest(categories) };
+};
 
 export function generateRankingsIndex() {
   const files = existsSync(resultsDir) ? readdirSync(resultsDir).filter(name => name.endsWith('.json')).sort() : [];
@@ -51,13 +78,15 @@ export function generateRankingsIndex() {
       rotationFile: results.rotationFile,
       hash: results.hash,
       rotationType: results.rotationType ?? null,
-      ...(results.author && { author: results.author }),
-      team: results.team.map(slot => Object.fromEntries(ROSTER_FIELDS.filter(k => k in slot).map(k => [k, slot[k]]))),
-      results: { dpsStats: results.results.dpsStats, contribution: results.results.contribution }
+      characters: results.team.map(slot => slot.character || ''),
+      sequences: results.team.map(slot => Number(slot.sequence) || 0),
+      dpsStats: results.results.dpsStats,
+      majority: majorityOf(results.results.contribution.twoMin, results.team)
     });
   }
 
-  writeFileSync(indexPath, JSON.stringify(index) + '\n');
+  // One entry per line, so a diff shows which builds changed.
+  writeFileSync(indexPath, index.length ? `[\n${index.map(entry => JSON.stringify(entry)).join(',\n')}\n]\n` : '[]\n');
   return index;
 }
 
