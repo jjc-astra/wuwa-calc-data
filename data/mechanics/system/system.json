@@ -42,9 +42,9 @@
     ],
     "hitMults": ["1600%"],
     "priority": "@Default.IntroPriority - 10",
-    "actionDuration": 120,
-    "freezeTime": 120,
-    "motionStop": 120
+    "actionDuration": 94,
+    "freezeTime": 94,
+    "motionStop": 64
   },
   "System_NegativeStatus_Dictionary": {
     "name": "Negative Status Dictionary",
@@ -163,5 +163,84 @@
     "triggerRule": "OnBuffExpire[Spectro Frazzle]",
     "dmgTypes": ["Spectro Frazzle"],
     "hitMults": ["100%"]
+  },
+  "System_TuneResponse_Dictionary": {
+    "name": "Tune Response Dictionary",
+    "isPassive": true,
+    "triggerRule": "NEVER",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Tune Rupture - Shifting",
+        "label": "Tune Rupture - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "buff",
+        "name": "Tune Rupture - Interfered",
+        "label": "Tune Rupture - Interfered",
+        "target": "@Enemy",
+        "duration": 8
+      },
+      {
+        "type": "buff",
+        "name": "Tune Strain - Shifting",
+        "label": "Tune Strain - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "buff",
+        "name": "Tune Strain - Interfered",
+        "label": "Tune Strain - Interfered",
+        "target": "@Enemy",
+        "duration": 30,
+        "maxStacks": "1 + @Self.Tracker(Tune Strain Units)"
+      }
+    ]
+  },
+  "System_TuneRupture_Interfered": {
+    "name": "Tune Rupture - Interfered",
+    "isPassive": true,
+    "triggerRule": "OnHit[TuneBreak] IF (@Enemy.HasBuff(Tune Rupture - Shifting))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Tune Rupture - Interfered",
+        "label": "Tune Rupture - Interfered",
+        "target": "@Enemy",
+        "duration": 8
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Tune Rupture - Shifting",
+        "target": "@Enemy",
+        "value": "ALL"
+      }
+    ]
+  },
+  "System_TuneStrain_Interfered": {
+    "name": "Tune Strain - Interfered",
+    "isPassive": true,
+    "triggerRule": "OnHit[TuneBreak] IF (@Enemy.HasBuff(Tune Strain - Shifting))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Tune Strain - Interfered",
+        "label": "Tune Strain - Interfered",
+        "target": "@Enemy",
+        "duration": 30,
+        "maxStacks": "1 + @Self.Tracker(Tune Strain Units)"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Tune Strain - Shifting",
+        "target": "@Enemy",
+        "value": "ALL"
+      }
+    ]
   }
 }
