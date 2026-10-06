@@ -62,7 +62,7 @@
   "Lumi_Red Light: Basic Attack 1": {
     "name": "Red Light: Basic Attack 1",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.Tracker(@Lumi(Red Spotlight Mode)) == 0)",
+    "triggerRule": "IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.Tracker(@Lumi(Red Spotlight Mode)) == 0 && @Move.IsNextInCombo)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -308,7 +308,7 @@
   "Lumi_Red Spotlight: Basic Attack 1": {
     "name": "Red Spotlight: Basic Attack 1",
     "category": "Forte Circuit",
-    "triggerRule": "IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.Tracker(@Lumi(Red Spotlight Mode)) > 0)",
+    "triggerRule": "IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.Tracker(@Lumi(Red Spotlight Mode)) > 0 && @Move.IsNextInCombo)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {

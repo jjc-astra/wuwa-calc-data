@@ -3,7 +3,7 @@
     "name": "Ground State Calibration 1",
     "category": "Basic Attack",
     "isSwapInDefault": true,
-    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Move.IsNextInCombo)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Fusion", "Basic"],
     "castResources": {
@@ -188,7 +188,7 @@
   "Mornye_Wide Field Observation 1": {
     "name": "Wide Field Observation 1",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Move.IsNextInCombo)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Fusion", "Basic"],
     "hitResources": {

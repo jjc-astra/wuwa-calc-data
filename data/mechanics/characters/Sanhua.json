@@ -2,6 +2,7 @@
   "Sanhua_Basic Attack 1": {
     "name": "Basic Attack 1",
     "category": "Basic Attack",
+    "triggerRule": "IF (@Move.IsNextInCombo)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Glacio", "Basic"],
     "hitResources": {
