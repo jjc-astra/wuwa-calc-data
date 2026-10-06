@@ -3,7 +3,7 @@
     "Main DPS": {
       "weapon": "Forged Dwarf Star",
       "echoLayout": "4 3 3 1 1",
-      "mainSet": "Denia",
+      "mainSet": "Chromatic Foam",
       "mainEcho": "Rem - Denia",
       "mainStats": { "cost4": "CR DMG", "cost3": ["ATK %", "Fusion DMG"], "cost1": ["ATK %", "ATK %"] },
       "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %": 2, "ER %": 2, "Lib DMG": 2 }
