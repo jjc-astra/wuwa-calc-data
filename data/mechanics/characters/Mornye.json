@@ -1,0 +1,933 @@
+{
+  "Mornye_Ground State Calibration 1": {
+    "name": "Ground State Calibration 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "castResources": {
+      "forte1": 20
+    },
+    "hitResources": {
+      "energy": [0.27, 0.35, 0.27],
+      "concerto": [0.84, 1.12, 0.84],
+      "tune": [0.084, 0.112, 0.084]
+    },
+    "hitMults": ["16.71%", "22.27%", "16.71%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 25,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 10,
+      "end": 25
+    }
+  },
+  "Mornye_Ground State Calibration 2": {
+    "name": "Ground State Calibration 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && (@Self.PrevAction == @Mornye(Ground State Calibration 1) || @Self.PrevAction == @Mornye(Expectation Error) || @Self.PrevAction == @Mornye(Ground State Calibration: Dodge Counter)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "castResources": {
+      "forte1": 43
+    },
+    "hitResources": {
+      "energy": [0.38, 0.38, 0.29, 0.29, 0.29, 0.29],
+      "concerto": [1.2, 1.2, 0.9, 0.9, 0.9, 0.9],
+      "tune": [0.12, 0.12, 0.09, 0.09, 0.09, 0.09]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "hitMults": ["23.86%", "23.86%", "17.90%", "17.90%", "17.90%", "17.90%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 49,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 11,
+      "end": 67
+    }
+  },
+  "Mornye_Ground State Calibration 3": {
+    "name": "Ground State Calibration 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && (@Self.PrevAction == @Mornye(Ground State Calibration 2) || @Self.PrevAction == @Mornye(Ground State Calibration: Mid-air Attack)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "castResources": {
+      "forte1": 37
+    },
+    "hitResources": {
+      "energy": [0.65, 0.17, 0.17, 0.17, 0.17, 0.17, 0.17],
+      "concerto": [2.08, 0.52, 0.52, 0.52, 0.52, 0.52, 0.52],
+      "tune": [0.208, 0.052, 0.052, 0.052, 0.052, 0.052, 0.052]
+    },
+    "cancelTimings": [
+      {
+        "time": 40
+      }
+    ],
+    "hitMults": ["41.36%", "10.34%", "10.34%", "10.34%", "10.34%", "10.34%", "10.34%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 49,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 24,
+      "end": 85
+    }
+  },
+  "Mornye_Ground State Calibration 4": {
+    "name": "Ground State Calibration 4",
+    "category": "Basic Attack",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Self.PrevAction == @Mornye(Ground State Calibration 3))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "castResources": {
+      "forte1": 100
+    },
+    "hitResources": {
+      "energy": [2.13],
+      "concerto": [6.8],
+      "tune": [0.68]
+    },
+    "cancelTimings": [
+      {
+        "time": 51
+      }
+    ],
+    "hitMults": ["135.20%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 3",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 116,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 51,
+      "end": 51
+    }
+  },
+  "Mornye_Ground State Calibration: Heavy Attack": {
+    "name": "Ground State Calibration: Heavy Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Fusion", "Heavy"],
+    "castResources": {
+      "forte1": 20
+    },
+    "hitResources": {
+      "energy": [0.24, 0.24, 0.31],
+      "concerto": [0.75, 0.75, 1],
+      "tune": [0.0744, 0.0744, 0.0992]
+    },
+    "cancelTimings": [
+      {
+        "time": 70
+      }
+    ],
+    "hitMults": ["11.10%", "11.10%", "14.80%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 95,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 19,
+      "end": 70
+    }
+  },
+  "Mornye_Ground State Calibration: Mid-air Attack": {
+    "name": "Ground State Calibration: Mid-air Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "hitResources": {
+      "energy": [1.55],
+      "concerto": [4.96],
+      "tune": [0.496]
+    },
+    "cancelTimings": [
+      {
+        "time": 36
+      }
+    ],
+    "hitMults": ["98.61%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 36
+      }
+    ],
+    "priority": "@Default.HeavyPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 42,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 36,
+      "end": 36
+    }
+  },
+  "Mornye_Wide Field Observation 1": {
+    "name": "Wide Field Observation 1",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "hitResources": {
+      "energy": [0.22, 0.22, 0.22, 0.22],
+      "concerto": [0.35, 0.35, 0.35, 0.35],
+      "tune": [0.07, 0.07, 0.07, 0.07],
+      "forte2": [2.5, 2.5, 2.5, 2.5]
+    },
+    "cancelTimings": [
+      {
+        "time": 14
+      }
+    ],
+    "hitMults": ["13.92%", "13.92%", "13.92%", "13.92%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 21,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 26,
+      "end": 49
+    }
+  },
+  "Mornye_Wide Field Observation 2": {
+    "name": "Wide Field Observation 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Self.PrevAction == @Mornye(Wide Field Observation 1))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "hitResources": {
+      "energy": [0.41, 0.41, 0.41, 0.41],
+      "concerto": [0.64, 0.64, 0.64, 0.64],
+      "tune": [0.13, 0.13, 0.13, 0.13],
+      "forte2": [3, 3, 3, 3]
+    },
+    "cancelTimings": [
+      {
+        "time": 17
+      }
+    ],
+    "hitMults": ["25.85%", "25.85%", "25.85%", "25.85%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 39,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 17,
+      "end": 65
+    }
+  },
+  "Mornye_Wide Field Observation 3": {
+    "name": "Wide Field Observation 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && (@Self.PrevAction == @Mornye(Wide Field Observation 2) || @Self.PrevAction == @Mornye(Wide Field Observation: Dodge Counter)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Fusion", "Basic"],
+    "hitResources": {
+      "energy": [0.15, 0.15, 0.15, 0.52, 0.15, 0.52],
+      "concerto": [0.23, 0.23, 0.23, 0.82, 0.23, 0.82],
+      "tune": [0.0468, 0.0468, 0.0468, 0.1664, 0.0468, 0.1664],
+      "forte2": [9, 4.5, 4.5, 0, 0, 0]
+    },
+    "cancelTimings": [
+      {
+        "time": 13
+      }
+    ],
+    "hitMults": ["9.31%", "9.31%", "9.31%", "33.09%", "9.31%", "33.09%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 41,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 31,
+      "end": 100
+    }
+  },
+  "Mornye_Expectation Error": {
+    "name": "Expectation Error",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Skill", "Heal"],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Heal",
+        "action": "add",
+        "value": 1
+      }
+    ],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 21,
+    "cooldown": 5,
+    "swapTiming": "@Default.SwapTime"
+  },
+  "Mornye_Optimal Solution": {
+    "name": "Optimal Solution",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.PrevAction == @Mornye(Expectation Error))",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Fusion", "Skill"],
+    "hitResources": {
+      "energy": [3.96],
+      "concerto": [9.04],
+      "tune": [0.904],
+      "forte1": [100]
+    },
+    "cancelTimings": [
+      {
+        "time": 44
+      }
+    ],
+    "effects": [
+      {
+        "type": "cooldown",
+        "name": "Expectation Error",
+        "target": "@Self",
+        "value": "Math.max(@Self.Cooldown(Expectation Error) - 2, 0)"
+      }
+    ],
+    "hitMults": ["179.73%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority + 10",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 110,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 44,
+      "end": 44
+    }
+  },
+  "Mornye_Distributed Array": {
+    "name": "Distributed Array",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)))",
+    "castTypes": ["Skill", "Heal"],
+    "dmgTypes": ["Fusion", "Skill"],
+    "castResources": {
+      "concerto": 10
+    },
+    "hitResources": {
+      "energy": [4.63, 4.63, 4.63, 4.63],
+      "tune": [0.2, 0.2, 0.2, 0.2],
+      "forte2": [15, 15, 15, 15]
+    },
+    "cancelTimings": [
+      {
+        "time": 36
+      }
+    ],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Heal",
+        "action": "add",
+        "value": 1
+      }
+    ],
+    "hitMults": ["39.77%", "39.77%", "39.77%", "39.77%"],
+    "input": "Skill",
+    "stanceReq": "Midair",
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 60,
+    "cooldown": 16,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 46,
+      "end": 60
+    }
+  },
+  "Mornye_Geopotential Shift": {
+    "name": "Geopotential Shift",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (!@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Self.RestMassEnergy >= @Self.MaxRestMassEnergy)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Fusion", "Heavy"],
+    "castResources": {
+      "forte1": -100
+    },
+    "hitResources": {
+      "energy": [0.93, 2.08],
+      "concerto": [2.96, 6.65],
+      "tune": [0.296, 0.664]
+    },
+    "cancelTimings": [
+      {
+        "time": 80
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Wide Field Observation Mode",
+        "label": "Wide Field Observation Mode",
+        "target": "@Self",
+        "duration": 30,
+        "removeOnSwap": true
+      }
+    ],
+    "hitMults": ["44.14%", "99.02%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "stanceChanges": [
+      {
+        "stance": "Midair",
+        "time": 80
+      }
+    ],
+    "priority": "@Default.HeavyPriority + 10",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 92,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 22,
+      "end": 80
+    }
+  },
+  "Mornye_Inversion": {
+    "name": "Inversion",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Mornye(Wide Field Observation Mode)) && @Self.RelativeMomentum >= @Self.MaxRelativeMomentum)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Fusion", "Heavy"],
+    "castResources": {
+      "forte2": -100
+    },
+    "hitResources": {
+      "energy": [3.25],
+      "concerto": [11.96],
+      "tune": [1.04]
+    },
+    "hitMults": ["258.46%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Midair",
+    "priority": "@Default.HeavyPriority + 10",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 76,
+    "swapTiming": 76,
+    "motionStop": 76,
+    "damageTimeframe": {
+      "start": 76,
+      "end": 76
+    }
+  },
+  "Mornye_Critical Protocol": {
+    "name": "Critical Protocol",
+    "category": "Resonance Liberation",
+    "castTypes": ["Liberation"],
+    "dmgTypes": ["Fusion", "Liberation"],
+    "castResources": {
+      "concerto": 20,
+      "energy": -175
+    },
+    "hitResources": {
+      "tune": [7.2]
+    },
+    "hitMults": ["522.33%"],
+    "scalar": "DEF",
+    "input": "Liberation",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 300,
+    "cooldown": 25,
+    "freezeTime": 300,
+    "motionStop": 300,
+    "damageTimeframe": {
+      "start": 272,
+      "end": 272
+    }
+  },
+  "Mornye_Intro: Convergence": {
+    "name": "Intro: Convergence",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro'))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Fusion", "Intro"],
+    "castResources": {
+      "concerto": 10
+    },
+    "hitResources": {
+      "energy": [10],
+      "tune": [1.36]
+    },
+    "cancelTimings": [
+      {
+        "time": 38
+      }
+    ],
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte1",
+        "value": -100
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_Wide Field Observation Mode",
+        "label": "Wide Field Observation Mode",
+        "target": "@Self",
+        "duration": 30,
+        "removeOnSwap": true
+      }
+    ],
+    "hitMults": ["202.79%"],
+    "stanceChanges": [
+      {
+        "stance": "Midair",
+        "time": 38
+      }
+    ],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 105,
+    "swapTiming": 80,
+    "motionStop": 79,
+    "damageTimeframe": {
+      "start": 38,
+      "end": 38
+    }
+  },
+  "Mornye_Outro: Recursion": {
+    "name": "Outro: Recursion",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.Concerto >= 100)",
+    "castTypes": ["Outro"],
+    "castResources": {
+      "concerto": -100
+    },
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Recursion",
+        "label": "Recursion",
+        "target": "@Team",
+        "duration": 30,
+        "stat": "DMG Amp",
+        "value": "25%"
+      }
+    ],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0
+  },
+  "Mornye_Syntony Field: Formation": {
+    "name": "Syntony Field: Formation",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Mornye(Intro: Convergence)], OnCast[Self, @Mornye(Geopotential Shift)])",
+    "dmgTypes": ["Fusion", "Liberation"],
+    "hitMults": ["39.77%", "39.77%", "39.77%", "39.77%", "39.77%"],
+    "damageTimeframe": {
+      "start": "@Move.CastTypes.includes('Intro') ? 70 : 58",
+      "end": "@Move.CastTypes.includes('Intro') ? 178 : 166"
+    }
+  },
+  "Mornye_Syntony Field": {
+    "name": "Syntony Field",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "AfterHit(1)[@Mornye(Syntony Field: Formation)]",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Mornye_High Syntony Field",
+        "target": "@Team",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Mornye_High Syntony Field DEF",
+        "target": "@Team",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_Syntony Field",
+        "label": "Syntony Field",
+        "target": "@Team",
+        "duration": 25,
+        "stat": "Off-Tune Buildup Rate",
+        "value": "50%"
+      }
+    ]
+  },
+  "Mornye_Syntony Field (Heal)": {
+    "name": "Syntony Field (Heal)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnTick(3) IF (ANY(@Self.HasBuff(@Mornye(Syntony Field)), @Self.HasBuff(@Mornye(High Syntony Field))))",
+    "castTypes": ["Heal"],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Heal",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Mornye_High Syntony Field": {
+    "name": "High Syntony Field",
+    "category": "Resonance Liberation",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Liberation] IF (@Self.HasBuff(@Mornye(Syntony Field)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Mornye_Syntony Field",
+        "target": "@Team",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_High Syntony Field",
+        "label": "High Syntony Field",
+        "target": "@Team",
+        "duration": 25,
+        "stat": "Off-Tune Buildup Rate",
+        "value": "50%"
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_High Syntony Field DEF",
+        "label": "High Syntony Field",
+        "target": "@Team",
+        "duration": 25,
+        "stat": "DEF %",
+        "value": "20%"
+      }
+    ]
+  },
+  "Mornye_Observation Marker": {
+    "name": "Observation Marker",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, @Mornye(Inversion)]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Observation Marker",
+        "label": "Observation Marker",
+        "target": "@Enemy",
+        "duration": 30
+      }
+    ]
+  },
+  "Mornye_Interfered Marker": {
+    "name": "Interfered Marker",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[TuneBreak] IF (@Enemy.HasBuff(@Mornye(Observation Marker)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Interfered Marker",
+        "label": "Interfered Marker",
+        "target": "@Enemy",
+        "duration": "@Self.Sequence >= 1 ? 20 : 8"
+      }
+    ]
+  },
+  "Mornye_Interfered Marker (Team DMG Bonus)": {
+    "name": "Interfered Marker (Team DMG Bonus)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "IF (@Enemy.HasBuff(@Mornye(Interfered Marker)) && ANY(@Self.Sequence >= 1, @Enemy.HasBuff(Tune Rupture - Interfered), @Enemy.HasBuff(Tune Strain - Interfered)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Interfered DMG Bonus",
+        "label": "Interfered Marker",
+        "target": "@Team",
+        "duration": "@Default.PermanentDuration",
+        "stat": "DMG Bonus",
+        "value": "Math.min(Math.max(@Self.Stat(energyRegen) - 100, 0) * 0.25, 40)%"
+      }
+    ]
+  },
+  "Mornye_Particle Jet": {
+    "name": "Particle Jet",
+    "category": "Tune Break",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Tune Rupture - Interfered]",
+    "castTypes": ["TuneRupture"],
+    "dmgTypes": ["TuneRupture"],
+    "hitMults": ["298.22%"]
+  },
+  "Mornye_Decoupling": {
+    "name": "Decoupling",
+    "category": "Tune Break",
+    "isPassive": true,
+    "triggerRule": "OnStart",
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Tune Strain Units",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Mornye_Decoupling (Tune Strain Response)": {
+    "name": "Decoupling (Tune Strain Response)",
+    "category": "Tune Break",
+    "isPassive": true,
+    "triggerRule": "IF (@Enemy.HasBuff(Tune Strain - Interfered))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Decoupling",
+        "label": "Decoupling",
+        "duration": "@Default.PermanentDuration",
+        "stat": "DMG Taken",
+        "value": "(0.12 * @Self.Stat(tuneBreakBoost) * @Enemy.BuffStacks(Tune Strain - Interfered))%"
+      }
+    ]
+  },
+  "Mornye_Blueprint (Energy Regen)": {
+    "name": "Blueprint (Energy Regen)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Blueprint ER",
+        "label": "Blueprint",
+        "duration": "@Default.PermanentDuration",
+        "stat": "ER %",
+        "value": "10%"
+      }
+    ]
+  },
+  "Mornye_Critical Protocol (Crit Scaling)": {
+    "name": "Critical Protocol (Crit Scaling)",
+    "category": "Resonance Liberation",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Critical Protocol Crit Rate",
+        "label": "Critical Protocol",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Crit Rate",
+        "value": "Math.min(Math.max(@Self.Stat(energyRegen) - 100, 0) * 0.5, 80)%",
+        "applyTo": ["@Mornye(Critical Protocol)"]
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_Critical Protocol Crit DMG",
+        "label": "Critical Protocol",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Crit DMG",
+        "value": "Math.min(Math.max(@Self.Stat(energyRegen) - 100, 0), 160)%",
+        "applyTo": ["@Mornye(Critical Protocol)"]
+      }
+    ]
+  },
+  "Mornye_Blueprint (Intro)": {
+    "name": "Blueprint (Intro)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Mornye(Intro: Convergence)]",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "value": 20
+      }
+    ]
+  },
+  "Mornye_Blueprint (Wide Field Observation 3)": {
+    "name": "Blueprint (Wide Field Observation 3)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Mornye(Wide Field Observation 3)]",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "value": 20
+      }
+    ]
+  },
+  "Mornye_Proof of Boundedness": {
+    "name": "Proof of Boundedness",
+    "category": "Resonance Skill",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Mornye(Expectation Error)], OnCast[Self, @Mornye(Distributed Array)])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Proof of Boundedness",
+        "label": "Proof of Boundedness",
+        "target": "@Self",
+        "duration": 60
+      }
+    ]
+  },
+  "Mornye_Proof of Boundedness (Heal)": {
+    "name": "Proof of Boundedness (Heal)",
+    "category": "Resonance Skill",
+    "isPassive": true,
+    "triggerRule": "OnBuffExpire[Mornye_Proof of Boundedness]",
+    "castTypes": ["Heal"],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Heal",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Mornye_Sequence 1: The Silent Observer": {
+    "name": "Sequence 1: The Silent Observer",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, @Mornye(Inversion)] IF (@Self.Sequence >= 1)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_Interfered Marker",
+        "label": "Interfered Marker",
+        "target": "@Enemy",
+        "duration": 20
+      }
+    ]
+  },
+  "Mornye_Sequence 2: Morning Star of Entropy": {
+    "name": "Sequence 2: Morning Star of Entropy",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 2 && @Enemy.HasBuff(@Mornye(Interfered Marker)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_S2 Crit DMG",
+        "label": "Morning Star of Entropy",
+        "target": "@Team",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Crit DMG",
+        "value": "Math.min(Math.max(@Self.Stat(energyRegen) - 100, 0) * 0.2, 32)%"
+      }
+    ]
+  },
+  "Mornye_Sequence 2: Morning Star of Entropy (Syntony Field)": {
+    "name": "Sequence 2: Morning Star of Entropy (Syntony Field)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 2 && ANY(@Self.HasBuff(@Mornye(Syntony Field)), @Self.HasBuff(@Mornye(High Syntony Field))))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_S2 Off-Tune Buildup Rate",
+        "label": "Morning Star of Entropy",
+        "target": "@Team",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Off-Tune Buildup Rate",
+        "value": "20%"
+      }
+    ]
+  },
+  "Mornye_Sequence 3: Blueprint of Recursion": {
+    "name": "Sequence 3: Blueprint of Recursion",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Mornye(Distributed Array)] IF (@Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "value": 25
+      },
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": 100
+      }
+    ]
+  },
+  "Mornye_Sequence 5: Time Dilation Effect": {
+    "name": "Sequence 5: Time Dilation Effect",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 5)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_S5 Critical Protocol Mult",
+        "label": "Time Dilation Effect",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Additive Mult",
+        "value": "208.932%",
+        "applyTo": ["@Mornye(Critical Protocol)"]
+      },
+      {
+        "type": "buff",
+        "name": "Mornye_S5 Particle Jet Mult",
+        "label": "Time Dilation Effect",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Additive Mult",
+        "value": "477.152%",
+        "applyTo": ["@Mornye(Particle Jet)"]
+      }
+    ]
+  },
+  "Mornye_Sequence 6: To the Far Shores of the Stars": {
+    "name": "Sequence 6: To the Far Shores of the Stars",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 6)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Mornye_S6 Critical Protocol DMG",
+        "label": "To the Far Shores of the Stars",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "400%",
+        "applyTo": ["@Mornye(Critical Protocol)"]
+      }
+    ]
+  }
+}

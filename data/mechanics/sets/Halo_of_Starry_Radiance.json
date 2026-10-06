@@ -1,0 +1,20 @@
+{
+  "Halo of Starry Radiance_2-pc Effect": {
+    "name": "2-pc Effect",
+    "category": "2-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      { "type": "buff", "name": "Halo of Starry Radiance 2-pc", "stat": "Healing Bonus", "value": "10%", "duration": "@Default.PermanentDuration" }
+    ]
+  },
+  "Halo of Starry Radiance_5-pc Effect": {
+    "name": "5-pc Effect",
+    "category": "5-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Heal]",
+    "effects": [
+      { "type": "buff", "target": "@Team", "name": "Halo of Starry Radiance 5-pc", "stat": "ATK %", "value": "Math.min(@Self.Stat(offTuneBuildupRate) * 0.2, 25)%", "duration": 4 }
+    ]
+  }
+}

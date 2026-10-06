@@ -1,0 +1,49 @@
+{
+  "Starfield Calibrator_Definite Solution (DEF)": {
+    "name": "Definite Solution (DEF)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Definite Solution DEF",
+        "target": "@Equipper",
+        "stat": "DEF %",
+        "value": "16%/20%/24%/28%/32%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Starfield Calibrator_Definite Solution (Concerto)": {
+    "name": "Definite Solution (Concerto)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Skill]",
+    "cooldown": 20,
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "target": "@Equipper",
+        "value": "8/10/12/14/16"
+      }
+    ]
+  },
+  "Starfield Calibrator_Definite Solution (Crit DMG)": {
+    "name": "Definite Solution (Crit DMG)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Heal]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Definite Solution Crit DMG",
+        "target": "@Team",
+        "stat": "Crit DMG",
+        "value": "20%/25%/30%/35%/40%",
+        "duration": 4
+      }
+    ]
+  }
+}

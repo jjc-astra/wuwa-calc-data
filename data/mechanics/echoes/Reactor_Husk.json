@@ -1,0 +1,37 @@
+{
+  "Reactor Husk_Attack": {
+    "name": "Reactor Husk",
+    "category": "Echo Skill",
+    "castTypes": ["Echo"],
+    "dmgTypes": ["Fusion", "Echo"],
+    "hitResources": {
+      "energy": [4.87]
+    },
+    "hitMults": ["351.00%"],
+    "input": "Echo",
+    "priority": "@Default.EchoPriority",
+    "actionDuration": 90,
+    "cooldown": 20,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 60,
+      "end": 60
+    }
+  },
+  "Reactor Husk_Main Slot": {
+    "name": "Reactor Husk_Main Slot",
+    "category": "Echo Passive",
+    "isPassive": true,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Reactor Husk_Energy Regen",
+        "target": "@Equipper",
+        "stat": "ER %",
+        "value": "10%",
+        "duration": "@Default.PermanentDuration",
+        "maxStacks": 1
+      }
+    ]
+  }
+}
