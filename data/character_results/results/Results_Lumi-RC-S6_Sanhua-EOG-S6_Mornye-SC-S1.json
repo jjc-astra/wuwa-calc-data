@@ -1,0 +1,868 @@
+{
+  "format": 2,
+  "rotationFile": "Rotation_Lumi-RC-S6_Sanhua-EOG-S6_Mornye-SC-S1.json",
+  "hash": "2785fef395dfe293",
+  "build": "default",
+  "author": "Astrais",
+  "rotationType": "linear",
+  "team": [
+    {
+      "index": 0,
+      "character": "Lumi",
+      "sequence": 6,
+      "mode": "None",
+      "weapon": "Radiance Cleaver",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Void Thunder",
+      "subSet": "",
+      "mainEcho": "NM Thundering Mephis",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 18.4,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "aeroDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "havocDmgBonus": 0
+      }
+    },
+    {
+      "index": 1,
+      "character": "Sanhua",
+      "sequence": 6,
+      "mode": "None",
+      "weapon": "Emerald of Genesis",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Moonlit Clouds",
+      "subSet": "",
+      "mainEcho": "Impermanence Heron",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 18.4,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 17.2,
+        "glacioDmgBonus": 60,
+        "fusionDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "havocDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Moonlit Clouds"
+    },
+    {
+      "index": 2,
+      "character": "Mornye",
+      "sequence": 1,
+      "mode": "None",
+      "weapon": "Starfield Calibrator",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Halo of Starry Radiance",
+      "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
+      "mainEcho": "Reactor Husk",
+      "echoes": [
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "Fusion DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 0,
+        "flatDef": 0,
+        "percentDef": 141.9,
+        "critRate": 15,
+        "critDamage": 75,
+        "energyRegen": 68.8,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "fusionDmgBonus": 30,
+        "electroDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "havocDmgBonus": 0
+      }
+    }
+  ],
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "results": {
+    "dpsStats": {
+      "openerDps": 35602.52788104089,
+      "firstLoopDps": 40524.43278688524,
+      "avgLoopDps": 40524.43278688525,
+      "twoMinDps": 39903.833333333336
+    },
+    "contribution": {
+      "opener": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 704796
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 124466
+          },
+          {
+            "label": "Mornye",
+            "dmg": 65758
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Intro",
+              "dmg": 17516
+            },
+            {
+              "castType": "Basic",
+              "dmg": 585074
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 102206
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Basic",
+              "dmg": 7539
+            },
+            {
+              "castType": "Skill",
+              "dmg": 17388
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 42289
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 46500
+            },
+            {
+              "castType": "Echo",
+              "dmg": 10750
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 3943
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 3158
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 57385
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1272
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 6.916666666666667,
+          "Lumi": 17.4,
+          "Sanhua": 2.5833333333333335
+        },
+        "duration": 26.9
+      },
+      "firstLoop": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 753789
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 124466
+          },
+          {
+            "label": "Mornye",
+            "dmg": 89053
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Basic",
+              "dmg": 604608
+            },
+            {
+              "castType": "Echo",
+              "dmg": 29151
+            },
+            {
+              "castType": "Intro",
+              "dmg": 17824
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 102206
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Basic",
+              "dmg": 7539
+            },
+            {
+              "castType": "Skill",
+              "dmg": 17388
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 42289
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 46500
+            },
+            {
+              "castType": "Echo",
+              "dmg": 10750
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 3605
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 73346
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4518
+            },
+            {
+              "castType": "Skill",
+              "dmg": 3376
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 4208
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.233333333333333,
+          "Lumi": 17.6,
+          "Sanhua": 2.5833333333333335
+        },
+        "duration": 25.416666666666668
+      },
+      "avgLoop": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 753789
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 124466
+          },
+          {
+            "label": "Mornye",
+            "dmg": 89053
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Basic",
+              "dmg": 604608
+            },
+            {
+              "castType": "Echo",
+              "dmg": 29151
+            },
+            {
+              "castType": "Intro",
+              "dmg": 17824
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 102206
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Basic",
+              "dmg": 7539
+            },
+            {
+              "castType": "Skill",
+              "dmg": 17388
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 42289
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 46500
+            },
+            {
+              "castType": "Echo",
+              "dmg": 10750
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 3605
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 73346
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4518
+            },
+            {
+              "castType": "Skill",
+              "dmg": 3376
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 4208
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.233333333333333,
+          "Lumi": 17.599999999999998,
+          "Sanhua": 2.5833333333333335
+        },
+        "duration": 25.416666666666668
+      },
+      "twoMin": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 3413852
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 639198
+          },
+          {
+            "label": "Mornye",
+            "dmg": 421970
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 313440
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Intro",
+              "dmg": 80100
+            },
+            {
+              "castType": "Basic",
+              "dmg": 2706118
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 511030
+            },
+            {
+              "castType": "Echo",
+              "dmg": 116604
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Basic",
+              "dmg": 30156
+            },
+            {
+              "castType": "Skill",
+              "dmg": 90390
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 215467
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 241296
+            },
+            {
+              "castType": "Echo",
+              "dmg": 54693
+            },
+            {
+              "castType": "Intro",
+              "dmg": 7196
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 22015
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 19990
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 350769
+            },
+            {
+              "castType": "Skill",
+              "dmg": 14776
+            },
+            {
+              "castType": "Intro",
+              "dmg": 14420
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 27.85,
+          "Lumi": 79.23333333333333,
+          "Sanhua": 12.916666666666666
+        },
+        "duration": 120
+      }
+    }
+  }
+}
