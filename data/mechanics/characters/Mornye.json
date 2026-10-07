@@ -24,7 +24,8 @@
     "damageTimeframe": {
       "start": 10,
       "end": 25
-    }
+    },
+    "hitFrames": [13]
   },
   "Mornye_Ground State Calibration 2": {
     "name": "Ground State Calibration 2",
@@ -55,7 +56,8 @@
     "damageTimeframe": {
       "start": 11,
       "end": 67
-    }
+    },
+    "hitFrames": [26, 40, 49, 58]
   },
   "Mornye_Ground State Calibration 3": {
     "name": "Ground State Calibration 3",
@@ -86,7 +88,8 @@
     "damageTimeframe": {
       "start": 24,
       "end": 85
-    }
+    },
+    "hitFrames": [40, 49, 58, 67, 76]
   },
   "Mornye_Ground State Calibration 4": {
     "name": "Ground State Calibration 4",
@@ -149,7 +152,8 @@
     "damageTimeframe": {
       "start": 19,
       "end": 70
-    }
+    },
+    "hitFrames": [40]
   },
   "Mornye_Ground State Calibration: Mid-air Attack": {
     "name": "Ground State Calibration: Mid-air Attack",
@@ -212,7 +216,8 @@
     "damageTimeframe": {
       "start": 26,
       "end": 49
-    }
+    },
+    "hitFrames": [34, 42]
   },
   "Mornye_Wide Field Observation 2": {
     "name": "Wide Field Observation 2",
@@ -270,7 +275,8 @@
     "damageTimeframe": {
       "start": 31,
       "end": 100
-    }
+    },
+    "hitFrames": [34, 41, 62, 67]
   },
   "Mornye_Expectation Error": {
     "name": "Expectation Error",
@@ -368,7 +374,8 @@
     "damageTimeframe": {
       "start": 46,
       "end": 60
-    }
+    },
+    "hitFrames": [46, 60]
   },
   "Mornye_Geopotential Shift": {
     "name": "Geopotential Shift",
