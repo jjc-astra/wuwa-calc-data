@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "rotationFile": "Rotation_Lumi-RC-S6_Sanhua-EOG-S6_Mornye-SC-S1.json",
-  "hash": "5b1b0155a16c6bf4",
+  "rotationFile": "Rotation_Lumi-RC-S6_Sanhua-EOG-S6_Mornye-SC.json",
+  "hash": "106a84677e35c066",
   "build": "default",
   "author": "Astrais",
   "team": [
@@ -334,7 +334,7 @@
     {
       "index": 2,
       "character": "Mornye",
-      "sequence": 1,
+      "sequence": 0,
       "mode": "None",
       "weapon": "Starfield Calibrator",
       "rank": 1,
@@ -503,25 +503,25 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 35626.20817843866,
-      "firstLoopDps": 40845.84269662922,
-      "avgLoopDps": 40845.84269662921,
-      "twoMinDps": 39909.14166666667
+      "openerDps": 30966.50557620818,
+      "firstLoopDps": 35284.163912756114,
+      "avgLoopDps": 35284.163912756114,
+      "twoMinDps": 34493.90833333333
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 704796
+            "dmg": 615073
           },
           {
             "label": "Sanhua",
-            "dmg": 124466
+            "dmg": 102621
           },
           {
             "label": "Mornye",
-            "dmg": 66395
+            "dmg": 52617
           },
           {
             "label": "TuneBreak",
@@ -532,37 +532,37 @@
           "Lumi": [
             {
               "castType": "Intro",
-              "dmg": 17516
+              "dmg": 14802
             },
             {
               "castType": "Basic",
-              "dmg": 585074
+              "dmg": 511002
             },
             {
               "castType": "Liberation",
-              "dmg": 102206
+              "dmg": 89269
             }
           ],
           "Sanhua": [
             {
               "castType": "Basic",
-              "dmg": 7539
+              "dmg": 6115
             },
             {
               "castType": "Skill",
-              "dmg": 17388
+              "dmg": 14107
             },
             {
               "castType": "Liberation",
-              "dmg": 42289
+              "dmg": 34909
             },
             {
               "castType": "Heavy",
-              "dmg": 46500
+              "dmg": 39811
             },
             {
               "castType": "Echo",
-              "dmg": 10750
+              "dmg": 7679
             }
           ],
           "Mornye": [
@@ -572,11 +572,11 @@
             },
             {
               "castType": "Heavy",
-              "dmg": 3795
+              "dmg": 3158
             },
             {
               "castType": "Liberation",
-              "dmg": 57385
+              "dmg": 44244
             },
             {
               "castType": "Skill",
@@ -595,15 +595,15 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 753789
+            "dmg": 656348
           },
           {
             "label": "Sanhua",
-            "dmg": 124466
+            "dmg": 102621
           },
           {
             "label": "Mornye",
-            "dmg": 89053
+            "dmg": 68092
           },
           {
             "label": "TuneBreak",
@@ -614,63 +614,63 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 604608
+              "dmg": 527786
             },
             {
               "castType": "Echo",
-              "dmg": 29151
+              "dmg": 24231
             },
             {
               "castType": "Intro",
-              "dmg": 17824
+              "dmg": 15062
             },
             {
               "castType": "Liberation",
-              "dmg": 102206
+              "dmg": 89269
             }
           ],
           "Sanhua": [
             {
               "castType": "Basic",
-              "dmg": 7539
+              "dmg": 6115
             },
             {
               "castType": "Skill",
-              "dmg": 17388
+              "dmg": 14107
             },
             {
               "castType": "Liberation",
-              "dmg": 42289
+              "dmg": 34909
             },
             {
               "castType": "Heavy",
-              "dmg": 46500
+              "dmg": 39811
             },
             {
               "castType": "Echo",
-              "dmg": 10750
+              "dmg": 7679
             }
           ],
           "Mornye": [
             {
               "castType": "Intro",
-              "dmg": 3605
+              "dmg": 2757
             },
             {
               "castType": "Liberation",
-              "dmg": 73346
+              "dmg": 56085
             },
             {
               "castType": "Basic",
-              "dmg": 4518
+              "dmg": 3453
             },
             {
               "castType": "Skill",
-              "dmg": 3376
+              "dmg": 2580
             },
             {
               "castType": "Heavy",
-              "dmg": 4208
+              "dmg": 3217
             }
           ]
         },
@@ -685,15 +685,15 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 753789
+            "dmg": 656348
           },
           {
             "label": "Sanhua",
-            "dmg": 124466
+            "dmg": 102621
           },
           {
             "label": "Mornye",
-            "dmg": 89053
+            "dmg": 68092
           },
           {
             "label": "TuneBreak",
@@ -704,63 +704,63 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 604608
+              "dmg": 527786
             },
             {
               "castType": "Echo",
-              "dmg": 29151
+              "dmg": 24231
             },
             {
               "castType": "Intro",
-              "dmg": 17824
+              "dmg": 15062
             },
             {
               "castType": "Liberation",
-              "dmg": 102206
+              "dmg": 89269
             }
           ],
           "Sanhua": [
             {
               "castType": "Basic",
-              "dmg": 7539
+              "dmg": 6115
             },
             {
               "castType": "Skill",
-              "dmg": 17388
+              "dmg": 14107
             },
             {
               "castType": "Liberation",
-              "dmg": 42289
+              "dmg": 34909
             },
             {
               "castType": "Heavy",
-              "dmg": 46500
+              "dmg": 39811
             },
             {
               "castType": "Echo",
-              "dmg": 10750
+              "dmg": 7679
             }
           ],
           "Mornye": [
             {
               "castType": "Intro",
-              "dmg": 3605
+              "dmg": 2757
             },
             {
               "castType": "Liberation",
-              "dmg": 73346
+              "dmg": 56085
             },
             {
               "castType": "Basic",
-              "dmg": 4518
+              "dmg": 3453
             },
             {
               "castType": "Skill",
-              "dmg": 3376
+              "dmg": 2580
             },
             {
               "castType": "Heavy",
-              "dmg": 4208
+              "dmg": 3217
             }
           ]
         },
@@ -775,15 +775,15 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 3413852
+            "dmg": 2973565
           },
           {
             "label": "Sanhua",
-            "dmg": 639198
+            "dmg": 527279
           },
           {
             "label": "Mornye",
-            "dmg": 422607
+            "dmg": 324985
           },
           {
             "label": "TuneBreak",
@@ -794,67 +794,67 @@
           "Lumi": [
             {
               "castType": "Intro",
-              "dmg": 80100
+              "dmg": 67720
             },
             {
               "castType": "Basic",
-              "dmg": 2706118
+              "dmg": 2362576
             },
             {
               "castType": "Liberation",
-              "dmg": 511030
+              "dmg": 446345
             },
             {
               "castType": "Echo",
-              "dmg": 116604
+              "dmg": 96924
             }
           ],
           "Sanhua": [
             {
               "castType": "Basic",
-              "dmg": 30156
+              "dmg": 24460
             },
             {
               "castType": "Skill",
-              "dmg": 90390
+              "dmg": 73674
             },
             {
               "castType": "Liberation",
-              "dmg": 215467
+              "dmg": 177865
             },
             {
               "castType": "Heavy",
-              "dmg": 241296
+              "dmg": 206374
             },
             {
               "castType": "Echo",
-              "dmg": 54693
+              "dmg": 39068
             },
             {
               "castType": "Intro",
-              "dmg": 7196
+              "dmg": 5838
             }
           ],
           "Mornye": [
             {
               "castType": "Basic",
-              "dmg": 22015
+              "dmg": 17755
             },
             {
               "castType": "Heavy",
-              "dmg": 20627
+              "dmg": 16026
             },
             {
               "castType": "Liberation",
-              "dmg": 350769
+              "dmg": 268584
             },
             {
               "castType": "Skill",
-              "dmg": 14776
+              "dmg": 11592
             },
             {
               "castType": "Intro",
-              "dmg": 14420
+              "dmg": 11028
             }
           ]
         },

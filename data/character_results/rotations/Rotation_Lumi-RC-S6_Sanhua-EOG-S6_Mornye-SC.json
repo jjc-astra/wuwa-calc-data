@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "5b1b0155a16c6bf4",
+  "hash": "106a84677e35c066",
   "rotation": [
     {
       "unit": "Mornye",
@@ -897,7 +897,7 @@
     {
       "index": 2,
       "character": "Mornye",
-      "sequence": 1,
+      "sequence": 0,
       "mode": "None",
       "weapon": "Starfield Calibrator",
       "rank": 1,
