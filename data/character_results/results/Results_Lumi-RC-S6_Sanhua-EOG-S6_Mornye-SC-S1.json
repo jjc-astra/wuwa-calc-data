@@ -4,6 +4,7 @@
   "hash": "5b1b0155a16c6bf4",
   "build": "default",
   "author": "Astrais",
+  "rotationType": "linear",
   "team": [
     {
       "index": 0,
