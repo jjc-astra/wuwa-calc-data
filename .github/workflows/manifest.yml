@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'data/**.json'
+      - 'images/**'
       - '!data/manifest.json'
       - '!data/character_results/index.json'
 
@@ -29,3 +30,11 @@ jobs:
           git add data/manifest.json data/character_results/index.json
           git diff --cached --quiet || git commit -m "Regenerate rankings index and data manifest [skip ci]"
           git push
+
+      # The site bundles data/ and images/ into its GitHub Pages deploy; this redeploys it with
+      # what was just pushed. SITE_DEPLOY_TOKEN: a fine-grained token with only Actions read/write
+      # on jjc-astra/wuwa-calc-site (the built-in GITHUB_TOKEN can't run another repo's workflows).
+      - name: Redeploy the site
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
+        run: gh workflow run deploy.yml -R jjc-astra/wuwa-calc-site --ref main
