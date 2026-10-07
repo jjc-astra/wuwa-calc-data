@@ -10,15 +10,19 @@
     "hitMults": ["405.00%"],
     "scalar": "ATK",
     "input": "Echo",
-    "stanceResult": "Midair",
-    "stanceTime": 15,
+    "stanceChanges": [
+      {
+        "stance": "Midair",
+        "time": 15
+      }
+    ],
     "priority": "@Default.OutroPriority",
-    "actionDuration": 180,
+    "actionDuration": 90,
     "cooldown": 25,
     "swapTiming": "@Default.SwapTime",
     "damageTimeframe": {
-      "start": 65,
-      "end": 65
+      "start": 60,
+      "end": 60
     }
   },
   "NM Thundering Mephis_Main Slot": {
