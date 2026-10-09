@@ -42,6 +42,7 @@
   "Lumi_Yellow Light: Plunging Attack": {
     "name": "Yellow Light: Plunging Attack",
     "category": "Basic Attack",
+    "isSwapInDefault": true,
     "triggerRule": "IF (@Self.HasBuff(@Lumi(Yellow Light Form)) && @Self.Tracker(@Lumi(Yellow Spotlight Mode)) == 0)",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
@@ -54,6 +55,12 @@
     "hitMults": ["95.43%"],
     "input": "Basic",
     "stanceReq": "Midair",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 40
+      }
+    ],
     "priority": "@Default.HeavyPriority + 1",
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 46,
@@ -162,6 +169,7 @@
   "Lumi_Red Light: Plunging Attack": {
     "name": "Red Light: Plunging Attack",
     "category": "Basic Attack",
+    "isSwapInDefault": true,
     "triggerRule": "IF (@Self.HasBuff(@Lumi(Red Light Form)))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
@@ -174,6 +182,12 @@
     "hitMults": ["113.33%"],
     "input": "Basic",
     "stanceReq": "Midair",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 40
+      }
+    ],
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 46,
     "swapTiming": "@Default.SwapTime"
@@ -586,6 +600,18 @@
         "removeOnSwap": true,
         "stat": "Skill DMG Amp",
         "value": "38%"
+      },
+      {
+        "type": "tracker",
+        "name": "Lumi_Yellow Spotlight Mode",
+        "action": "consume",
+        "value": "All"
+      },
+      {
+        "type": "tracker",
+        "name": "Lumi_Red Spotlight Mode",
+        "action": "consume",
+        "value": "All"
       }
     ],
     "priority": "@Default.OutroPriority",
@@ -595,7 +621,7 @@
     "name": "Laser Beam (Yellow Form)",
     "category": "Inherent Skill",
     "isPassive": true,
-    "triggerRule": "OnCast[Outro] IF (@Self.HasBuff(@Lumi(Yellow Light Form)) && @Self.YellowLightSpark >= 25)",
+    "triggerRule": "OnCast[Self,Outro] IF (@Self.HasBuff(@Lumi(Yellow Light Form)) && @Self.YellowLightSpark >= 25)",
     "dmgTypes": ["Electro", "Basic"],
     "effects": [
       {
@@ -619,7 +645,7 @@
     "name": "Laser Beam (Red Form)",
     "category": "Inherent Skill",
     "isPassive": true,
-    "triggerRule": "OnCast[Outro] IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.RedLightSpark >= 25)",
+    "triggerRule": "OnCast[Self,Outro] IF (@Self.HasBuff(@Lumi(Red Light Form)) && @Self.RedLightSpark >= 25)",
     "dmgTypes": ["Electro", "Basic"],
     "effects": [
       {
