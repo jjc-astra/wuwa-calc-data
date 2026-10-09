@@ -4,10 +4,10 @@
 // -- characters, sequences, rotation type, DPS and the 2-minute majority element/category. Rows
 // load the rest (team details, author, contribution) from their results file, page by page.
 //
-// Each results file names the rotation file it was calculated from and that file's hash. The hash
-// is recomputed here from the rotation file (sha256 of JSON.stringify({ rotation, team, settings, enemy }),
-// first 16 hex chars -- same as the site's hashRotationInputs); a results file whose rotation is
-// missing or has changed since is left out, with a warning.
+// Each results file carries the hash of the rotation it was calculated from, and that hash is the
+// only link: every rotation file's hash is recomputed here (sha256 of JSON.stringify({ rotation,
+// team, settings, enemy }), first 16 hex chars -- same as the site's hashRotationInputs), so file
+// names can change freely. A results file no rotation file matches is left out, with a warning.
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -54,28 +54,37 @@ const majorityOf = ({ team: split = [], units = {} } = {}, team) => {
   return { element: largest(elements), category: largest(categories) };
 };
 
+const jsonFiles = dir => (existsSync(dir) ? readdirSync(dir).filter(name => name.endsWith('.json')).sort() : []);
+
+// Rotation file name by content hash; identical copies share a hash, and the first name wins.
+function rotationsByHash() {
+  const byHash = new Map();
+  for (const name of jsonFiles(rotationsDir)) {
+    const hash = hashRotationInputs(readJson(join(rotationsDir, name)));
+    if (!byHash.has(hash)) byHash.set(hash, name);
+  }
+  return byHash;
+}
+
 export function generateRankingsIndex() {
-  const files = existsSync(resultsDir) ? readdirSync(resultsDir).filter(name => name.endsWith('.json')).sort() : [];
+  const files = jsonFiles(resultsDir);
+  const rotations = rotationsByHash();
   const index = [];
 
   for (const id of files) {
     const results = readJson(join(resultsDir, id));
     if (results.build !== 'default') continue;
 
-    const rotationPath = join(rotationsDir, results.rotationFile || '');
-    if (!results.rotationFile || !existsSync(rotationPath)) {
-      console.warn(`[rankings-index] Skipping ${id}: rotation file "${results.rotationFile}" not found.`);
-      continue;
-    }
-    const rotationHash = hashRotationInputs(readJson(rotationPath));
-    if (results.hash !== rotationHash) {
-      console.warn(`[rankings-index] Skipping ${id}: calculated from a different version of ${results.rotationFile}.`);
+    const rotationFile = rotations.get(results.hash);
+    if (!rotationFile) {
+      console.warn(`[rankings-index] Skipping ${id}: no rotation file matches its hash (${results.hash}); its rotation was changed or removed.`);
       continue;
     }
 
     index.push({
       id,
-      rotationFile: results.rotationFile,
+      // Resolved by hash; the site loads the rotation from here.
+      rotationFile,
       hash: results.hash,
       rotationType: results.rotationType ?? null,
       characters: results.team.map(slot => slot.character || ''),
