@@ -1,11 +1,5 @@
-// scripts/generate-manifest.mjs
-// Walks data/ and writes data/manifest.json: { relativePath: shortHash } for every .json file
-// (manifest.json itself excluded). The site (DataLoader.refreshManifest, in the wuwa-calc-site
-// repo) fetches only this one small file over raw.githubusercontent.com to detect whether
-// something it already has cached has changed here -- comparing a short hash instead of
-// re-downloading every data file it's holding. Ported from wuwa-calc-site's
-// scripts/generate-data-manifest.mjs, which did the same thing for public/data when data lived
-// in that repo.
+// Writes data/manifest.json: { relativePath: shortHash } for every .json file.
+// The site uses it to detect changed data.
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
