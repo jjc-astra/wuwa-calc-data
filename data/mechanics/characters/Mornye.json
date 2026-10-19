@@ -571,27 +571,13 @@
     "triggerRule": "AfterHit(1)[@Mornye(Syntony Field: Formation)]",
     "effects": [
       {
-        "type": "buffAction",
-        "action": "remove",
-        "name": "Mornye_High Syntony Field",
-        "target": "@Team",
-        "value": "ALL"
-      },
-      {
-        "type": "buffAction",
-        "action": "remove",
-        "name": "Mornye_High Syntony Field DEF",
-        "target": "@Team",
-        "value": "ALL"
-      },
-      {
         "type": "buff",
         "name": "Mornye_Syntony Field",
         "label": "Syntony Field",
         "target": "@Team",
         "duration": 25,
         "stat": "Off-Tune Buildup Rate",
-        "value": "50%"
+        "value": "(@Self.HasBuff(@Mornye(High Syntony Field)) ? 0 : 50)%"
       }
     ]
   },

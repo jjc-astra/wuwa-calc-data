@@ -20,7 +20,7 @@
   "System_Tune Break": {
     "name": "Tune Break",
     "provider": "System",
-    "triggerRule": "IF (@Enemy.Tune >= @Enemy.MaxTune && @Self.CanTuneBreak)",
+    "triggerRule": "IF (@Enemy.Tune >= @Enemy.MaxTune && @Self.HasBuff(Tune Break Ready))",
     "castTypes": ["TuneBreak"],
     "dmgTypes": ["TuneBreak"],
     "castResources": {
@@ -38,6 +38,13 @@
         "name": "Mistune",
         "target": "@Enemy",
         "duration": 8
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Tune Break Ready",
+        "target": "@Team",
+        "value": "ALL"
       }
     ],
     "hitMults": ["1600%"],
@@ -45,6 +52,22 @@
     "actionDuration": 94,
     "freezeTime": 94,
     "motionStop": 64
+  },
+  "System_Tune Break Ready": {
+    "name": "Tune Break Ready",
+    "provider": "System",
+    "isPassive": true,
+    "actsForUnit": true,
+    "triggerRule": "OnHit IF (@Enemy.Tune >= @Enemy.MaxTune && @Hit.OnField && !@Hit.InFreeze && !@Self.HasBuff(Tune Break Ready))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Tune Break Ready",
+        "label": "Tune Break Ready",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
   },
   "System_NegativeStatus_Dictionary": {
     "name": "Negative Status Dictionary",
