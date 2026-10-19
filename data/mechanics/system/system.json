@@ -20,11 +20,11 @@
   "System_Tune Break": {
     "name": "Tune Break",
     "provider": "System",
-    "triggerRule": "IF (@Enemy.Tune >= 40)",
+    "triggerRule": "IF (@Enemy.Tune >= @Enemy.MaxTune && @Self.CanTuneBreak)",
     "castTypes": ["TuneBreak"],
     "dmgTypes": ["TuneBreak"],
     "castResources": {
-      "tune": -40
+      "tune": "-@Enemy.MaxTune"
     },
     "effects": [
       {
