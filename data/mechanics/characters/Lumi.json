@@ -28,7 +28,7 @@
     "hitResources": {
       "energy": [1],
       "concerto": [2],
-      "tune": [0.24],
+      "tune": [0.32],
       "forte1": [10]
     },
     "hitMults": ["63.62%"],
@@ -461,7 +461,7 @@
     "hitResources": {
       "energy": [1.6, 1.6],
       "concerto": [1.28, 1.28],
-      "tune": [1.28, 1.28]
+      "tune": [0.512, 0.512]
     },
     "cancelTimings": [
       {
