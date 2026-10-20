@@ -1,13 +1,17 @@
 // Builds character_results/index.json from default-build results: only what Rankings
 // search, filters and sort read. Results link to rotations by hash (as in hashRotationInputs).
+//   node scripts/generate-rankings-index.mjs [dataDir] [--check]
+// --check: write nothing; exit 1 if index.json is out of date.
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
+const args = process.argv.slice(2);
+const check = args.includes('--check');
 // Optional: another data dir (e.g. the WIP mirror).
-const dataDir = process.argv[2] || join(__dirname, '..', 'data');
+const dataDir = args.find(arg => !arg.startsWith('--')) || join(__dirname, '..', 'data');
 const rankingsDir = join(dataDir, 'character_results');
 const resultsDir = join(rankingsDir, 'results');
 const rotationsDir = join(rankingsDir, 'rotations');
@@ -82,9 +86,18 @@ export function generateRankingsIndex() {
   }
 
   // One entry per line for readable diffs.
-  writeFileSync(indexPath, index.length ? `[\n${index.map(entry => JSON.stringify(entry)).join(',\n')}\n]\n` : '[]\n');
-  return index;
+  return { index, text: index.length ? `[\n${index.map(entry => JSON.stringify(entry)).join(',\n')}\n]\n` : '[]\n' };
 }
 
-const index = generateRankingsIndex();
-console.log(`[rankings-index] Wrote ${index.length} entries to ${indexPath}`);
+const { index, text } = generateRankingsIndex();
+if (check) {
+  const current = existsSync(indexPath) ? readFileSync(indexPath, 'utf8').replace(/\r\n/g, '\n') : null;
+  if (current !== text) {
+    console.log(`[rankings-index] ${indexPath} is out of date`);
+    process.exit(1);
+  }
+  console.log(`[rankings-index] ${indexPath} is up to date (${index.length} entries)`);
+} else {
+  writeFileSync(indexPath, text);
+  console.log(`[rankings-index] Wrote ${index.length} entries to ${indexPath}`);
+}

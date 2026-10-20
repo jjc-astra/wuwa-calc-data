@@ -2,8 +2,8 @@
   "format": 2,
   "hash": "3b0366ada4e482aa",
   "build": "default",
-  "author": "Astrais",
   "rotationType": "linear",
+  "author": "Astrais",
   "team": [
     {
       "index": 0,
@@ -158,12 +158,13 @@
         "basicDmgBonus": 17.2,
         "heavyDmgBonus": 0,
         "libDmgBonus": 0,
-        "glacioDmgBonus": 0,
-        "fusionDmgBonus": 0,
-        "electroDmgBonus": 60,
-        "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
       }
     },
     {
@@ -319,12 +320,13 @@
         "basicDmgBonus": 0,
         "heavyDmgBonus": 0,
         "libDmgBonus": 17.2,
-        "glacioDmgBonus": 60,
-        "fusionDmgBonus": 0,
-        "electroDmgBonus": 0,
-        "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 60,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
       },
       "subSet2a": "Void Thunder",
       "subSet2b": "Moonlit Clouds"

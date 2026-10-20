@@ -28,7 +28,8 @@ export function generateManifest() {
   const manifest = {};
   for (const file of files) {
     const relPath = relative(dataDir, file).split(sep).join('/');
-    const contents = readFileSync(file);
+    // LF, so Windows checkouts (CRLF) hash like CI.
+    const contents = readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
     manifest[relPath] = createHash('sha256').update(contents).digest('hex').slice(0, 16);
   }
 
