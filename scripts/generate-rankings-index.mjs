@@ -46,6 +46,9 @@ const majorityOf = ({ team: split = [], units = {} } = {}, team) => {
   return { element: largest(elements), category: largest(categories) };
 };
 
+// Sync with RankingTag. experimental: non-cooldown warnings (check in game). legacy: errors (broken since).
+const tagsOf = ({ errors = [], warnings = [] } = {}) => [...(warnings.length ? ['experimental'] : []), ...(errors.length ? ['legacy'] : [])];
+
 const jsonFiles = dir => (existsSync(dir) ? readdirSync(dir).filter(name => name.endsWith('.json')).sort() : []);
 
 // Rotation file name by hash; first wins.
@@ -81,7 +84,8 @@ export function generateRankingsIndex() {
       characters: results.team.map(slot => slot.character || ''),
       sequences: results.team.map(slot => Number(slot.sequence) || 0),
       dpsStats: results.results.dpsStats,
-      majority: majorityOf(results.results.contribution.twoMin, results.team)
+      majority: majorityOf(results.results.contribution.twoMin, results.team),
+      tags: tagsOf(results.results.issues)
     });
   }
 
