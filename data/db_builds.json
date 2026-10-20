@@ -227,7 +227,7 @@
       "mainSet": "Void Thunder",
       "mainEcho": "NM Thundering Mephis",
       "mainStats": { "cost4": "CR Rate", "cost3": ["Electro DMG", "Electro DMG"], "cost1": ["ATK %", "ATK %"] },
-      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %":2, "ER %": 2, "Basic DMG": 2 }
+      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK %":2, "ATK": 2, "Basic DMG": 2, "ER %": 1 }
     }
   },
   "Youhu": {
@@ -407,7 +407,7 @@
       "mainSet": "Moonlit Clouds",
       "mainEcho": "Impermanence Heron",
       "mainStats": { "cost4": "CR Rate", "cost3": ["Glacio DMG", "Glacio DMG"], "cost1": ["ATK %", "ATK %"] },
-      "subStats": { "CR Rate": 5, "CR DMG": 5, "ER %": 2, "ATK %": 2, "Lib DMG": 2 }
+      "subStats": { "CR Rate": 5, "CR DMG": 5, "ATK": 2, "ATK %": 2, "Lib DMG": 2, "ER %": 1 }
     }
   },
   "Danjin": {
