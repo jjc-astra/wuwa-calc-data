@@ -9,9 +9,10 @@ The deployed site fetches straight from this repo's raw content
 **public** and needs no build step of its own.
 
 `data/manifest.json` is a relPath -> content-hash map the site uses to detect when cached data is
-stale. It's regenerated automatically by `.github/workflows/manifest.yml` on every push that
-touches a `data/**.json` file -- if you're editing data locally and want it up to date before
-pushing, run `npm run gen:manifest`.
+stale. The pre-commit hook in `.githooks/` regenerates it and the rankings index into every commit
+that touches `data/` or `images/` (enable once per clone: `git config core.hooksPath .githooks`).
+`.github/workflows/manifest.yml` regenerates both again on push, as a fallback for commits made
+without the hook (e.g. on GitHub); then it commits, and you need to pull.
 
 ## Rotation Rankings (`data/character_results/`)
 

@@ -1,0 +1,1304 @@
+{
+  "Rebecca_Huntress 1": {
+    "name": "Huntress 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.55, 0.55],
+      "concerto": [1.09, 1.09],
+      "tune": [0.174, 0.174],
+      "forte1": [3.53, 3.53]
+    },
+    "cancelTimings": [
+      {
+        "time": 22
+      }
+    ],
+    "hitMults": ["36.76%", "36.76%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 26,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 8,
+      "end": 22
+    }
+  },
+  "Rebecca_Huntress 2": {
+    "name": "Huntress 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Self.PrevAction == @Rebecca(Huntress 1))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.29, 0.29, 0.29, 0.29, 0.29],
+      "concerto": [0.57, 0.57, 0.57, 0.57, 0.57],
+      "tune": [0.0906, 0.0906, 0.0906, 0.0906, 0.0906],
+      "forte1": [1.84, 1.84, 1.84, 1.84, 1.84]
+    },
+    "cancelTimings": [
+      {
+        "time": 30
+      }
+    ],
+    "hitMults": ["19.13%", "19.13%", "19.13%", "19.13%", "19.13%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 40,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 30
+    },
+    "hitFrames": [13, 14, 16]
+  },
+  "Rebecca_Huntress 3": {
+    "name": "Huntress 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Self.PrevAction == @Rebecca(Huntress 2))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.63],
+      "concerto": [3.25],
+      "tune": [0.52],
+      "forte1": [10.54]
+    },
+    "cancelTimings": [
+      {
+        "time": 18
+      }
+    ],
+    "hitMults": ["109.85%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 42,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 18
+    }
+  },
+  "Rebecca_Huntress: Mid-air Attack": {
+    "name": "Huntress: Mid-air Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [2.02],
+      "concerto": [4.03],
+      "tune": [0.644],
+      "forte1": [13.05]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "hitMults": ["136.04%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 34
+      }
+    ],
+    "priority": "@Default.HeavyPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 43,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 34,
+      "end": 34
+    }
+  },
+  "Rebecca_Huntress: Dodge Counter": {
+    "name": "Huntress: Dodge Counter",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Prev.CastTypes.includes('Dodge'))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.63],
+      "concerto": [3.25],
+      "tune": [0.52],
+      "forte1": [10.54]
+    },
+    "cancelTimings": [
+      {
+        "time": 18
+      }
+    ],
+    "hitMults": ["211.24%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 5",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 42,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 18
+    }
+  },
+  "Rebecca_Tactical Dodge: Huntress": {
+    "name": "Tactical Dodge: Huntress",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)))",
+    "castTypes": ["Dodge"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.25, 0.25, 0.25, 0.25, 0.25],
+      "concerto": [0.5, 0.5, 0.5, 0.5, 0.5],
+      "tune": [0.08, 0.08, 0.08, 0.08, 0.08],
+      "forte1": [1.79, 1.79, 1.79, 1.79, 1.79]
+    },
+    "cancelTimings": [
+      {
+        "time": 30
+      }
+    ],
+    "hitMults": ["16.90%", "16.90%", "16.90%", "16.90%", "16.90%"],
+    "input": "Dodge",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 5",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 36,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 6,
+      "end": 30
+    },
+    "hitFrames": [10, 16, 20]
+  },
+  "Rebecca_Huntress: Heavy Attack": {
+    "name": "Huntress: Heavy Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.25, 0.25],
+      "concerto": [0.5, 0.5],
+      "tune": [0.08, 0.08],
+      "forte1": [1.79, 1.79]
+    },
+    "hitMults": ["16.90%", "16.90%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 32,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 26,
+      "end": 32
+    }
+  },
+  "Rebecca_Huntress: Heavy Attack (Loop)": {
+    "name": "Huntress: Heavy Attack (Loop)",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && ANY(@Self.PrevAction == @Rebecca(Huntress: Heavy Attack), @Self.PrevAction == @Rebecca(Huntress: Heavy Attack (Loop))))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.25],
+      "concerto": [0.5],
+      "tune": [0.08],
+      "forte1": [1.79]
+    },
+    "hitMults": ["16.90%"],
+    "input": "Basic",
+    "inputType": "Repeat",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 6,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 6,
+      "end": 6
+    }
+  },
+  "Rebecca_Eat Lead!: Huntress": {
+    "name": "Eat Lead!: Huntress",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && ANY(@Self.PrevAction == @Rebecca(Huntress: Heavy Attack), @Self.PrevAction == @Rebecca(Huntress: Heavy Attack (Loop))))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Heavy"],
+    "hitResources": {
+      "energy": [0.9, 0.9],
+      "concerto": [1.8, 1.8],
+      "tune": [0.288, 0.288],
+      "forte1": [5.84, 5.84]
+    },
+    "cancelTimings": [
+      {
+        "time": 13
+      }
+    ],
+    "hitMults": ["60.84%", "60.84%"],
+    "input": "Basic",
+    "inputType": "Release",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 36,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 0,
+      "end": 13
+    }
+  },
+  "Rebecca_Rat-tat-tat!: Huntress": {
+    "name": "Rat-tat-tat!: Huntress",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Self.Fervor >= @Self.MaxFervor)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "forte1": -120
+    },
+    "hitResources": {
+      "energy": [0.75, 0.75, 0.75, 0.75, 12],
+      "concerto": [1, 1, 1, 1, 16],
+      "tune": [0.2216, 0.2216, 0.2216, 0.2216, 3.5456]
+    },
+    "cancelTimings": [
+      {
+        "time": 84
+      }
+    ],
+    "hitMults": ["19.89%", "19.89%", "19.89%", "19.89%", "318.10%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority + 10",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 110,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 84
+    },
+    "hitFrames": [46, 50, 56]
+  },
+  "Rebecca_Guts 1": {
+    "name": "Guts 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.92, 0.92],
+      "concerto": [2.83, 1.83],
+      "tune": [0.292, 0.292],
+      "forte1": [6.81, 6.81]
+    },
+    "cancelTimings": [
+      {
+        "time": 31
+      }
+    ],
+    "hitMults": ["61.69%", "61.69%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 56,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 14,
+      "end": 31
+    }
+  },
+  "Rebecca_Guts 2": {
+    "name": "Guts 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Self.PrevAction == @Rebecca(Guts 1))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.25],
+      "concerto": [2.5],
+      "tune": [0.4],
+      "forte1": [9.32]
+    },
+    "cancelTimings": [
+      {
+        "time": 11
+      }
+    ],
+    "hitMults": ["84.50%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 33,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 11,
+      "end": 11
+    }
+  },
+  "Rebecca_Guts 3": {
+    "name": "Guts 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Self.PrevAction == @Rebecca(Guts 2))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.5, 0.5, 2.34],
+      "concerto": [1, 1, 4.67],
+      "tune": [0.1599, 0.1599, 0.746],
+      "forte1": [3.73, 3.73, 17.38]
+    },
+    "cancelTimings": [
+      {
+        "time": 58
+      }
+    ],
+    "hitMults": ["33.77%", "33.77%", "157.57%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 85,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 13,
+      "end": 58
+    },
+    "hitFrames": [23]
+  },
+  "Rebecca_Guts: Mid-air Attack": {
+    "name": "Guts: Mid-air Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.55],
+      "concerto": [3.1],
+      "tune": [0.496],
+      "forte1": [10.05]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "hitMults": ["104.78%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 34
+      }
+    ],
+    "priority": "@Default.HeavyPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 57,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 34,
+      "end": 34
+    }
+  },
+  "Rebecca_Guts: Dodge Counter": {
+    "name": "Guts: Dodge Counter",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Prev.CastTypes.includes('Dodge'))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [2.34],
+      "concerto": [4.67],
+      "tune": [0.746],
+      "forte1": [17.38]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "hitMults": ["258.56%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 5",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 60,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 34,
+      "end": 34
+    }
+  },
+  "Rebecca_Tactical Dodge: Guts": {
+    "name": "Tactical Dodge: Guts",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)))",
+    "castTypes": ["Dodge"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.5],
+      "concerto": [3],
+      "tune": [0.48],
+      "forte1": [9.73]
+    },
+    "cancelTimings": [
+      {
+        "time": 6
+      }
+    ],
+    "hitMults": ["101.40%"],
+    "input": "Dodge",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 5",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 40,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 6,
+      "end": 6
+    }
+  },
+  "Rebecca_Guts: Heavy Attack": {
+    "name": "Guts: Heavy Attack",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Heavy"],
+    "hitResources": {
+      "energy": [3],
+      "concerto": [6],
+      "tune": [0.96],
+      "forte1": [19.45]
+    },
+    "cancelTimings": [
+      {
+        "time": 50
+      }
+    ],
+    "hitMults": ["202.79%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 68,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 50,
+      "end": 50
+    }
+  },
+  "Rebecca_Bang-bang-bang!: Guts": {
+    "name": "Bang-bang-bang!: Guts",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Self.Fervor >= @Self.MaxFervor)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "forte1": -120
+    },
+    "hitResources": {
+      "energy": [15],
+      "concerto": [20],
+      "tune": [4.432]
+    },
+    "cancelTimings": [
+      {
+        "time": 64
+      }
+    ],
+    "hitMults": ["278.34%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority + 10",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 90,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 64,
+      "end": 64
+    }
+  },
+  "Rebecca_It's Big Boomin' Time!": {
+    "name": "It's Big Boomin' Time!",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)))",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "hitResources": {
+      "energy": [0.35, 0.35, 0.35, 0.35, 0.53, 0.53, 0.53, 0.53],
+      "concerto": [0.7, 0.7, 0.7, 0.7, 1.05, 1.05, 1.05, 1.05],
+      "tune": [0.112, 0.112, 0.112, 0.112, 0.168, 0.168, 0.168, 0.168],
+      "forte1": [2.27, 2.27, 2.27, 2.27, 3.41, 3.41, 3.41, 3.41]
+    },
+    "cancelTimings": [
+      {
+        "time": 60
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Rebecca_Huntress Mode",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_Guts Mode",
+        "label": "Guts",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["23.66%", "23.66%", "23.66%", "23.66%", "35.49%", "35.49%", "35.49%", "35.49%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 87,
+    "cooldown": 1,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 30,
+      "end": 60
+    },
+    "hitFrames": [32, 34, 36, 38, 40, 42]
+  },
+  "Rebecca_Come 'n' Get Me!": {
+    "name": "Come 'n' Get Me!",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)))",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "hitResources": {
+      "energy": [0.35, 0.07, 0.35, 0.35, 2.03, 0.18, 0.18],
+      "concerto": [0.7, 0.14, 0.7, 0.7, 4.06, 0.35, 0.35],
+      "tune": [0.112, 0.0224, 0.112, 0.112, 0.6496, 0.056, 0.056],
+      "forte1": [2.27, 0.46, 2.27, 2.27, 13.17, 1.14, 1.14]
+    },
+    "cancelTimings": [
+      {
+        "time": 45,
+        "triggerRule": "OnSwapOut"
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Rebecca_Guts Mode",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_Huntress Mode",
+        "label": "Huntress",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["23.66%", "4.74%", "23.66%", "23.66%", "137.22%", "11.83%", "11.83%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "stanceChanges": [
+      {
+        "stance": "Midair",
+        "time": 36
+      },
+      {
+        "stance": "Grounded",
+        "time": 100
+      }
+    ],
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 110,
+    "cooldown": 1,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 70
+    },
+    "hitFrames": [36, 62, 64, 66, 68]
+  },
+  "Rebecca_Party 'til Dawn!": {
+    "name": "Party 'til Dawn!",
+    "category": "Resonance Liberation",
+    "castTypes": ["Liberation"],
+    "castResources": {
+      "concerto": 20,
+      "energy": -125
+    },
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte3",
+        "value": -90
+      }
+    ],
+    "input": "Liberation",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 180,
+    "cooldown": 25,
+    "freezeTime": 180,
+    "motionStop": 180
+  },
+  "Rebecca_Mk. 31 HMG": {
+    "name": "Mk. 31 HMG",
+    "category": "Resonance Liberation",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Liberation] IF (@Self.Overload < @Self.MaxOverload)",
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "concerto": [0.56, 0.56, 0.56, 0.56, 0.56, 1.12, 1.12, 1.12, 1.12, 1.12, 1.67, 1.67, 1.67, 1.67, 1.67, 1.67, 1.67, 1.67, 1.67, 1.67],
+      "tune": [0.1609, 0.1609, 0.1609, 0.1609, 0.1609, 0.3218, 0.3218, 0.3218, 0.3218, 0.3218, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826, 0.4826],
+      "forte3": [2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+    },
+    "hitMults": ["24.30%", "24.30%", "24.30%", "24.30%", "24.30%", "48.60%", "48.60%", "48.60%", "48.60%", "48.60%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%", "72.90%"],
+    "damageTimeframe": {
+      "start": 9,
+      "end": 180
+    }
+  },
+  "Rebecca_BOOM! Fireworks!": {
+    "name": "BOOM! Fireworks!",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.Overload >= @Self.MaxOverload)",
+    "castTypes": ["Liberation"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "forte3": -90
+    },
+    "hitResources": {
+      "energy": [2, 18],
+      "concerto": [1, 9],
+      "tune": [0.3103, 2.7922]
+    },
+    "hitMults": ["63.62%", "572.58%"],
+    "input": "Liberation",
+    "priority": "@Default.LibPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 133,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 66,
+      "end": 79
+    }
+  },
+  "Rebecca_Intro: Yo, It's Big Boomin' Time!": {
+    "name": "Intro: Yo, It's Big Boomin' Time!",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Rebecca(Huntress Mode)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10
+    },
+    "hitResources": {
+      "energy": [1, 1, 1, 1, 1, 1, 1.5, 2.5],
+      "tune": [0.128, 0.128, 0.128, 0.128, 0.128, 0.128, 0.192, 0.32]
+    },
+    "cancelTimings": [
+      {
+        "time": 72
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Rebecca_Huntress Mode",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_Guts Mode",
+        "label": "Guts",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["27.04%", "27.04%", "27.04%", "27.04%", "27.04%", "27.04%", "40.56%", "67.60%"],
+    "stanceReq": "Grounded",
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 96,
+    "swapTiming": 96,
+    "motionStop": 93,
+    "damageTimeframe": {
+      "start": 44,
+      "end": 72
+    },
+    "hitFrames": [46, 48, 50, 52, 54, 56]
+  },
+  "Rebecca_Intro: Hey, Leadhead, Come 'n' Get Me!": {
+    "name": "Intro: Hey, Leadhead, Come 'n' Get Me!",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Rebecca(Guts Mode)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10
+    },
+    "hitResources": {
+      "energy": [0.5, 1.5, 2, 2, 2, 2],
+      "tune": [0.048, 0.144, 0.192, 0.192, 0.192, 0.192]
+    },
+    "cancelTimings": [
+      {
+        "time": 59
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Rebecca_Guts Mode",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_Huntress Mode",
+        "label": "Huntress",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["10.14%", "30.42%", "40.56%", "40.56%", "40.56%", "40.56%"],
+    "stanceReq": "Grounded",
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 89,
+    "swapTiming": 63,
+    "motionStop": 61,
+    "damageTimeframe": {
+      "start": 29,
+      "end": 59
+    },
+    "hitFrames": [53, 54, 55, 57]
+  },
+  "Rebecca_Outro: Preem Choom": {
+    "name": "Outro: Preem Choom",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.Concerto >= 100)",
+    "castTypes": ["Outro"],
+    "castResources": {
+      "concerto": -100
+    },
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Edgerunner Bonds",
+        "label": "Edgerunner Bonds",
+        "target": "@Next",
+        "duration": 14,
+        "stat": "DMG Amp",
+        "value": "15%",
+        "removeOnSwap": true
+      },
+      {
+        "type": "tracker",
+        "name": "Overlimit Start",
+        "action": "set",
+        "value": "@Move.GameTimeStart"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_Overlimit",
+        "label": "Overlimit",
+        "target": "@Next",
+        "duration": 14,
+        "stat": "Heavy DMG Amp",
+        "value": "(Math.min(Math.floor((@Move.GameTimeStart - @Self.Tracker(Overlimit Start)) / 12) + 1, 70) * 0.5)%",
+        "removeOnSwap": true
+      }
+    ],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0
+  },
+  "Rebecca_Preem Choom: Turret": {
+    "name": "Preem Choom: Turret",
+    "category": "Outro",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Rebecca(Outro: Preem Choom)]",
+    "dmgTypes": ["Electro", "Outro"],
+    "hitMults": ["2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%", "2.50%"],
+    "hitCondition": "IF (@Team.HasBuff(@Rebecca(Edgerunner Bonds)))",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 839
+    }
+  },
+  "Rebecca_Switch Gears!": {
+    "name": "Switch Gears!",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnStart",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Huntress Mode",
+        "label": "Huntress",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Rebecca_Switch Gears! (Huntress)": {
+    "name": "Switch Gears! (Huntress)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && !@Self.HasBuff(@Rebecca(A Girl Gets What She Wants!)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Huntress Crit DMG",
+        "label": "Huntress",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Crit DMG",
+        "value": "30%"
+      }
+    ]
+  },
+  "Rebecca_Switch Gears! (Guts)": {
+    "name": "Switch Gears! (Guts)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && !@Self.HasBuff(@Rebecca(A Girl Gets What She Wants!)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Guts Ignore DEF",
+        "label": "Guts",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Ignore DEF",
+        "value": "15%"
+      }
+    ]
+  },
+  "Rebecca_Hack - Shifting (Intro)": {
+    "name": "Hack - Shifting (Intro)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, Intro]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hack - Shifting",
+        "label": "Hack - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "tracker",
+        "name": "Hack - Shifting Inflicted",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Rebecca_Hack - Shifting (Rat-tat-tat!)": {
+    "name": "Hack - Shifting (Rat-tat-tat!)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, @Rebecca(Rat-tat-tat!: Huntress)]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hack - Shifting",
+        "label": "Hack - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "tracker",
+        "name": "Hack - Shifting Inflicted",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Rebecca_Hack - Shifting (Bang-bang-bang!)": {
+    "name": "Hack - Shifting (Bang-bang-bang!)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, @Rebecca(Bang-bang-bang!: Guts)]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hack - Shifting",
+        "label": "Hack - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "tracker",
+        "name": "Hack - Shifting Inflicted",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Rebecca_Hack - Shifting (BOOM! Fireworks!)": {
+    "name": "Hack - Shifting (BOOM! Fireworks!)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self, @Rebecca(BOOM! Fireworks!)]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hack - Shifting",
+        "label": "Hack - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "tracker",
+        "name": "Hack - Shifting Inflicted",
+        "action": "add",
+        "value": 1
+      }
+    ]
+  },
+  "Rebecca_Hack Response - Meltdown": {
+    "name": "Hack Response - Meltdown",
+    "category": "Tune Break",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Hack - Interfered]",
+    "castTypes": ["TuneHack"],
+    "dmgTypes": ["TuneHack"],
+    "hitMults": ["2358.89%"]
+  },
+  "Rebecca_Hot Hand": {
+    "name": "Hot Hand",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnStart",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": 120
+      }
+    ]
+  },
+  "Rebecca_Hot Hand (Regen)": {
+    "name": "Hot Hand (Regen)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnTick(1) IF (!@Self.HasBuff(@Rebecca(A Girl Gets What She Wants!)))",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": 10
+      }
+    ]
+  },
+  "Rebecca_Hot Hand (Drain)": {
+    "name": "Hot Hand (Drain)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnTick(1) IF (@Self.HasBuff(@Rebecca(A Girl Gets What She Wants!)))",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": -10
+      }
+    ]
+  },
+  "Rebecca_Hot Hand (Fervor Finisher)": {
+    "name": "Hot Hand (Fervor Finisher)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Rebecca(Rat-tat-tat!: Huntress)], OnCast[Self, @Rebecca(Bang-bang-bang!: Guts)]) IF (!@Self.HasBuff(@Rebecca(A Girl Gets What She Wants!)))",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": "@Self.Sequence >= 6 ? 60 : 40"
+      }
+    ]
+  },
+  "Rebecca_A Girl Gets What She Wants!": {
+    "name": "A Girl Gets What She Wants!",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, Skill], OnCast[Self, Intro]) IF (ANY(@Self.HotHand >= @Self.MaxHotHand, @Self.Sequence >= 3 && @Move.CastTypes.includes('Intro')))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_A Girl Gets What She Wants!",
+        "label": "A Girl Gets What She Wants!",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Crit DMG",
+        "value": "30%"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_A Girl Gets What She Wants! Ignore DEF",
+        "label": "A Girl Gets What She Wants!",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Ignore DEF",
+        "value": "15%"
+      }
+    ]
+  },
+  "Rebecca_A Girl Gets What She Wants! (Intro)": {
+    "name": "A Girl Gets What She Wants! (Intro)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Intro] IF (ANY(@Self.HotHand >= @Self.MaxHotHand, @Self.Sequence >= 3))",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte1",
+        "value": 50
+      }
+    ]
+  },
+  "Rebecca_Tag, You're It!": {
+    "name": "Tag, You're It!",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Rebecca_A Girl Gets What She Wants!], OnCast[Self, @Rebecca(Rat-tat-tat!: Huntress)], OnCast[Self, @Rebecca(Bang-bang-bang!: Guts)])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Tag, You're It! ATK",
+        "label": "Tag, You're It!",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "ATK %",
+        "value": "10%",
+        "maxStacks": 2
+      }
+    ]
+  },
+  "Rebecca_Tag, You're It! (Tune Break Boost)": {
+    "name": "Tag, You're It! (Tune Break Boost)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Hack - Shifting Inflicted]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Tag, You're It! Tune Break Boost",
+        "label": "Tag, You're It!",
+        "target": "@Self",
+        "duration": 30,
+        "stat": "Tune Break Boost",
+        "value": "30"
+      }
+    ]
+  },
+  "Rebecca_Left an Opening!": {
+    "name": "Left an Opening!",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Liberation] IF (@Self.Overload < @Self.MaxOverload)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_Left an Opening! ATK",
+        "label": "Left an Opening!",
+        "target": "@Team",
+        "duration": 30,
+        "stat": "ATK %",
+        "value": "20%"
+      }
+    ]
+  },
+  "Rebecca_Sequence 1: Try Not to Get in the Way!": {
+    "name": "Sequence 1: Try Not to Get in the Way!",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 1)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S1 Mult",
+        "label": "Try Not to Get in the Way!",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "50%",
+        "applyTo": ["@Rebecca(Huntress 1)", "@Rebecca(Huntress 2)", "@Rebecca(Huntress 3)", "@Rebecca(Huntress: Heavy Attack)", "@Rebecca(Huntress: Heavy Attack (Loop))", "@Rebecca(Tactical Dodge: Huntress)", "@Rebecca(Huntress: Dodge Counter)", "@Rebecca(Guts 1)", "@Rebecca(Guts 2)", "@Rebecca(Guts 3)", "@Rebecca(Tactical Dodge: Guts)", "@Rebecca(Guts: Dodge Counter)"]
+      }
+    ]
+  },
+  "Rebecca_Sequence 2: Oh, Hey Choom!": {
+    "name": "Sequence 2: Oh, Hey Choom!",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, Intro], OnCast[Self, Liberation]) IF (@Self.Sequence >= 2 && @Self.Overload < @Self.MaxOverload)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S2 DMG Bonus",
+        "label": "Oh, Hey Choom!",
+        "target": "@Team",
+        "duration": 30,
+        "stat": "DMG Bonus",
+        "value": "20%"
+      }
+    ]
+  },
+  "Rebecca_Sequence 2: Oh, Hey Choom! (Hack - Shifting)": {
+    "name": "Sequence 2: Oh, Hey Choom! (Hack - Shifting)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Hack - Shifting Inflicted] IF (@Self.Sequence >= 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S2 DMG Amp",
+        "label": "Oh, Hey Choom!",
+        "target": "@Self",
+        "duration": 30,
+        "stat": "DMG Amp",
+        "value": "15%"
+      }
+    ]
+  },
+  "Rebecca_Sequence 3: Don't Sweat Your Six!": {
+    "name": "Sequence 3: Don't Sweat Your Six!",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S3 Mult",
+        "label": "Don't Sweat Your Six!",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "60%",
+        "applyTo": ["@Rebecca(BOOM! Fireworks!)"]
+      }
+    ]
+  },
+  "Rebecca_Sequence 3: Don't Sweat Your Six! (Hot Hand)": {
+    "name": "Sequence 3: Don't Sweat Your Six! (Hot Hand)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Intro] IF (@Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": 120
+      }
+    ]
+  },
+  "Rebecca_Sequence 4: Got Ya Covered!": {
+    "name": "Sequence 4: Got Ya Covered!",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Rebecca_A Girl Gets What She Wants!] IF (@Self.Sequence >= 4)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S4 Crit DMG",
+        "label": "Got Ya Covered!",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Crit DMG",
+        "value": "18%"
+      },
+      {
+        "type": "buff",
+        "name": "Rebecca_S4 Ignore DEF",
+        "label": "Got Ya Covered!",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Ignore DEF",
+        "value": "9%"
+      }
+    ]
+  },
+  "Rebecca_Sequence 5: Dreamin' on the Edge": {
+    "name": "Sequence 5: Dreamin' on the Edge",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Hack - Shifting Inflicted] IF (@Self.Sequence >= 5)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rebecca_S5 Basic DMG Bonus",
+        "label": "Dreamin' on the Edge",
+        "target": "@Self",
+        "duration": 8,
+        "stat": "Basic DMG Bonus",
+        "value": "20%"
+      }
+    ]
+  },
+  "Rebecca_Sequence 6: Maybe, Just Maybe... (Rat-tat-tat!)": {
+    "name": "Sequence 6: Maybe, Just Maybe... (Rat-tat-tat!)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Rebecca(Rat-tat-tat!: Huntress)] IF (@Self.Sequence >= 6)",
+    "dmgTypes": ["Electro", "Basic"],
+    "hitMults": ["900%"],
+    "damageTimeframe": {
+      "start": 84,
+      "end": 84
+    }
+  },
+  "Rebecca_Sequence 6: Maybe, Just Maybe... (Bang-bang-bang!)": {
+    "name": "Sequence 6: Maybe, Just Maybe... (Bang-bang-bang!)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Rebecca(Bang-bang-bang!: Guts)] IF (@Self.Sequence >= 6)",
+    "dmgTypes": ["Electro", "Basic"],
+    "hitMults": ["900%"],
+    "damageTimeframe": {
+      "start": 64,
+      "end": 64
+    }
+  },
+  "Rebecca_Sequence 6: Maybe, Just Maybe... (Fervor)": {
+    "name": "Sequence 6: Maybe, Just Maybe... (Fervor)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnStart IF (@Self.Sequence >= 6)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte1",
+        "value": 120
+      }
+    ]
+  }
+}

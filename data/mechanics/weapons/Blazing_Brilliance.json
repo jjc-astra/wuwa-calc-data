@@ -1,0 +1,78 @@
+{
+  "Blazing Brilliance_Crimson Phoenix": {
+    "name": "Crimson Phoenix",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Crimson Phoenix",
+        "stat": "ATK %",
+        "value": "12%/15%/18%/21%/24%",
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Blazing Brilliance_Searing Feather (Skill)": {
+    "name": "Searing Feather (Skill)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Skill]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Searing Feather",
+        "stat": "Skill DMG Bonus",
+        "value": "4%/5%/6%/7%/8%",
+        "stacks": 5,
+        "maxStacks": 14
+      }
+    ]
+  },
+  "Blazing Brilliance_Searing Feather (Hit)": {
+    "name": "Searing Feather (Hit)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnHit[Self]",
+    "cooldown": 0.5,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Searing Feather",
+        "stat": "Skill DMG Bonus",
+        "value": "4%/5%/6%/7%/8%",
+        "maxStacks": 14
+      }
+    ]
+  },
+  "Blazing Brilliance_Searing Feather (Max)": {
+    "name": "Searing Feather (Max)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self], OnHit[Self]) IF (@Self.BuffStacks(Searing Feather) >= 14 && !@Self.HasBuff(Searing Feather Timer))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Searing Feather Timer",
+        "label": "Searing Feather Timer",
+        "duration": 12,
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Blazing Brilliance_Searing Feather (Clear)": {
+    "name": "Searing Feather (Clear)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnBuffExpire[Searing Feather Timer]",
+    "effects": [
+      {
+        "type": "buffAction",
+        "name": "Searing Feather",
+        "action": "remove",
+        "value": "ALL"
+      }
+    ]
+  }
+}

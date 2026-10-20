@@ -62,5 +62,7 @@
   "Phasic Homogenizer": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
   "Static Mist": { "weaponType": "Pistols", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
   "Relativistic Jet": { "weaponType": "Pistols", "rarity": 4, "baseAtk": 462.0, "subStatType": "ATK %", "subStatValue": 18.23 },
-  "Cadenza": { "weaponType": "Pistols", "rarity": 4, "baseAtk": 337.0, "subStatType": "ER %", "subStatValue": 51.84 }
+  "Cadenza": { "weaponType": "Pistols", "rarity": 4, "baseAtk": 337.0, "subStatType": "ER %", "subStatValue": 51.84 },
+  "Unspoken Rue": { "weaponType": "Sword", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },
+  "Blooming Jadehaven": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 }
 }

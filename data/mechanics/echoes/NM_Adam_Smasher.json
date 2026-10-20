@@ -1,0 +1,56 @@
+{
+  "NM Adam Smasher_Attack": {
+    "name": "NM Adam Smasher",
+    "category": "Echo Skill",
+    "castTypes": ["Echo"],
+    "dmgTypes": ["Electro", "Echo"],
+    "hitResources": {
+      "energy": [0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23, 0.23]
+    },
+    "hitMults": [
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%",
+      "17.10%"
+    ],
+    "scalar": "ATK",
+    "input": "Echo",
+    "priority": "@Default.EchoPriority",
+    "actionDuration": 60,
+    "cooldown": 20,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 15,
+      "end": 60
+    }
+  },
+  "NM Adam Smasher_Main Slot": {
+    "name": "NM Adam Smasher_Main Slot",
+    "category": "Echo Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS IF (ANY(@Self.Name == 'Rebecca', @Self.Name == 'Lucy'))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "NM Adam Smasher_Crit Rate",
+        "target": "@Equipper",
+        "stat": "CR Rate",
+        "value": "15%",
+        "duration": "@Default.PermanentDuration",
+        "maxStacks": 1
+      }
+    ]
+  }
+}

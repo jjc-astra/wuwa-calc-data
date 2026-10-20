@@ -1,0 +1,33 @@
+{
+  "Reel of Spliced Memories_2-pc Effect": {
+    "name": "2-pc Effect",
+    "category": "2-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Reel of Spliced Memories 2-pc",
+        "stat": "ATK %",
+        "value": "10%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Reel of Spliced Memories_5-pc Effect": {
+    "name": "5-pc Effect",
+    "category": "5-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Tune Rupture - Shifting], OnBuffAdd[Tune Strain - Shifting])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Reel of Spliced Memories 5-pc",
+        "target": "@Team",
+        "stat": "Tune Break Boost",
+        "value": "20",
+        "duration": 30
+      }
+    ]
+  }
+}

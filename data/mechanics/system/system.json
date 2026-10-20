@@ -220,6 +220,20 @@
         "target": "@Enemy",
         "duration": 30,
         "maxStacks": "1 + @Self.Tracker(Tune Strain Units)"
+      },
+      {
+        "type": "buff",
+        "name": "Hack - Shifting",
+        "label": "Hack - Shifting",
+        "target": "@Enemy",
+        "duration": 25
+      },
+      {
+        "type": "buff",
+        "name": "Hack - Interfered",
+        "label": "Hack - Interfered",
+        "target": "@Enemy",
+        "duration": 8
       }
     ]
   },
@@ -261,6 +275,27 @@
         "type": "buffAction",
         "action": "remove",
         "name": "Tune Strain - Shifting",
+        "target": "@Enemy",
+        "value": "ALL"
+      }
+    ]
+  },
+  "System_Hack_Interfered": {
+    "name": "Hack - Interfered",
+    "isPassive": true,
+    "triggerRule": "OnHit[TuneBreak] IF (@Enemy.HasBuff(Hack - Shifting))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hack - Interfered",
+        "label": "Hack - Interfered",
+        "target": "@Enemy",
+        "duration": 8
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hack - Shifting",
         "target": "@Enemy",
         "value": "ALL"
       }

@@ -489,5 +489,28 @@
       "mainStats": { "cost4": "CR Rate", "cost3": ["Aero DMG", "Aero DMG"], "cost1": ["ATK %", "ATK %"] },
       "subStats": { "CR Rate": 5, "CR DMG": 5, "ER %": 4, "ATK %": 3, "Skill DMG": 2 }
     }
+  },
+  "Rebecca": {
+    "Main DPS": {
+      "weapon": "Skull Thrasher",
+      "echoLayout": "4 3 3 1 1",
+      "mainSet": "Shadow of Shattered Dreams",
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories",
+      "mainEcho": "NM Adam Smasher",
+      "mainStats": {
+        "cost4": "CR Rate",
+        "cost3": ["Electro DMG", "Electro DMG"],
+        "cost1": ["ATK %", "ATK %"]
+      },
+      "subStats": {
+        "CR Rate": 5,
+        "CR DMG": 5,
+        "ATK %": 2,
+        "ATK": 2,
+        "Basic DMG": 2,
+        "ER %": 1
+      }
+    }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "Skull Thrasher_Wakeful Loner (ATK)": {
+    "name": "Wakeful Loner (ATK)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Wakeful Loner ATK",
+        "target": "@Equipper",
+        "stat": "ATK %",
+        "value": "12%/15%/18%/21%/24%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Skull Thrasher_Wakeful Loner (Intro)": {
+    "name": "Wakeful Loner (Intro)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Intro]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Wakeful Loner Intro Basic DMG",
+        "target": "@Equipper",
+        "stat": "Basic DMG Bonus",
+        "value": "24%/30%/36%/42%/48%",
+        "duration": 14
+      }
+    ]
+  },
+  "Skull Thrasher_Wakeful Loner (Hack - Shifting)": {
+    "name": "Wakeful Loner (Hack - Shifting)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Hack - Shifting Inflicted]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Wakeful Loner Hack Basic DMG",
+        "target": "@Equipper",
+        "stat": "Basic DMG Bonus",
+        "value": "12%/15%/18%/21%/24%",
+        "duration": 14
+      },
+      {
+        "type": "buff",
+        "name": "Wakeful Loner Team ATK",
+        "target": "@Team",
+        "stat": "ATK %",
+        "value": "24%/30%/36%/42%/48%",
+        "duration": 30
+      }
+    ]
+  }
+}

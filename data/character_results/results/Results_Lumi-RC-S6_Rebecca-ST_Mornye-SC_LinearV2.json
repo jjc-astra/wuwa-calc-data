@@ -1,0 +1,904 @@
+{
+  "format": 2,
+  "hash": "97b000e50da6ff77",
+  "build": "default",
+  "rotationType": "linear",
+  "author": "Astrais",
+  "team": [
+    {
+      "index": 0,
+      "character": "Lumi",
+      "sequence": 6,
+      "mode": "None",
+      "weapon": "Radiance Cleaver",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Void Thunder",
+      "subSet": "",
+      "mainEcho": "NM Thundering Mephis",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      }
+    },
+    {
+      "index": 1,
+      "character": "Rebecca",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Skull Thrasher",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Shadow of Shattered Dreams",
+      "subSet": "",
+      "mainEcho": "NM Adam Smasher",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories"
+    },
+    {
+      "index": 2,
+      "character": "Mornye",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Starfield Calibrator",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Halo of Starry Radiance",
+      "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
+      "mainEcho": "Reactor Husk",
+      "echoes": [
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "Fusion DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 0,
+        "flatDef": 0,
+        "percentDef": 141.9,
+        "critRate": 15,
+        "critDamage": 75,
+        "energyRegen": 68.8,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 30,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      }
+    }
+  ],
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "results": {
+    "dpsStats": {
+      "openerDps": 39440.67256637168,
+      "firstLoopDps": 54279.24133420536,
+      "avgLoopDps": 50023.00850228908,
+      "twoMinDps": 48618.958333333336
+    },
+    "contribution": {
+      "opener": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 462143
+          },
+          {
+            "label": "Rebecca",
+            "dmg": 537228
+          },
+          {
+            "label": "Mornye",
+            "dmg": 52140
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Echo",
+              "dmg": 14178
+            },
+            {
+              "castType": "Intro",
+              "dmg": 8490
+            },
+            {
+              "castType": "Basic",
+              "dmg": 340727
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 98748
+            }
+          ],
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 20331
+            },
+            {
+              "castType": "Echo",
+              "dmg": 20560
+            },
+            {
+              "castType": "Basic",
+              "dmg": 316072
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 37403
+            },
+            {
+              "castType": "Outro",
+              "dmg": 13472
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 129390
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 3762
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 3024
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 44082
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1272
+            }
+          ]
+        },
+        "fieldTime": {
+          "Lumi": 13.416666666666666,
+          "Mornye": 6.916666666666667,
+          "Rebecca": 7.916666666666667
+        },
+        "duration": 28.25
+      },
+      "firstLoop": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 499049
+          },
+          {
+            "label": "Rebecca",
+            "dmg": 664879
+          },
+          {
+            "label": "Mornye",
+            "dmg": 68837
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 150451
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Basic",
+              "dmg": 361328
+            },
+            {
+              "castType": "Echo",
+              "dmg": 30483
+            },
+            {
+              "castType": "Intro",
+              "dmg": 8490
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 98748
+            }
+          ],
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 17324
+            },
+            {
+              "castType": "Echo",
+              "dmg": 23360
+            },
+            {
+              "castType": "Basic",
+              "dmg": 310224
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 258780
+            },
+            {
+              "castType": "Skill",
+              "dmg": 20212
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 21517
+            },
+            {
+              "castType": "Outro",
+              "dmg": 13462
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 2775
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 56105
+            },
+            {
+              "castType": "Basic",
+              "dmg": 3584
+            },
+            {
+              "castType": "Skill",
+              "dmg": 2836
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 3537
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.233333333333333,
+          "Rebecca": 6.983333333333333,
+          "Lumi": 13.266666666666667
+        },
+        "duration": 25.483333333333334
+      },
+      "avgLoop": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 499100.5
+          },
+          {
+            "label": "Rebecca",
+            "dmg": 600246
+          },
+          {
+            "label": "Mornye",
+            "dmg": 68837
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 106569.5
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Basic",
+              "dmg": 361235
+            },
+            {
+              "castType": "Echo",
+              "dmg": 30483
+            },
+            {
+              "castType": "Intro",
+              "dmg": 8634.5
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 98748
+            }
+          ],
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 17324
+            },
+            {
+              "castType": "Echo",
+              "dmg": 23360
+            },
+            {
+              "castType": "Basic",
+              "dmg": 310224
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 194085
+            },
+            {
+              "castType": "Skill",
+              "dmg": 20212
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 21517
+            },
+            {
+              "castType": "Outro",
+              "dmg": 13524
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 2775
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 56105
+            },
+            {
+              "castType": "Basic",
+              "dmg": 3584
+            },
+            {
+              "castType": "Skill",
+              "dmg": 2836
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 3537
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.233333333333333,
+          "Rebecca": 6.983333333333333,
+          "Lumi": 13.266666666666666
+        },
+        "duration": 25.483333333333334
+      },
+      "twoMin": {
+        "team": [
+          {
+            "label": "Lumi",
+            "dmg": 2089652
+          },
+          {
+            "label": "Rebecca",
+            "dmg": 2928169
+          },
+          {
+            "label": "Mornye",
+            "dmg": 327488
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 488966
+          }
+        ],
+        "units": {
+          "Lumi": [
+            {
+              "castType": "Echo",
+              "dmg": 136110
+            },
+            {
+              "castType": "Intro",
+              "dmg": 43028
+            },
+            {
+              "castType": "Basic",
+              "dmg": 1515522
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 394992
+            }
+          ],
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 89627
+            },
+            {
+              "castType": "Echo",
+              "dmg": 114000
+            },
+            {
+              "castType": "Basic",
+              "dmg": 1556968
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 123471
+            },
+            {
+              "castType": "Outro",
+              "dmg": 57525
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 905730
+            },
+            {
+              "castType": "Skill",
+              "dmg": 80848
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 18098
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 17172
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 268502
+            },
+            {
+              "castType": "Skill",
+              "dmg": 12616
+            },
+            {
+              "castType": "Intro",
+              "dmg": 11100
+            }
+          ]
+        },
+        "fieldTime": {
+          "Lumi": 56.3,
+          "Mornye": 27.85,
+          "Rebecca": 35.85
+        },
+        "duration": 120
+      }
+    },
+    "issues": {
+      "errors": [],
+      "warnings": [
+        "Guts 2: Combo requirement not met for Guts 2."
+      ]
+    }
+  }
+}

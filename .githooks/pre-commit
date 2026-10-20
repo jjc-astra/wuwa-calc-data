@@ -1,0 +1,7 @@
+#!/bin/sh
+# Regenerates the rankings index and manifest into the commit, so CI has nothing to add (no pull after pushing).
+# Enable once per clone: git config core.hooksPath .githooks
+git diff --cached --quiet -- data images && exit 0
+node scripts/generate-rankings-index.mjs >/dev/null || exit 1
+node scripts/generate-manifest.mjs >/dev/null || exit 1
+git add data/character_results/index.json data/manifest.json
