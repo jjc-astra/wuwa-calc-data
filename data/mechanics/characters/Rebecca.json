@@ -3,7 +3,7 @@
     "name": "Huntress 1",
     "category": "Basic Attack",
     "isSwapInDefault": true,
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Move.IsNextInCombo)",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && ANY(@Move.IsNextInCombo, @Self.PrevAction == @Rebecca(Tactical Dodge: Huntress) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 0))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -310,7 +310,7 @@
     "name": "Guts 1",
     "category": "Basic Attack",
     "isSwapInDefault": true,
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Move.IsNextInCombo)",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && ANY(@Move.IsNextInCombo, @Self.PrevAction == @Rebecca(Tactical Dodge: Guts) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 0))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
