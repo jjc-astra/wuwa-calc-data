@@ -503,17 +503,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 39048.11287477954,
-      "firstLoopDps": 53089.94328922495,
-      "avgLoopDps": 49387.578746420615,
-      "twoMinDps": 46263.63333333333
+      "openerDps": 38926.3492063492,
+      "firstLoopDps": 52959.432892249526,
+      "avgLoopDps": 49255.78110085905,
+      "twoMinDps": 46143.566666666666
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 462143
+            "dmg": 458691
           },
           {
             "label": "Rebecca",
@@ -536,11 +536,11 @@
             },
             {
               "castType": "Intro",
-              "dmg": 8490
+              "dmg": 7290
             },
             {
               "castType": "Basic",
-              "dmg": 340727
+              "dmg": 338475
             },
             {
               "castType": "Liberation",
@@ -603,7 +603,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 499049
+            "dmg": 495597
           },
           {
             "label": "Rebecca",
@@ -622,7 +622,7 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 361328
+              "dmg": 359076
             },
             {
               "castType": "Echo",
@@ -630,7 +630,7 @@
             },
             {
               "castType": "Intro",
-              "dmg": 8490
+              "dmg": 7290
             },
             {
               "castType": "Liberation",
@@ -697,7 +697,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 498956
+            "dmg": 495504
           },
           {
             "label": "Rebecca",
@@ -716,7 +716,7 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 361235
+              "dmg": 358983
             },
             {
               "castType": "Echo",
@@ -724,7 +724,7 @@
             },
             {
               "castType": "Intro",
-              "dmg": 8490
+              "dmg": 7290
             },
             {
               "castType": "Liberation",
@@ -791,7 +791,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2014247
+            "dmg": 1999839
           },
           {
             "label": "Rebecca",
@@ -814,11 +814,11 @@
             },
             {
               "castType": "Intro",
-              "dmg": 38205
+              "dmg": 32805
             },
             {
               "castType": "Basic",
-              "dmg": 1444940
+              "dmg": 1435932
             },
             {
               "castType": "Liberation",

@@ -503,17 +503,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 42589.87060998152,
-      "firstLoopDps": 55971.72951885566,
-      "avgLoopDps": 52491.83431952663,
-      "twoMinDps": 51782.225
+      "openerDps": 42421.885397412196,
+      "firstLoopDps": 55782.40572171652,
+      "avgLoopDps": 52300.39447731755,
+      "twoMinDps": 51582.59166666667
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 444619
+            "dmg": 440075
           },
           {
             "label": "Rebecca",
@@ -536,7 +536,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 79975
+              "dmg": 75431
             },
             {
               "castType": "Heavy",
@@ -615,7 +615,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 490443
+            "dmg": 485590
           },
           {
             "label": "Rebecca",
@@ -642,7 +642,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 85417
+              "dmg": 80564
             },
             {
               "castType": "Heavy",
@@ -721,7 +721,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 490443
+            "dmg": 485590
           },
           {
             "label": "Rebecca",
@@ -748,7 +748,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 85417
+              "dmg": 80564
             },
             {
               "castType": "Heavy",
@@ -827,7 +827,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2154058
+            "dmg": 2130102
           },
           {
             "label": "Rebecca",
@@ -850,7 +850,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 421643
+              "dmg": 397687
             },
             {
               "castType": "Heavy",
