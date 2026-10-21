@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "6dfa572775ca3143",
+  "hash": "74d944f28477ad37",
   "rotation": [
     {
       "unit": "Lumi",
@@ -435,11 +435,6 @@
     },
     {
       "unit": "Mornye",
-      "action": "Mornye_Distributed Array",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
       "action": "Mornye_Wide Field Observation 1",
       "timing": "Auto"
     },
@@ -451,6 +446,11 @@
     {
       "unit": "Mornye",
       "action": "Mornye_Wide Field Observation 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Mornye",
+      "action": "Mornye_Distributed Array",
       "timing": "Auto"
     },
     {
@@ -661,8 +661,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -686,8 +686,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -707,8 +707,8 @@
               "value": 15
             },
             {
-              "name": "N/A",
-              "value": ""
+              "name": "ER %",
+              "value": 9.2
             },
             {
               "name": "N/A",
@@ -774,13 +774,13 @@
       "echoStats": {
         "flatHP": 4560,
         "percentHP": 0,
-        "flatAtk": 350,
+        "flatAtk": 430,
         "percentAtk": 53.2,
         "flatDef": 0,
         "percentDef": 0,
         "critRate": 59.5,
         "critDamage": 75,
-        "energyRegen": 18.4,
+        "energyRegen": 9.2,
         "healingBonus": 0,
         "skillDmgBonus": 0,
         "basicDmgBonus": 17.2,
@@ -823,8 +823,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -848,8 +848,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -869,8 +869,8 @@
               "value": 15
             },
             {
-              "name": "N/A",
-              "value": ""
+              "name": "ER %",
+              "value": 9.2
             },
             {
               "name": "N/A",
@@ -936,13 +936,13 @@
       "echoStats": {
         "flatHP": 4560,
         "percentHP": 0,
-        "flatAtk": 350,
+        "flatAtk": 430,
         "percentAtk": 53.2,
         "flatDef": 0,
         "percentDef": 0,
         "critRate": 59.5,
         "critDamage": 75,
-        "energyRegen": 18.4,
+        "energyRegen": 9.2,
         "healingBonus": 0,
         "skillDmgBonus": 0,
         "basicDmgBonus": 17.2,
@@ -969,8 +969,6 @@
       "layout": "4 3 3 1 1",
       "mainSet": "Halo of Starry Radiance",
       "subSet": "",
-      "subSet2a": "",
-      "subSet2b": "",
       "mainEcho": "Reactor Husk",
       "echoes": [
         {
@@ -1121,7 +1119,9 @@
         "electroDmgBonus": 0,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      }
+      },
+      "subSet2a": "",
+      "subSet2b": ""
     }
   ],
   "settings": {

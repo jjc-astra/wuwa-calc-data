@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "6dfa572775ca3143",
+  "hash": "74d944f28477ad37",
   "build": "default",
   "rotationType": "quickswap",
   "author": "Astrais",
@@ -341,8 +341,6 @@
       "layout": "4 3 3 1 1",
       "mainSet": "Halo of Starry Radiance",
       "subSet": "",
-      "subSet2a": "",
-      "subSet2b": "",
       "mainEcho": "Reactor Husk",
       "echoes": [
         {
@@ -493,7 +491,9 @@
         "electroDmgBonus": 0,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      }
+      },
+      "subSet2a": "",
+      "subSet2b": ""
     }
   ],
   "enemy": {
@@ -504,9 +504,9 @@
   "results": {
     "dpsStats": {
       "openerDps": 42719.62523422861,
-      "firstLoopDps": 55320,
-      "avgLoopDps": 51846.149312377216,
-      "twoMinDps": 51284.24166666667
+      "firstLoopDps": 56121.87910643889,
+      "avgLoopDps": 52601.59468438538,
+      "twoMinDps": 51654.23333333333
     },
     "contribution": {
       "opener": {
@@ -619,7 +619,7 @@
           },
           {
             "label": "Rebecca",
-            "dmg": 718687
+            "dmg": 718744
           },
           {
             "label": "Mornye",
@@ -684,7 +684,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 9959
+              "dmg": 10016
             }
           ],
           "Mornye": [
@@ -712,10 +712,10 @@
         },
         "fieldTime": {
           "Mornye": 5.533333333333333,
-          "Rebecca": 6.116666666666666,
+          "Rebecca": 5.75,
           "Lumi": 14.083333333333334
         },
-        "duration": 25.733333333333334
+        "duration": 25.366666666666667
       },
       "avgLoop": {
         "team": [
@@ -725,11 +725,11 @@
           },
           {
             "label": "Rebecca",
-            "dmg": 649153.5
+            "dmg": 649159.5
           },
           {
             "label": "Mornye",
-            "dmg": 68313
+            "dmg": 68245.83333333333
           },
           {
             "label": "TuneBreak",
@@ -790,7 +790,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 10032.5
+              "dmg": 10038.5
             }
           ],
           "Mornye": [
@@ -804,11 +804,11 @@
             },
             {
               "castType": "Basic",
-              "dmg": 3415
+              "dmg": 3505.1666666666665
             },
             {
               "castType": "Skill",
-              "dmg": 2777
+              "dmg": 2619.6666666666665
             },
             {
               "castType": "Heavy",
@@ -817,25 +817,25 @@
           ]
         },
         "fieldTime": {
-          "Mornye": 5.616666666666667,
-          "Rebecca": 5.75,
+          "Mornye": 5.283333333333333,
+          "Rebecca": 5.716666666666666,
           "Lumi": 14.083333333333334
         },
-        "duration": 25.45
+        "duration": 25.083333333333332
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2097246
+            "dmg": 2140338
           },
           {
             "label": "Rebecca",
-            "dmg": 3154744
+            "dmg": 3156264
           },
           {
             "label": "Mornye",
-            "dmg": 325392
+            "dmg": 325179
           },
           {
             "label": "TuneBreak",
@@ -862,7 +862,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 1377661
+              "dmg": 1420753
             },
             {
               "castType": "Intro",
@@ -896,13 +896,13 @@
             },
             {
               "castType": "Outro",
-              "dmg": 41444
+              "dmg": 42964
             }
           ],
           "Mornye": [
             {
               "castType": "Basic",
-              "dmg": 17422
+              "dmg": 17799
             },
             {
               "castType": "Heavy",
@@ -914,7 +914,7 @@
             },
             {
               "castType": "Skill",
-              "dmg": 12380
+              "dmg": 11790
             },
             {
               "castType": "Intro",
@@ -923,9 +923,9 @@
           ]
         },
         "fieldTime": {
-          "Lumi": 62.083333333333336,
-          "Mornye": 29.533333333333335,
-          "Rebecca": 28.383333333333333
+          "Lumi": 63.45,
+          "Mornye": 28.3,
+          "Rebecca": 28.25
         },
         "duration": 120
       }
