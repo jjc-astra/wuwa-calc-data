@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "74d944f28477ad37",
+  "hash": "d28974ff82142e60",
   "rotation": [
     {
       "unit": "Lumi",
@@ -148,11 +148,6 @@
       "timing": "Auto"
     },
     {
-      "unit": "Lumi",
-      "action": "Lumi_Red Light: Basic Attack 1",
-      "timing": "Auto"
-    },
-    {
       "unit": "Rebecca",
       "action": "Rebecca_Party 'til Dawn!",
       "timing": "Auto"
@@ -175,6 +170,11 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Energized Pounce",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Lumi",
+      "action": "Lumi_Red Spotlight: Heavy Attack",
       "timing": "Auto"
     },
     {
@@ -346,14 +346,9 @@
       "timing": "Auto"
     },
     {
-      "unit": "Lumi",
-      "action": "Lumi_Red Light: Basic Attack 1",
-      "timing": "Auto"
-    },
-    {
       "unit": "Rebecca",
       "action": "Rebecca_Huntress 1",
-      "timing": "Cancel_0"
+      "timing": "Auto"
     },
     {
       "unit": "Rebecca",
@@ -383,6 +378,11 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Energized Pounce",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Lumi",
+      "action": "Lumi_Red Spotlight: Heavy Attack",
       "timing": "Auto"
     },
     {
@@ -554,11 +554,6 @@
       "timing": "Auto"
     },
     {
-      "unit": "Lumi",
-      "action": "Lumi_Red Light: Basic Attack 1",
-      "timing": "Auto"
-    },
-    {
       "unit": "Rebecca",
       "action": "Rebecca_Party 'til Dawn!",
       "timing": "Auto"
@@ -581,6 +576,11 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Energized Pounce",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Lumi",
+      "action": "Lumi_Red Spotlight: Heavy Attack",
       "timing": "Auto"
     },
     {
@@ -969,6 +969,8 @@
       "layout": "4 3 3 1 1",
       "mainSet": "Halo of Starry Radiance",
       "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
       "mainEcho": "Reactor Husk",
       "echoes": [
         {
@@ -1119,9 +1121,7 @@
         "electroDmgBonus": 0,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      },
-      "subSet2a": "",
-      "subSet2b": ""
+      }
     }
   ],
   "settings": {

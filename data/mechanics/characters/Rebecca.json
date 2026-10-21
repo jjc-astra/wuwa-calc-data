@@ -32,7 +32,7 @@
   "Rebecca_Huntress 2": {
     "name": "Huntress 2",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Self.PrevAction == @Rebecca(Huntress 1))",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && ANY(@Self.PrevAction == @Rebecca(Huntress 1), @Self.PrevAction == @Rebecca(Tactical Dodge: Huntress) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 1))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -62,7 +62,7 @@
   "Rebecca_Huntress 3": {
     "name": "Huntress 3",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && @Self.PrevAction == @Rebecca(Huntress 2))",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Huntress Mode)) && ANY(@Self.PrevAction == @Rebecca(Huntress 2), @Self.PrevAction == @Rebecca(Tactical Dodge: Huntress) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 2))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -167,6 +167,14 @@
     "cancelTimings": [
       {
         "time": 30
+      }
+    ],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Rebecca_Interrupted Combo Step",
+        "action": "set",
+        "value": "(@Self.PrevAction == @Rebecca(Huntress 1)) ? 1 : ((@Self.PrevAction == @Rebecca(Huntress 2)) ? 2 : 0)"
       }
     ],
     "hitMults": ["16.90%", "16.90%", "16.90%", "16.90%", "16.90%"],
@@ -328,7 +336,7 @@
   "Rebecca_Guts 2": {
     "name": "Guts 2",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Self.PrevAction == @Rebecca(Guts 1))",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && ANY(@Self.PrevAction == @Rebecca(Guts 1), @Self.PrevAction == @Rebecca(Tactical Dodge: Guts) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 1))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -357,7 +365,7 @@
   "Rebecca_Guts 3": {
     "name": "Guts 3",
     "category": "Basic Attack",
-    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && @Self.PrevAction == @Rebecca(Guts 2))",
+    "triggerRule": "IF (@Self.HasBuff(@Rebecca(Guts Mode)) && ANY(@Self.PrevAction == @Rebecca(Guts 2), @Self.PrevAction == @Rebecca(Tactical Dodge: Guts) && @Self.Tracker(@Rebecca(Interrupted Combo Step)) == 2))",
     "castTypes": ["Basic"],
     "dmgTypes": ["Electro", "Basic"],
     "hitResources": {
@@ -463,6 +471,14 @@
     "cancelTimings": [
       {
         "time": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Rebecca_Interrupted Combo Step",
+        "action": "set",
+        "value": "(@Self.PrevAction == @Rebecca(Guts 1)) ? 1 : ((@Self.PrevAction == @Rebecca(Guts 2)) ? 2 : 0)"
       }
     ],
     "hitMults": ["101.40%"],
