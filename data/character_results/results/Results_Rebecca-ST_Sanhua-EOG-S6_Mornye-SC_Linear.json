@@ -1,0 +1,908 @@
+{
+  "format": 2,
+  "hash": "41748c5b95429c1b",
+  "build": "default",
+  "rotationType": "linear",
+  "author": "Astrais",
+  "team": [
+    {
+      "index": 0,
+      "character": "Rebecca",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Skull Thrasher",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Shadow of Shattered Dreams",
+      "subSet": "",
+      "mainEcho": "NM Adam Smasher",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories"
+    },
+    {
+      "index": 1,
+      "character": "Sanhua",
+      "sequence": 6,
+      "mode": "None",
+      "weapon": "Emerald of Genesis",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Moonlit Clouds",
+      "subSet": "",
+      "mainEcho": "Impermanence Heron",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 17.2,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 60,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "",
+      "subSet2b": ""
+    },
+    {
+      "index": 2,
+      "character": "Mornye",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Starfield Calibrator",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Halo of Starry Radiance",
+      "subSet": "",
+      "mainEcho": "Reactor Husk",
+      "echoes": [
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "Fusion DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "DEF %",
+          "substats": [
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "DEF %",
+              "value": 10.9
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 350,
+        "percentAtk": 0,
+        "flatDef": 0,
+        "percentDef": 141.9,
+        "critRate": 15,
+        "critDamage": 75,
+        "energyRegen": 68.8,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 30,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "",
+      "subSet2b": ""
+    }
+  ],
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "results": {
+    "dpsStats": {
+      "openerDps": 45340.73981191223,
+      "firstLoopDps": 51388.08,
+      "avgLoopDps": 51388.08,
+      "twoMinDps": 51324.74166666667
+    },
+    "contribution": {
+      "opener": {
+        "team": [
+          {
+            "label": "Rebecca",
+            "dmg": 943848
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 121557
+          },
+          {
+            "label": "Mornye",
+            "dmg": 52140
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 87763
+          }
+        ],
+        "units": {
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 24920
+            },
+            {
+              "castType": "Echo",
+              "dmg": 25216
+            },
+            {
+              "castType": "Basic",
+              "dmg": 742038
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 22284
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 129390
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Intro",
+              "dmg": 6052
+            },
+            {
+              "castType": "Skill",
+              "dmg": 17863
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 39598
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 48696
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9348
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 3762
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 3024
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 44082
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1272
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 7.066666666666666,
+          "Sanhua": 2.5833333333333335,
+          "Rebecca": 16.933333333333334
+        },
+        "duration": 26.583333333333332
+      },
+      "firstLoop": {
+        "team": [
+          {
+            "label": "Rebecca",
+            "dmg": 979530
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 140026
+          },
+          {
+            "label": "Mornye",
+            "dmg": 77383
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 87763
+          }
+        ],
+        "units": {
+          "Rebecca": [
+            {
+              "castType": "Skill",
+              "dmg": 19220
+            },
+            {
+              "castType": "Outro",
+              "dmg": 2746
+            },
+            {
+              "castType": "Intro",
+              "dmg": 27140
+            },
+            {
+              "castType": "Echo",
+              "dmg": 27456
+            },
+            {
+              "castType": "Basic",
+              "dmg": 773578
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 129390
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Intro",
+              "dmg": 7066
+            },
+            {
+              "castType": "Skill",
+              "dmg": 20797
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 46100
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 56118
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9945
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 3400
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 63070
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4165
+            },
+            {
+              "castType": "Skill",
+              "dmg": 2460
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 4288
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.483333333333333,
+          "Sanhua": 2.5833333333333335,
+          "Rebecca": 16.933333333333334
+        },
+        "duration": 25
+      },
+      "avgLoop": {
+        "team": [
+          {
+            "label": "Rebecca",
+            "dmg": 979530
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 140026
+          },
+          {
+            "label": "Mornye",
+            "dmg": 77383
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 87763
+          }
+        ],
+        "units": {
+          "Rebecca": [
+            {
+              "castType": "Skill",
+              "dmg": 19220
+            },
+            {
+              "castType": "Outro",
+              "dmg": 2746
+            },
+            {
+              "castType": "Intro",
+              "dmg": 27140
+            },
+            {
+              "castType": "Echo",
+              "dmg": 27456
+            },
+            {
+              "castType": "Basic",
+              "dmg": 773578
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 129390
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Intro",
+              "dmg": 7066
+            },
+            {
+              "castType": "Skill",
+              "dmg": 20797
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 46100
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 56118
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9945
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Intro",
+              "dmg": 3400
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 63070
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4165
+            },
+            {
+              "castType": "Skill",
+              "dmg": 2460
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 4288
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 5.483333333333333,
+          "Sanhua": 2.5833333333333335,
+          "Rebecca": 16.933333333333334
+        },
+        "duration": 25
+      },
+      "twoMin": {
+        "team": [
+          {
+            "label": "Rebecca",
+            "dmg": 4676821
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 681661
+          },
+          {
+            "label": "Mornye",
+            "dmg": 361672
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 438815
+          }
+        ],
+        "units": {
+          "Rebecca": [
+            {
+              "castType": "Intro",
+              "dmg": 133480
+            },
+            {
+              "castType": "Echo",
+              "dmg": 135040
+            },
+            {
+              "castType": "Basic",
+              "dmg": 3651203
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 22284
+            },
+            {
+              "castType": "TuneHack",
+              "dmg": 646950
+            },
+            {
+              "castType": "Skill",
+              "dmg": 76880
+            },
+            {
+              "castType": "Outro",
+              "dmg": 10984
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Intro",
+              "dmg": 34316
+            },
+            {
+              "castType": "Skill",
+              "dmg": 101051
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 223998
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 273168
+            },
+            {
+              "castType": "Echo",
+              "dmg": 49128
+            }
+          ],
+          "Mornye": [
+            {
+              "castType": "Basic",
+              "dmg": 20422
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 20176
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 296362
+            },
+            {
+              "castType": "Skill",
+              "dmg": 11112
+            },
+            {
+              "castType": "Intro",
+              "dmg": 13600
+            }
+          ]
+        },
+        "fieldTime": {
+          "Mornye": 29,
+          "Sanhua": 12.916666666666666,
+          "Rebecca": 78.08333333333333
+        },
+        "duration": 120
+      }
+    },
+    "issues": {
+      "errors": [],
+      "warnings": []
+    }
+  }
+}
