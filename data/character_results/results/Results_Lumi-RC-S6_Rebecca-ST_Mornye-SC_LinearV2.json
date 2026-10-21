@@ -504,9 +504,9 @@
   "results": {
     "dpsStats": {
       "openerDps": 39318.4778761062,
-      "firstLoopDps": 54143.78024852845,
-      "avgLoopDps": 49886.74296926095,
-      "twoMinDps": 48474.441666666666
+      "firstLoopDps": 55130.01331557922,
+      "avgLoopDps": 50791.13848202397,
+      "twoMinDps": 48801.50833333333
     },
     "contribution": {
       "opener": {
@@ -603,11 +603,11 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 495597
+            "dmg": 495845
           },
           {
             "label": "Rebecca",
-            "dmg": 664879
+            "dmg": 664955
           },
           {
             "label": "Mornye",
@@ -630,7 +630,7 @@
             },
             {
               "castType": "Intro",
-              "dmg": 7290
+              "dmg": 7538
             },
             {
               "castType": "Liberation",
@@ -664,7 +664,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 13462
+              "dmg": 13538
             }
           ],
           "Mornye": [
@@ -692,20 +692,20 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Rebecca": 6.983333333333333,
+          "Rebecca": 6.533333333333333,
           "Lumi": 13.266666666666667
         },
-        "duration": 25.483333333333334
+        "duration": 25.033333333333335
       },
       "avgLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 495628
+            "dmg": 495752
           },
           {
             "label": "Rebecca",
-            "dmg": 600246
+            "dmg": 600313
           },
           {
             "label": "Mornye",
@@ -728,7 +728,7 @@
             },
             {
               "castType": "Intro",
-              "dmg": 7414
+              "dmg": 7538
             },
             {
               "castType": "Liberation",
@@ -762,7 +762,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 13524
+              "dmg": 13591
             }
           ],
           "Mornye": [
@@ -790,20 +790,20 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Rebecca": 6.983333333333333,
+          "Rebecca": 6.533333333333334,
           "Lumi": 13.266666666666666
         },
-        "duration": 25.483333333333334
+        "duration": 25.03333333333333
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2072310
+            "dmg": 2109461
           },
           {
             "label": "Rebecca",
-            "dmg": 2928169
+            "dmg": 2930266
           },
           {
             "label": "Mornye",
@@ -822,11 +822,11 @@
             },
             {
               "castType": "Intro",
-              "dmg": 36946
+              "dmg": 37442
             },
             {
               "castType": "Basic",
-              "dmg": 1504262
+              "dmg": 1540917
             },
             {
               "castType": "Liberation",
@@ -852,7 +852,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 57525
+              "dmg": 59622
             },
             {
               "castType": "TuneHack",
@@ -887,9 +887,9 @@
           ]
         },
         "fieldTime": {
-          "Lumi": 56.3,
+          "Lumi": 58.1,
           "Mornye": 27.85,
-          "Rebecca": 35.85
+          "Rebecca": 34.05
         },
         "duration": 120
       }
