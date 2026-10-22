@@ -10,14 +10,23 @@
       "concerto": [2],
       "tune": [0.28]
     },
+    "cancelTimings": [
+      {
+        "time": 13
+      }
+    ],
     "hitMults": ["48.71%"],
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 28,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 23,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 13,
+      "end": 13
+    }
   },
   "Sanhua_Basic Attack 2": {
     "name": "Basic Attack 2",
@@ -31,14 +40,23 @@
       "concerto": [4],
       "tune": [0.424]
     },
+    "cancelTimings": [
+      {
+        "time": 24
+      }
+    ],
     "hitMults": ["73.76%"],
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority + 1",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 30,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 33,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 24,
+      "end": 24
+    }
   },
   "Sanhua_Basic Attack 3": {
     "name": "Basic Attack 3",
@@ -57,8 +75,12 @@
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority + 2",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 30,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 36,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 36
+    }
   },
   "Sanhua_Basic Attack 4": {
     "name": "Basic Attack 4",
@@ -71,14 +93,23 @@
       "concerto": [4, 4],
       "tune": [0.228, 0.228]
     },
+    "cancelTimings": [
+      {
+        "time": 24
+      }
+    ],
     "hitMults": ["39.67%", "39.67%"],
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority + 3",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 33,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 36,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 24
+    }
   },
   "Sanhua_Basic Attack 5": {
     "name": "Basic Attack 5",
@@ -91,14 +122,23 @@
       "concerto": [10],
       "tune": [1.344]
     },
+    "cancelTimings": [
+      {
+        "time": 32
+      }
+    ],
     "hitMults": ["233.81%"],
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
     "priority": "@Default.BasicPriority + 4",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 54,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 109,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 32,
+      "end": 32
+    }
   },
   "Sanhua_Heavy Attack": {
     "name": "Heavy Attack",
@@ -110,6 +150,11 @@
       "concerto": [1.6, 1.6, 1.6, 1.6, 1.6],
       "tune": [0.16, 0.16, 0.16, 0.16, 0.16]
     },
+    "cancelTimings": [
+      {
+        "time": 36
+      }
+    ],
     "hitMults": ["22.27%", "22.27%", "22.27%", "22.27%", "22.27%"],
     "scalar": "ATK",
     "input": "Basic",
@@ -117,8 +162,13 @@
     "stanceReq": "Grounded",
     "priority": "@Default.HeavyPriority",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 48,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 50,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 10,
+      "end": 36
+    },
+    "hitFrames": [14, 18, 22]
   },
   "Sanhua_Mid-air Attack": {
     "name": "Mid-air Attack",
@@ -130,6 +180,11 @@
       "concerto": [1],
       "tune": [0.952]
     },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
     "hitMults": ["86.29%"],
     "scalar": "ATK",
     "input": "Basic",
@@ -137,8 +192,12 @@
     "stanceResult": "Grounded",
     "priority": "@Default.BasicPriority",
     "comboWindow": "@Default.ComboWindow",
-    "actionDuration": 30,
-    "swapTiming": "@Default.SwapTime"
+    "actionDuration": 60,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 34,
+      "end": 34
+    }
   },
   "Sanhua_Resonance Skill": {
     "name": "Resonance Skill",
@@ -152,6 +211,11 @@
       "energy": [10],
       "tune": [0.8]
     },
+    "cancelTimings": [
+      {
+        "time": 18
+      }
+    ],
     "effects": [
       {
         "type": "buff",
@@ -177,7 +241,11 @@
     "priority": "@Default.SkillPriority",
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 60,
-    "cooldown": 10
+    "cooldown": 10,
+    "damageTimeframe": {
+      "start": 18,
+      "end": 18
+    }
   },
   "Sanhua_Forte Hold": {
     "name": "Forte Hold",
@@ -213,7 +281,7 @@
       "windowSize": "10 + (20 * @Self.BuffStacks(Clarity))"
     },
     "priority": "@Default.HeavyPriority + 20",
-    "actionDuration": 18,
+    "actionDuration": 101,
     "swapTiming": "@Default.SwapTime"
   },
   "Sanhua_Forte Detonate Base": {
@@ -239,7 +307,8 @@
     "hitMults": ["186.29%", "186.29%"],
     "scalar": "ATK",
     "damageTimeframe": {
-      "end": 18
+      "start": 51,
+      "end": 101
     }
   },
   "Sanhua_Ice Thorn Burst": {
@@ -263,8 +332,8 @@
     "hitMults": ["59.65%"],
     "scalar": "ATK",
     "damageTimeframe": {
-      "start": 18,
-      "end": 18
+      "start": 75,
+      "end": 75
     }
   },
   "Sanhua_Ice Prism Burst": {
@@ -288,8 +357,8 @@
     "hitMults": ["79.53%"],
     "scalar": "ATK",
     "damageTimeframe": {
-      "start": 18,
-      "end": 18
+      "start": 62,
+      "end": 62
     }
   },
   "Sanhua_Glacier Burst": {
@@ -314,8 +383,8 @@
     "hitMults": ["139.17%"],
     "scalar": "ATK",
     "damageTimeframe": {
-      "start": 18,
-      "end": 18
+      "start": 75,
+      "end": 75
     }
   },
   "Sanhua_Glacial Gaze": {
@@ -354,8 +423,12 @@
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 97,
     "cooldown": 16,
-    "freezeTime": 89,
-    "motionStop": 89
+    "freezeTime": 90,
+    "motionStop": 90,
+    "damageTimeframe": {
+      "start": 72,
+      "end": 72
+    }
   },
   "Sanhua_Intro Skill": {
     "name": "Intro Skill",
@@ -371,6 +444,11 @@
       "tune": [0.73],
       "energy": [10]
     },
+    "cancelTimings": [
+      {
+        "time": 54
+      }
+    ],
     "effects": [
       {
         "type": "buff",
@@ -395,7 +473,12 @@
     "priority": "@Default.IntroPriority",
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 60,
-    "swapTiming": 60
+    "swapTiming": 70,
+    "motionStop": 52,
+    "damageTimeframe": {
+      "start": 54,
+      "end": 54
+    }
   },
   "Sanhua_Outro": {
     "name": "Outro",

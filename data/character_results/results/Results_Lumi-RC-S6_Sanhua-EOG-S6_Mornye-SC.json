@@ -502,10 +502,10 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 31343.308550185877,
-      "firstLoopDps": 35755.20158625248,
-      "avgLoopDps": 35755.20158625248,
-      "twoMinDps": 34932.075
+      "openerDps": 30419.783523752256,
+      "firstLoopDps": 34523.96927016645,
+      "avgLoopDps": 34523.96927016645,
+      "twoMinDps": 33814.34166666667
     },
     "contribution": {
       "opener": {
@@ -586,15 +586,15 @@
         "fieldTime": {
           "Mornye": 6.916666666666667,
           "Lumi": 17.4,
-          "Sanhua": 2.5833333333333335
+          "Sanhua": 3.4
         },
-        "duration": 26.9
+        "duration": 27.716666666666665
       },
       "firstLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 664338
+            "dmg": 661815
           },
           {
             "label": "Sanhua",
@@ -602,7 +602,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 68092
+            "dmg": 67762
           },
           {
             "label": "TuneBreak",
@@ -613,11 +613,11 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 538143
+              "dmg": 537353
             },
             {
               "castType": "Echo",
-              "dmg": 24981
+              "dmg": 23248
             },
             {
               "castType": "Intro",
@@ -657,11 +657,11 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 56085
+              "dmg": 55950
             },
             {
               "castType": "Basic",
-              "dmg": 3453
+              "dmg": 3258
             },
             {
               "castType": "Skill",
@@ -676,15 +676,15 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Lumi": 17.4,
-          "Sanhua": 2.5833333333333335
+          "Sanhua": 3.4
         },
-        "duration": 25.216666666666665
+        "duration": 26.033333333333335
       },
       "avgLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 664338
+            "dmg": 661815
           },
           {
             "label": "Sanhua",
@@ -692,7 +692,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 68092
+            "dmg": 67762
           },
           {
             "label": "TuneBreak",
@@ -703,11 +703,11 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 538143
+              "dmg": 537353
             },
             {
               "castType": "Echo",
-              "dmg": 24981
+              "dmg": 23248
             },
             {
               "castType": "Intro",
@@ -747,11 +747,11 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 56085
+              "dmg": 55950
             },
             {
               "castType": "Basic",
-              "dmg": 3453
+              "dmg": 3258
             },
             {
               "castType": "Skill",
@@ -766,15 +766,15 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Lumi": 17.400000000000002,
-          "Sanhua": 2.5833333333333335
+          "Sanhua": 3.4
         },
-        "duration": 25.21666666666667
+        "duration": 26.03333333333333
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 3006550
+            "dmg": 2873742
           },
           {
             "label": "Sanhua",
@@ -782,7 +782,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 324985
+            "dmg": 323665
           },
           {
             "label": "TuneBreak",
@@ -797,7 +797,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 2408318
+              "dmg": 2282442
             },
             {
               "castType": "Liberation",
@@ -805,7 +805,7 @@
             },
             {
               "castType": "Echo",
-              "dmg": 99924
+              "dmg": 92992
             }
           ],
           "Sanhua": [
@@ -837,7 +837,7 @@
           "Mornye": [
             {
               "castType": "Basic",
-              "dmg": 17755
+              "dmg": 16975
             },
             {
               "castType": "Heavy",
@@ -845,7 +845,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 268584
+              "dmg": 268044
             },
             {
               "castType": "Skill",
@@ -859,8 +859,8 @@
         },
         "fieldTime": {
           "Mornye": 27.85,
-          "Lumi": 79.23333333333333,
-          "Sanhua": 12.916666666666666
+          "Lumi": 75.3,
+          "Sanhua": 16.85
         },
         "duration": 120
       }
