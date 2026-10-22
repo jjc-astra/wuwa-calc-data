@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "2785fef395dfe293",
+  "hash": "fe1ec6a83cf3c448",
   "rotation": [
     {
       "unit": "Mornye",
@@ -124,12 +124,12 @@
     },
     {
       "unit": "Lumi",
-      "action": "System_Tune Break",
+      "action": "Lumi_Red Spotlight: Heavy Attack",
       "timing": "Auto"
     },
     {
       "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Heavy Attack",
+      "action": "System_Tune Break",
       "timing": "Auto"
     },
     {
@@ -310,12 +310,12 @@
     },
     {
       "unit": "Lumi",
-      "action": "System_Tune Break",
+      "action": "Lumi_Red Spotlight: Heavy Attack",
       "timing": "Auto"
     },
     {
       "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Heavy Attack",
+      "action": "System_Tune Break",
       "timing": "Auto"
     },
     {
@@ -387,178 +387,6 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Outro",
-      "timing": "Auto",
-      "loopEndOverride": true
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Intro: Convergence",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Wide Field Observation 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Wide Field Observation 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Wide Field Observation 3",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Distributed Array",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Inversion",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Critical Protocol",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Mornye",
-      "action": "Mornye_Outro: Recursion",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Intro Skill",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold",
-      "timing": "Simultaneous"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Resonance Skill",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Glacial Gaze",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Forte Hold (Release)",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Impermanence Heron_Attack",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Sanhua",
-      "action": "Sanhua_Outro",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Intro",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Energized Pounce",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Squeakie Express",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "System_Tune Break",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Heavy Attack",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 3",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Energized Rebound",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto",
-      "repeatBlockStart": "affd0795-1c14-4fab-a121-704326988ce2",
-      "repeatCount": 6,
-      "repeatBlockEnd": "affd0795-1c14-4fab-a121-704326988ce2"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Energized Pounce",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Red Spotlight: Basic Attack 3",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Energized Rebound",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Yellow Spotlight: Glare",
-      "timing": "Auto",
-      "repeatBlockStart": "40f513a4-39b7-4727-92a6-f28cfa6d0051",
-      "repeatCount": 6,
-      "repeatBlockEnd": "40f513a4-39b7-4727-92a6-f28cfa6d0051"
-    },
-    {
-      "unit": "Lumi",
-      "action": "NM Thundering Mephis_Attack",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Lumi",
-      "action": "Lumi_Outro",
       "timing": "Auto"
     },
     {
@@ -596,8 +424,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -621,8 +449,8 @@
               "value": 8.6
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "Basic DMG",
@@ -642,8 +470,8 @@
               "value": 15
             },
             {
-              "name": "N/A",
-              "value": ""
+              "name": "ER %",
+              "value": 9.2
             },
             {
               "name": "N/A",
@@ -709,25 +537,28 @@
       "echoStats": {
         "flatHP": 4560,
         "percentHP": 0,
-        "flatAtk": 350,
+        "flatAtk": 430,
         "percentAtk": 53.2,
         "flatDef": 0,
         "percentDef": 0,
         "critRate": 59.5,
         "critDamage": 75,
-        "energyRegen": 18.4,
+        "energyRegen": 9.2,
         "healingBonus": 0,
         "skillDmgBonus": 0,
         "basicDmgBonus": 17.2,
         "heavyDmgBonus": 0,
         "libDmgBonus": 0,
-        "glacioDmgBonus": 0,
-        "fusionDmgBonus": 0,
-        "electroDmgBonus": 60,
-        "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0
-      }
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories"
     },
     {
       "index": 1,
@@ -753,8 +584,33 @@
               "value": 15
             },
             {
-              "name": "ER %",
-              "value": 9.2
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK",
+              "value": 40
             },
             {
               "name": "ATK %",
@@ -780,31 +636,6 @@
             {
               "name": "ER %",
               "value": 9.2
-            },
-            {
-              "name": "ATK %",
-              "value": 8.6
-            },
-            {
-              "name": "Lib DMG",
-              "value": 8.6
-            }
-          ]
-        },
-        {
-          "mainStat": "Glacio DMG",
-          "substats": [
-            {
-              "name": "CR Rate",
-              "value": 7.5
-            },
-            {
-              "name": "CR DMG",
-              "value": 15
-            },
-            {
-              "name": "N/A",
-              "value": ""
             },
             {
               "name": "N/A",
@@ -870,24 +701,25 @@
       "echoStats": {
         "flatHP": 4560,
         "percentHP": 0,
-        "flatAtk": 350,
+        "flatAtk": 430,
         "percentAtk": 53.2,
         "flatDef": 0,
         "percentDef": 0,
         "critRate": 59.5,
         "critDamage": 75,
-        "energyRegen": 18.4,
+        "energyRegen": 9.2,
         "healingBonus": 0,
         "skillDmgBonus": 0,
         "basicDmgBonus": 0,
         "heavyDmgBonus": 0,
         "libDmgBonus": 17.2,
-        "glacioDmgBonus": 60,
-        "fusionDmgBonus": 0,
-        "electroDmgBonus": 0,
-        "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 60,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
       },
       "subSet2a": "Void Thunder",
       "subSet2b": "Moonlit Clouds"
@@ -1047,19 +879,20 @@
         "basicDmgBonus": 0,
         "heavyDmgBonus": 0,
         "libDmgBonus": 0,
-        "glacioDmgBonus": 0,
-        "fusionDmgBonus": 30,
-        "electroDmgBonus": 0,
-        "aeroDmgBonus": 0,
         "spectroDmgBonus": 0,
-        "havocDmgBonus": 0
+        "fusionDmgBonus": 30,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
       }
     }
   ],
   "settings": {
     "startEnergy": true,
     "startConcerto": false,
-    "endingRotationEnabled": true,
+    "endingRotationEnabled": false,
     "endRotationStartsEarlier": false
   },
   "enemy": {

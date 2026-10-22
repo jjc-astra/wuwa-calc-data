@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "106a84677e35c066",
+  "hash": "8ee486cd355bb2b7",
   "build": "default",
   "author": "Astrais",
   "team": [
@@ -164,7 +164,9 @@
         "electroDmgBonus": 60,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      }
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories"
     },
     {
       "index": 1,
@@ -502,10 +504,10 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 30419.783523752256,
-      "firstLoopDps": 34523.96927016645,
-      "avgLoopDps": 34523.96927016645,
-      "twoMinDps": 33814.34166666667
+      "openerDps": 30401.502403846152,
+      "firstLoopDps": 34501.88099808061,
+      "avgLoopDps": 34501.88099808061,
+      "twoMinDps": 33799.666666666664
     },
     "contribution": {
       "opener": {
@@ -585,10 +587,10 @@
         },
         "fieldTime": {
           "Mornye": 6.916666666666667,
-          "Lumi": 17.4,
+          "Lumi": 17.416666666666668,
           "Sanhua": 3.4
         },
-        "duration": 27.716666666666665
+        "duration": 27.733333333333334
       },
       "firstLoop": {
         "team": [
@@ -675,10 +677,10 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Lumi": 17.4,
+          "Lumi": 17.416666666666668,
           "Sanhua": 3.4
         },
-        "duration": 26.033333333333335
+        "duration": 26.05
       },
       "avgLoop": {
         "team": [
@@ -765,20 +767,20 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Lumi": 17.400000000000002,
+          "Lumi": 17.416666666666668,
           "Sanhua": 3.4
         },
-        "duration": 26.03333333333333
+        "duration": 26.05
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2873742
+            "dmg": 2886310
           },
           {
             "label": "Sanhua",
-            "dmg": 546874
+            "dmg": 532545
           },
           {
             "label": "Mornye",
@@ -793,11 +795,11 @@
           "Lumi": [
             {
               "castType": "Intro",
-              "dmg": 64523
+              "dmg": 71546
             },
             {
               "castType": "Basic",
-              "dmg": 2282442
+              "dmg": 2287987
             },
             {
               "castType": "Liberation",
@@ -811,27 +813,23 @@
           "Sanhua": [
             {
               "castType": "Basic",
-              "dmg": 25456
+              "dmg": 31820
             },
             {
               "castType": "Skill",
-              "dmg": 76507
+              "dmg": 73305
             },
             {
               "castType": "Liberation",
-              "dmg": 184710
+              "dmg": 181390
             },
             {
               "castType": "Heavy",
-              "dmg": 213696
+              "dmg": 206250
             },
             {
               "castType": "Echo",
-              "dmg": 40453
-            },
-            {
-              "castType": "Intro",
-              "dmg": 6052
+              "dmg": 39780
             }
           ],
           "Mornye": [
@@ -859,17 +857,15 @@
         },
         "fieldTime": {
           "Mornye": 27.85,
-          "Lumi": 75.3,
-          "Sanhua": 16.85
+          "Lumi": 75.15,
+          "Sanhua": 17
         },
         "duration": 120
       }
     },
     "issues": {
       "errors": [],
-      "warnings": [
-        "Tune Break: Combo requirement not met for Tune Break."
-      ]
+      "warnings": []
     }
   }
 }
