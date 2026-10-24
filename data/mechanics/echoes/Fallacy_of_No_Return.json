@@ -1,0 +1,43 @@
+{
+  "Fallacy of No Return_Attack": {
+    "name": "Fallacy of No Return",
+    "category": "Echo Skill",
+    "simultaneous": true,
+    "castTypes": ["Echo"],
+    "dmgTypes": ["Spectro", "Echo"],
+    "hitResources": {
+      "energy": [3.04]
+    },
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Fallacy of No Return ER",
+        "target": "@Self",
+        "stat": "ER %",
+        "value": "10%",
+        "duration": 20,
+        "maxStacks": 1
+      },
+      {
+        "type": "buff",
+        "name": "Fallacy of No Return ATK",
+        "target": "@Team",
+        "stat": "ATK %",
+        "value": "10%",
+        "duration": 20,
+        "maxStacks": 1
+      }
+    ],
+    "hitMults": ["15.85%"],
+    "scalar": "HP",
+    "input": "Echo",
+    "priority": "@Default.EchoPriority",
+    "actionDuration": 60,
+    "cooldown": 20,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 30,
+      "end": 30
+    }
+  }
+}

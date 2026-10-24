@@ -1,0 +1,34 @@
+{
+  "Rejuvenating Glow_2-pc Effect": {
+    "name": "2-pc Effect",
+    "category": "2-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rejuvenating Glow 2-pc",
+        "stat": "Healing Bonus",
+        "value": "10%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Rejuvenating Glow_5-pc Effect": {
+    "name": "5-pc Effect",
+    "category": "5-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Heal]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Rejuvenating Glow 5-pc",
+        "target": "@Team",
+        "stat": "ATK %",
+        "value": "15%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  }
+}

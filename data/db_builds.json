@@ -255,9 +255,19 @@
       "weapon": "Stellar Symphony",
       "echoLayout": "4 3 3 1 1",
       "mainSet": "Rejuvenating Glow",
-      "mainEcho": "Bell-Borne",
-      "mainStats": { "cost4": "Healing Bonus", "cost3": ["ER %", "ER %"], "cost1": ["HP %", "HP %"] },
-      "subStats": { "ER %": 5, "HP %": 5, "HP": 4, "CR Rate": 3, "ATK %": 2 }
+      "mainEcho": "Fallacy of No Return",
+      "mainStats": {
+        "cost4": "Healing Bonus",
+        "cost3": ["ER %", "ER %"],
+        "cost1": ["HP %", "HP %"]
+      },
+      "subStats": {
+        "ER %": 5,
+        "HP %": 5,
+        "HP": 4,
+        "CR Rate": 3,
+        "ATK %": 2
+      }
     }
   },
   "Xiangli Yao": {

@@ -40,7 +40,7 @@
   "Boson Astrolabe": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 525, "subStatType": "ER %", "subStatValue": 38.88 },
   "Cosmic Ripples": { "weaponType": "Rectifier", "rarity": 5, "baseAtk": 500, "subStatType": "ATK %", "subStatValue": 54.0 },
   "Fusion Accretion": { "weaponType": "Rectifier", "rarity": 4, "baseAtk": 462.0, "subStatType": "ATK %", "subStatValue": 18.23 },
-  "Variation": { "weaponType": "Rectifier", "rarity": 4, "baseAtk": 387, "subStatType": "ER %", "subStatValue": 51.8 },
+  "Variation": {"weaponType": "Rectifier", "rarity": 4, "baseAtk": 338, "subStatType": "ER %", "subStatValue": 51.84},
 
   "Solsworn Ciphers": { "weaponType": "Gauntlets", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR DMG", "subStatValue": 48.6 },
   "Daybreakers Spine": { "weaponType": "Gauntlets", "rarity": 5, "baseAtk": 587.0, "subStatType": "CR Rate", "subStatValue": 24.3 },

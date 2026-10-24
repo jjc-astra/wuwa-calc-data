@@ -1,0 +1,17 @@
+{
+  "Variation_Ceaseless Aria": {
+    "name": "Ceaseless Aria",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Skill]",
+    "cooldown": 20,
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "target": "@Equipper",
+        "value": "8/10/12/14/16"
+      }
+    ]
+  }
+}

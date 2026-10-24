@@ -1,0 +1,50 @@
+{
+  "Stellar Symphony_Astral Evolvement (HP)": {
+    "name": "Astral Evolvement (HP)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Astral Evolvement HP",
+        "target": "@Equipper",
+        "stat": "HP %",
+        "value": "12%/15%/18%/21%/24%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Stellar Symphony_Astral Evolvement (Concerto)": {
+    "name": "Astral Evolvement (Concerto)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Liberation]",
+    "cooldown": 20,
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "target": "@Equipper",
+        "value": "8/10/12/14/16"
+      }
+    ]
+  },
+  "Stellar Symphony_Astral Evolvement (ATK)": {
+    "name": "Astral Evolvement (ATK)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Heal] IF (@Active.Name == @Self.Name && @Move.CastTypes.includes('Skill'))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Astral Evolvement ATK",
+        "target": "@Team",
+        "stat": "ATK %",
+        "value": "14%/17.5%/21%/24.5%/28%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  }
+}
