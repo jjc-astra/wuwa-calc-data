@@ -2,6 +2,7 @@
   "NM Adam Smasher_Attack": {
     "name": "NM Adam Smasher",
     "category": "Echo Skill",
+    "simultaneous": true,
     "castTypes": ["Echo"],
     "dmgTypes": ["Electro", "Echo"],
     "hitResources": {
