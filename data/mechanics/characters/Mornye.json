@@ -681,6 +681,7 @@
     "category": "Tune Break",
     "isPassive": true,
     "triggerRule": "OnBuffAdd[Tune Rupture - Interfered]",
+    "cooldown": 8,
     "castTypes": ["TuneRupture"],
     "dmgTypes": ["TuneRupture"],
     "hitMults": ["298.22%"]
@@ -762,6 +763,7 @@
     "category": "Inherent Skill",
     "isPassive": true,
     "triggerRule": "OnCast[Self, @Mornye(Intro: Convergence)]",
+    "cooldown": 20,
     "effects": [
       {
         "type": "resource",
@@ -775,6 +777,7 @@
     "category": "Inherent Skill",
     "isPassive": true,
     "triggerRule": "OnCast[Self, @Mornye(Wide Field Observation 3)]",
+    "cooldown": 20,
     "effects": [
       {
         "type": "resource",
@@ -788,6 +791,7 @@
     "category": "Resonance Skill",
     "isPassive": true,
     "triggerRule": "ANY(OnCast[Self, @Mornye(Expectation Error)], OnCast[Self, @Mornye(Distributed Array)])",
+    "cooldown": 300,
     "effects": [
       {
         "type": "buff",
@@ -867,6 +871,7 @@
     "category": "Resonance Chain",
     "isPassive": true,
     "triggerRule": "OnCast[Self, @Mornye(Distributed Array)] IF (@Self.Sequence >= 3)",
+    "cooldown": 25,
     "effects": [
       {
         "type": "resource",
@@ -891,8 +896,8 @@
         "name": "Mornye_S5 Critical Protocol Mult",
         "label": "Time Dilation Effect",
         "duration": "@Default.PermanentDuration",
-        "stat": "Additive Mult",
-        "value": "208.932%",
+        "stat": "Multiplicative Mult",
+        "value": "40%",
         "applyTo": ["@Mornye(Critical Protocol)"]
       },
       {
@@ -900,8 +905,8 @@
         "name": "Mornye_S5 Particle Jet Mult",
         "label": "Time Dilation Effect",
         "duration": "@Default.PermanentDuration",
-        "stat": "Additive Mult",
-        "value": "477.152%",
+        "stat": "Multiplicative Mult",
+        "value": "160%",
         "applyTo": ["@Mornye(Particle Jet)"]
       }
     ]
@@ -917,7 +922,7 @@
         "name": "Mornye_S6 Critical Protocol DMG",
         "label": "To the Far Shores of the Stars",
         "duration": "@Default.PermanentDuration",
-        "stat": "Multiplicative Mult",
+        "stat": "DMG Bonus",
         "value": "400%",
         "applyTo": ["@Mornye(Critical Protocol)"]
       }
