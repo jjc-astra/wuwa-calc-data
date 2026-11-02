@@ -505,8 +505,8 @@
   "results": {
     "dpsStats": {
       "openerDps": 30401.502403846152,
-      "firstLoopDps": 34501.88099808061,
-      "avgLoopDps": 34501.88099808061,
+      "firstLoopDps": 34523.96927016645,
+      "avgLoopDps": 34523.96927016645,
       "twoMinDps": 33799.666666666664
     },
     "contribution": {
@@ -677,10 +677,10 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Lumi": 17.416666666666668,
+          "Lumi": 17.4,
           "Sanhua": 3.4
         },
-        "duration": 26.05
+        "duration": 26.033333333333335
       },
       "avgLoop": {
         "team": [
@@ -767,10 +767,10 @@
         },
         "fieldTime": {
           "Mornye": 5.233333333333333,
-          "Lumi": 17.416666666666668,
+          "Lumi": 17.400000000000002,
           "Sanhua": 3.4
         },
-        "duration": 26.05
+        "duration": 26.03333333333333
       },
       "twoMin": {
         "team": [

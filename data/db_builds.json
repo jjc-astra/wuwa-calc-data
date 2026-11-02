@@ -253,6 +253,7 @@
   "Shorekeeper": {
     "Support / Healer": {
       "weapon": "Stellar Symphony",
+      "r0Weapon": "Variation",
       "echoLayout": "4 3 3 1 1",
       "mainSet": "Rejuvenating Glow",
       "mainEcho": "Fallacy of No Return",

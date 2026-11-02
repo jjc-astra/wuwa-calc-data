@@ -632,6 +632,7 @@
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 215,
     "freezeTime": 140,
+    "freezeStart": 6,
     "motionStop": 140,
     "damageTimeframe": {
       "start": 143,

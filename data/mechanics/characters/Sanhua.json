@@ -397,6 +397,9 @@
       "energy": -100,
       "concerto": 20
     },
+    "hitResources": {
+      "tune": [6.144]
+    },
     "effects": [
       {
         "type": "buff",
