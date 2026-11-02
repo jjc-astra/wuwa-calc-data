@@ -1,0 +1,57 @@
+{
+  "Reminiscence - Suhsin the Inevitable_Attack": {
+    "name": "Reminiscence - Suhsin the Inevitable",
+    "category": "Echo Skill",
+    "simultaneous": true,
+    "castTypes": ["Echo"],
+    "dmgTypes": ["Electro", "Echo"],
+    "hitResources": {
+      "energy": [0.38, 0.38, 0.38, 0.38, 2.28]
+    },
+    "hitMults": ["27.36%", "27.36%", "27.36%", "27.36%", "164.16%"],
+    "scalar": "ATK",
+    "input": "Echo",
+    "priority": "@Default.EchoPriority",
+    "actionDuration": 60,
+    "cooldown": 20,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 15,
+      "end": 60
+    }
+  },
+  "Reminiscence - Suhsin the Inevitable_Main Slot": {
+    "name": "Reminiscence - Suhsin the Inevitable_Main Slot",
+    "category": "Echo Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Reminiscence - Suhsin the Inevitable_Electro DMG",
+        "target": "@Equipper",
+        "stat": "Electro DMG Bonus",
+        "value": "10%",
+        "duration": "@Default.PermanentDuration",
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Reminiscence - Suhsin the Inevitable_Main Slot (Unison)": {
+    "name": "Reminiscence - Suhsin the Inevitable_Main Slot (Unison)",
+    "category": "Echo Passive",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Self, Unison], OnTrackerAdd[Self, Unison Response], OnBuffAdd[Self, Electro Flare])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Reminiscence - Suhsin the Inevitable_Extra Electro DMG",
+        "target": "@Equipper",
+        "stat": "Electro DMG Bonus",
+        "value": "10%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  }
+}

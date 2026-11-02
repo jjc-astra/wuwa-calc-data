@@ -1,0 +1,76 @@
+{
+  "Unspoken Rue_Locked Thunder, Trapped Rain (ATK)": {
+    "name": "Locked Thunder, Trapped Rain (ATK)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Locked Thunder, Trapped Rain ATK",
+        "target": "@Equipper",
+        "stat": "ATK %",
+        "value": "12%/15%/18%/21%/24%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Unspoken Rue_Locked Thunder, Trapped Rain (Unison)": {
+    "name": "Locked Thunder, Trapped Rain (Unison)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Self, Unison]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Locked Thunder, Trapped Rain Electro DMG",
+        "target": "@Equipper",
+        "stat": "Electro DMG Bonus",
+        "value": "30%/37.5%/45%/52.5%/60%",
+        "duration": 30,
+        "maxStacks": 1
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Yearning Mind",
+        "target": "@Equipper",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Binding Mind",
+        "target": "@Team",
+        "stat": "Electro DMG Bonus",
+        "value": "24%/30%/36%/42%/48%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Unspoken Rue_Yearning Mind": {
+    "name": "Yearning Mind",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Partial Concerto Consumed]",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Binding Mind",
+        "target": "@Team",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Yearning Mind",
+        "target": "@Equipper",
+        "stat": "Electro DMG Bonus",
+        "value": "40%/50%/60%/70%/80%",
+        "duration": 14,
+        "maxStacks": 1,
+        "removeOnSwap": true
+      }
+    ]
+  }
+}

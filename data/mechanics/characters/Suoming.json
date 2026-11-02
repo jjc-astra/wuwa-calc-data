@@ -1,0 +1,1267 @@
+{
+  "Suoming_Bound Obsession, Forged Mind": {
+    "name": "Bound Obsession, Forged Mind",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnStart",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Awakened Mind",
+        "label": "Awakened Mind",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Suoming_Delusion (Off-Field)": {
+    "name": "Delusion (Off-Field)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "IF (@Active.Name != @Self.Name)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Off-Field Delusion",
+        "label": "Off-Field",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Forte Buildup Rate",
+        "value": "-100%"
+      }
+    ]
+  },
+  "Suoming_Furled Canopy 1": {
+    "name": "Furled Canopy 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Awakened Mind)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.91],
+      "concerto": [1.59],
+      "tune": [0.3174],
+      "forte1": [120]
+    },
+    "cancelTimings": [
+      {
+        "time": 10
+      }
+    ],
+    "hitMults": ["31.55%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 24,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 10,
+      "end": 10
+    }
+  },
+  "Suoming_Furled Canopy 2": {
+    "name": "Furled Canopy 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Awakened Mind)) && ANY(@Self.PrevAction == @Suoming(Furled Canopy 1), @Self.PrevAction == @Suoming(Rift Cleaver)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.95, 0.95, 1.9],
+      "concerto": [0.8, 0.8, 1.59],
+      "tune": [0.1583, 0.1583, 0.3165],
+      "forte1": [40, 40, 80]
+    },
+    "cancelTimings": [
+      {
+        "time": 31
+      }
+    ],
+    "hitMults": ["15.73%", "15.73%", "31.46%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 47,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 14,
+      "end": 31
+    },
+    "hitFrames": [19]
+  },
+  "Suoming_Furled Canopy 3": {
+    "name": "Furled Canopy 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Awakened Mind)) && @Self.PrevAction == @Suoming(Furled Canopy 2))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.33, 1.33, 1.33, 2.66],
+      "concerto": [1.11, 1.11, 1.11, 2.22],
+      "tune": [0.2214, 0.2214, 0.2214, 0.4428],
+      "forte1": [36, 36, 36, 72]
+    },
+    "cancelTimings": [
+      {
+        "time": 63
+      }
+    ],
+    "hitMults": ["22.01%", "22.01%", "22.01%", "44.02%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 82,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 16,
+      "end": 63
+    },
+    "hitFrames": [21, 27]
+  },
+  "Suoming_Mid-air Attack": {
+    "name": "Mid-air Attack",
+    "category": "Basic Attack",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [5.09],
+      "concerto": [4.24],
+      "tune": [0.847]
+    },
+    "cancelTimings": [
+      {
+        "time": 29
+      }
+    ],
+    "hitMults": ["84.20%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "priority": "@Default.SkillPriority",
+    "priorityTimeline": [
+      {
+        "time": 40,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 41,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 29,
+      "end": 29
+    },
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 29
+      }
+    ]
+  },
+  "Suoming_Unfurled Canopy 1": {
+    "name": "Unfurled Canopy 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.58, 0.79, 0.79],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 3.82 : 1.32)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.91 : 0.66)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.91 : 0.66)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.5529 : 0.3949)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.2765 : 0.1975)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.2765 : 0.1975)"],
+      "forte1": [60, 30, 30]
+    },
+    "cancelTimings": [
+      {
+        "time": 31
+      }
+    ],
+    "hitMults": ["65.42%", "32.71%", "32.71%"],
+    "input": "Basic",
+    "altInputs": [
+      {
+        "input": "Basic",
+        "inputType": "Hold"
+      }
+    ],
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 39,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 23,
+      "end": 35
+    },
+    "hitFrames": [31]
+  },
+  "Suoming_Unfurled Canopy 2": {
+    "name": "Unfurled Canopy 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && ANY(@Self.PrevAction == @Suoming(Unfurled Canopy 1), @Self.HasBuff(@Suoming(Seal Master)) && @Self.PrevAction == @Suoming(Unfurled Canopy 4)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [2.77, 0.93, 0.93, 0.93],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 4.81 : 2.31)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.61 : 0.77)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.61 : 0.77)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.61 : 0.77)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.9667 : 0.6905)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.3223 : 0.2302)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.3223 : 0.2302)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.3223 : 0.2302)"],
+      "forte1": [80, 27, 27, 27]
+    },
+    "cancelTimings": [
+      {
+        "time": 37
+      }
+    ],
+    "hitMults": ["114.40%", "38.14%", "38.14%", "38.14%"],
+    "input": "Basic",
+    "altInputs": [
+      {
+        "input": "Basic",
+        "inputType": "Hold"
+      }
+    ],
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 68,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 49
+    },
+    "hitFrames": [37, 43]
+  },
+  "Suoming_Unfurled Canopy 3": {
+    "name": "Unfurled Canopy 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && ANY(@Self.PrevAction == @Suoming(Unfurled Canopy 2), @Self.PrevAction == @Suoming(Rift Cleaver)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.42, 1.42, 1.42, 1.42],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 2.43 : 1.18)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.43 : 1.18)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.43 : 1.18)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.43 : 1.18)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4956 : 0.354)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4956 : 0.354)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4956 : 0.354)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4956 : 0.354)"],
+      "forte1": [45, 45, 45, 45]
+    },
+    "cancelTimings": [
+      {
+        "time": 50
+      }
+    ],
+    "hitMults": ["58.64%", "58.64%", "58.64%", "58.64%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 2",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 70,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 30,
+      "end": 60
+    },
+    "hitFrames": [35, 50]
+  },
+  "Suoming_Unfurled Canopy 4": {
+    "name": "Unfurled Canopy 4",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && @Self.PrevAction == @Suoming(Unfurled Canopy 3))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [2.59, 2.59, 1.16, 1.16, 1.16],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 3.66 : 2.16)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 3.66 : 2.16)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.63 : 0.96)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.63 : 0.96)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.63 : 0.96)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.9063 : 0.6474)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.9063 : 0.6474)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4028 : 0.2878)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4028 : 0.2878)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.4028 : 0.2878)"],
+      "forte1": [54, 54, 24, 24, 24]
+    },
+    "cancelTimings": [
+      {
+        "time": 109
+      }
+    ],
+    "hitMults": ["107.25%", "107.25%", "47.67%", "47.67%", "47.67%"],
+    "input": "Basic",
+    "altInputs": [
+      {
+        "input": "Basic",
+        "inputType": "Hold"
+      }
+    ],
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority",
+    "priorityTimeline": [
+      {
+        "time": 103,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 115,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 15,
+      "end": 109
+    },
+    "hitFrames": [53, 95, 102]
+  },
+  "Suoming_Whirling Thunder 1": {
+    "name": "Whirling Thunder 1",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && @Self.PrevAction == @Suoming(Unfurled Canopy 2))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.77, 0.89, 0.89, 1.77, 1.77],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 2.73 : 1.48)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.37 : 0.74)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 1.37 : 0.74)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.73 : 1.48)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.73 : 1.48)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.6195 : 0.4425)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.3098 : 0.2213)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.3098 : 0.2213)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.6195 : 0.4425)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.6195 : 0.4425)"],
+      "forte1": [45, 23, 23, 45, 45]
+    },
+    "cancelTimings": [
+      {
+        "time": 63
+      }
+    ],
+    "hitMults": ["73.32%", "36.66%", "36.66%", "73.32%", "73.32%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 88,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 11,
+      "end": 63
+    },
+    "hitFrames": [27, 30, 38]
+  },
+  "Suoming_Whirling Thunder 2": {
+    "name": "Whirling Thunder 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && ANY(@Self.PrevAction == @Suoming(Whirling Thunder 1), @Self.PrevAction == @Suoming(Intro: Thunder Rending), @Self.PrevAction == @Suoming(Intro: Whirling Thunder (Unison))))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [1.37, 1.37, 1.37, 1.37, 1.37],
+      "concerto": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 2.15 : 1.15)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.15 : 1.15)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.15 : 1.15)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.15 : 1.15)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 2.15 : 1.15)"],
+      "tune": ["(@Self.HasBuff(@Suoming(Seal Master)) ? 0.479 : 0.3422)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.479 : 0.3422)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.479 : 0.3422)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.479 : 0.3422)", "(@Self.HasBuff(@Suoming(Seal Master)) ? 0.479 : 0.3422)"],
+      "forte1": [36, 36, 36, 36, 36]
+    },
+    "cancelTimings": [
+      {
+        "time": 33
+      }
+    ],
+    "hitMults": ["56.69%", "56.69%", "56.69%", "56.69%", "56.69%"],
+    "input": "Basic",
+    "altInputs": [
+      {
+        "input": "Basic",
+        "inputType": "Hold"
+      }
+    ],
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 85,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 33,
+      "end": 52
+    },
+    "hitFrames": [38, 43, 48]
+  },
+  "Suoming_Rift Cleaver": {
+    "name": "Rift Cleaver",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (!(@Self.Delusion >= @Self.MaxDelusion))",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "hitResources": {
+      "energy": [3.68],
+      "concerto": [3.07],
+      "tune": [0.6128]
+    },
+    "hitMults": ["106.61%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority",
+    "priorityTimeline": [
+      {
+        "time": 40,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 42,
+    "cooldown": 8,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 21,
+      "end": 21
+    }
+  },
+  "Suoming_Sealed Delusion": {
+    "name": "Sealed Delusion",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Awakened Mind)) && @Self.Delusion >= @Self.MaxDelusion)",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "forte1": -800
+    },
+    "hitResources": {
+      "energy": [2.17, 2.17, 1.09, 1.09, 1.09, 1.09],
+      "concerto": [1.81, 1.81, 0.91, 0.91, 0.91, 0.91],
+      "tune": [0.3609, 0.3609, 0.1805, 0.1805, 0.1805, 0.1805]
+    },
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Awakened Mind",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Deep Mind",
+        "label": "Deep Mind",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "cooldown",
+        "name": "Rift Cleaver",
+        "target": "@Self",
+        "value": 0
+      }
+    ],
+    "hitMults": ["62.78%", "62.78%", "31.39%", "31.39%", "31.39%", "31.39%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority + 1",
+    "priorityTimeline": [
+      {
+        "time": 104,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 107,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 61,
+      "end": 107
+    },
+    "hitFrames": [67, 89, 95, 101]
+  },
+  "Suoming_Unforsaken Mind": {
+    "name": "Unforsaken Mind",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)) && @Self.Delusion >= @Self.MaxDelusion)",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "tune": [0.8776]
+    },
+    "cancelTimings": [
+      {
+        "time": 59
+      }
+    ],
+    "hitMults": ["152.67%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 68,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 59,
+      "end": 59
+    }
+  },
+  "Suoming_Engraved Heart": {
+    "name": "Engraved Heart",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.PrevAction == @Suoming(Unforsaken Mind))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "forte1": -800
+    },
+    "hitResources": {
+      "energy": [2.05, 1.03, 1.03, 2.05, 2.05, 1.03, 1.03, 0.52, 0.52, 0.52, 0.52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.18],
+      "concerto": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40],
+      "tune": [0.2602, 0.1301, 0.1301, 0.2602, 0.2602, 0.1301, 0.1301, 0.0651, 0.0651, 0.0651, 0.0651, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.0405]
+    },
+    "cancelTimings": [
+      {
+        "time": 250
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Deep Mind",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Awakened Mind",
+        "label": "Awakened Mind",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Sunken Seal Window",
+        "label": "Sunken Seal, Forged Lock",
+        "target": "@Self",
+        "duration": 8
+      }
+    ],
+    "hitMults": ["155.14%", "77.57%", "77.57%", "155.14%", "155.14%", "77.57%", "77.57%", "38.79%", "38.79%", "38.79%", "38.79%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "19.40%", "24.24%", "24.24%", "24.24%", "24.24%", "24.24%", "24.24%", "24.24%", "24.24%", "620.55%"],
+    "input": "Basic",
+    "altInputs": [
+      {
+        "input": "Skill"
+      }
+    ],
+    "stanceReq": "Grounded",
+    "priority": "@Default.IntroPriority + 1",
+    "priorityTimeline": [
+      {
+        "time": 263,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 308,
+    "freezeTime": 240,
+    "freezeStart": 107,
+    "motionStop": 240,
+    "damageTimeframe": {
+      "start": 11,
+      "end": 250
+    },
+    "hitFrames": [19, 25, 29, 90, 98, 104, 108, 116, 124, 131, 140, 146, 152, 158, 164, 172, 178, 184, 190, 196, 204, 209, 214, 219, 224, 229, 234, 239]
+  },
+  "Suoming_Miasma Lock": {
+    "name": "Miasma Lock",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.HasBuff(@Suoming(Deep Mind)))",
+    "castTypes": ["Liberation"],
+    "dmgTypes": ["Electro", "Liberation"],
+    "castResources": {
+      "concerto": 20,
+      "energy": -125,
+      "forte1": 200
+    },
+    "hitResources": {
+      "tune": [0.735, 0.735, 0.735, 0.735, 0.735, 0.735, 0.735, 0.735, 2.52]
+    },
+    "cancelTimings": [
+      {
+        "time": 254
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master Mult",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master Crit DMG",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Unison",
+        "label": "Unison",
+        "target": "@Self",
+        "duration": 5,
+        "maxStacks": 1
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Sunken Seal Window",
+        "label": "Sunken Seal, Forged Lock",
+        "target": "@Self",
+        "duration": 8
+      }
+    ],
+    "hitMults": ["60.89%", "60.89%", "60.89%", "60.89%", "60.89%", "60.89%", "60.89%", "60.89%", "208.76%"],
+    "input": "Liberation",
+    "priority": "@Default.LibPriority",
+    "priorityTimeline": [
+      {
+        "time": 332,
+        "priority": "@Default.BasicPriority - 2"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 335,
+    "cooldown": 25,
+    "freezeTime": 332,
+    "swapTiming": 332,
+    "motionStop": 332,
+    "damageTimeframe": {
+      "start": 193,
+      "end": 254
+    },
+    "hitFrames": [199, 205, 211, 217, 223, 229, 235]
+  },
+  "Suoming_Blight Rain, Miasmic Thunder": {
+    "name": "Blight Rain, Miasmic Thunder",
+    "category": "Resonance Liberation",
+    "isPassive": true,
+    "triggerRule": "OnHit IF (@Hit.OnField && @Self.HasBuff(@Suoming(Blight Rain, Miasmic Thunder)))",
+    "cooldown": 1,
+    "castTypes": ["Coordinated"],
+    "dmgTypes": ["Electro", "Liberation", "Coordinated"],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "consume",
+        "name": "Suoming_Blight Rain, Miasmic Thunder",
+        "target": "@Self",
+        "value": 1
+      }
+    ],
+    "hitMults": ["59.65%"],
+    "damageTimeframe": {
+      "start": 3,
+      "end": 3
+    }
+  },
+  "Suoming_Intro: Flash Rift": {
+    "name": "Intro: Flash Rift",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && !@Self.HasBuff(Unison Swap) && @Self.HasBuff(@Suoming(Awakened Mind)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": "-@Self.Delusion"
+    },
+    "hitResources": {
+      "energy": [3, 3, 1, 1, 1, 1],
+      "tune": [0.5578, 0.5578, 0.186, 0.186, 0.186, 0.186]
+    },
+    "cancelTimings": [
+      {
+        "time": 85
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Awakened Mind",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Deep Mind",
+        "label": "Deep Mind",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "cooldown",
+        "name": "Rift Cleaver",
+        "target": "@Self",
+        "value": 0
+      }
+    ],
+    "hitMults": ["110.89%", "110.89%", "36.97%", "36.97%", "36.97%", "36.97%"],
+    "priority": "@Default.IntroPriority",
+    "priorityTimeline": [
+      {
+        "time": 88,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 103,
+    "swapTiming": 90,
+    "motionStop": 90,
+    "damageTimeframe": {
+      "start": 61,
+      "end": 103
+    },
+    "hitFrames": [67, 85, 91, 97]
+  },
+  "Suoming_Intro: Thunder Rending": {
+    "name": "Intro: Thunder Rending",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && !@Self.HasBuff(Unison Swap) && @Self.HasBuff(@Suoming(Deep Mind)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 200
+    },
+    "hitResources": {
+      "energy": [2.5, 1.25, 1.25, 2.5, 2.5],
+      "tune": [0.4407, 0.2204, 0.2204, 0.4407, 0.4407]
+    },
+    "cancelTimings": [
+      {
+        "time": 59
+      }
+    ],
+    "hitMults": ["131.43%", "65.72%", "65.72%", "131.43%", "131.43%"],
+    "priority": "@Default.IntroPriority",
+    "priorityTimeline": [
+      {
+        "time": 66,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 83,
+    "swapTiming": 68,
+    "motionStop": 68,
+    "damageTimeframe": {
+      "start": 11,
+      "end": 59
+    },
+    "hitFrames": [26, 29, 36]
+  },
+  "Suoming_Intro: Sealed Delusion (Unison)": {
+    "name": "Intro: Sealed Delusion (Unison)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(Unison Swap) && @Self.HasBuff(@Suoming(Awakened Mind)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": "-@Self.Delusion"
+    },
+    "hitResources": {
+      "energy": [3, 3, 1, 1, 1, 1],
+      "tune": [0.5578, 0.5578, 0.186, 0.186, 0.186, 0.186]
+    },
+    "cancelTimings": [
+      {
+        "time": 85
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison Swap",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Response",
+        "action": "add",
+        "value": 1
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Unison Boon",
+        "label": "Unison Boon",
+        "target": "@Self",
+        "duration": 30,
+        "stat": "DMG Taken",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
+        "maxStacks": 1
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Awakened Mind",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Deep Mind",
+        "label": "Deep Mind",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "cooldown",
+        "name": "Rift Cleaver",
+        "target": "@Self",
+        "value": 0
+      }
+    ],
+    "hitMults": ["110.89%", "110.89%", "36.97%", "36.97%", "36.97%", "36.97%"],
+    "priority": "@Default.IntroPriority",
+    "priorityTimeline": [
+      {
+        "time": 88,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 103,
+    "swapTiming": 90,
+    "motionStop": 90,
+    "damageTimeframe": {
+      "start": 61,
+      "end": 103
+    },
+    "hitFrames": [67, 85, 91, 97]
+  },
+  "Suoming_Intro: Whirling Thunder (Unison)": {
+    "name": "Intro: Whirling Thunder (Unison)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(Unison Swap) && @Self.HasBuff(@Suoming(Deep Mind)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Basic"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 200
+    },
+    "hitResources": {
+      "energy": [2.5, 1.25, 1.25, 2.5, 2.5],
+      "tune": [0.4407, 0.2204, 0.2204, 0.4407, 0.4407]
+    },
+    "cancelTimings": [
+      {
+        "time": 59
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison Swap",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Response",
+        "action": "add",
+        "value": 1
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Unison Boon",
+        "label": "Unison Boon",
+        "target": "@Self",
+        "duration": 30,
+        "stat": "DMG Taken",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
+        "maxStacks": 1
+      }
+    ],
+    "hitMults": ["131.43%", "65.72%", "65.72%", "131.43%", "131.43%"],
+    "priority": "@Default.IntroPriority",
+    "priorityTimeline": [
+      {
+        "time": 66,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 83,
+    "swapTiming": 68,
+    "motionStop": 68,
+    "damageTimeframe": {
+      "start": 11,
+      "end": 59
+    },
+    "hitFrames": [26, 29, 36]
+  },
+  "Suoming_Outro: Canopy Rumble": {
+    "name": "Outro: Canopy Rumble",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.Concerto >= 100 && !@Self.HasBuff(Unison))",
+    "castTypes": ["Outro"],
+    "castResources": {
+      "concerto": -100
+    },
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Canopy Rumble",
+        "label": "Canopy Rumble",
+        "target": "@Next",
+        "duration": 8,
+        "stat": "Electro DMG Amp",
+        "value": "20%",
+        "removeOnSwap": true
+      }
+    ],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0
+  },
+  "Suoming_Outro: Canopy Rumble (Unison)": {
+    "name": "Outro: Canopy Rumble (Unison)",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.HasBuff(Unison))",
+    "castTypes": ["Outro"],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Canopy Rumble",
+        "label": "Canopy Rumble",
+        "target": "@Next",
+        "duration": 8,
+        "stat": "Electro DMG Amp",
+        "value": "20%",
+        "removeOnSwap": true
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master Mult",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Seal Master Crit DMG",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Aligned Seals",
+        "label": "Aligned Seals",
+        "target": "@Self",
+        "duration": 30
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Blight Rain, Miasmic Thunder",
+        "label": "Blight Rain, Miasmic Thunder",
+        "target": "@Self",
+        "duration": 8,
+        "stacks": 6,
+        "maxStacks": 6
+      },
+      {
+        "type": "buff",
+        "name": "Unison Swap",
+        "label": "Unison Swap",
+        "target": "@Next",
+        "duration": 1
+      }
+    ],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0
+  },
+  "Suoming_Rain-Soaked Covenant": {
+    "name": "Rain-Soaked Covenant",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Intro]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Rain-Soaked Covenant",
+        "label": "Rain-Soaked Covenant",
+        "target": "@Self",
+        "duration": 15,
+        "stat": "Electro DMG Bonus",
+        "value": "50%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Rain-Soaked Covenant (Concerto)": {
+    "name": "Rain-Soaked Covenant (Concerto)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Self, Unison Response]",
+    "cooldown": 25,
+    "effects": [
+      {
+        "type": "resource",
+        "name": "concerto",
+        "value": 10
+      }
+    ]
+  },
+  "Suoming_Sunken Seal, Forged Lock (Unison Outro)": {
+    "name": "Sunken Seal, Forged Lock (Unison Outro)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Suoming(Outro: Canopy Rumble (Unison))] IF (@Self.HasBuff(@Suoming(Sunken Seal Window)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Aligned Seals Electro DMG",
+        "label": "Aligned Seals",
+        "target": "@Next",
+        "duration": 8,
+        "stat": "Electro DMG Bonus",
+        "value": "30%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Sunken Seal, Forged Lock (Outro)": {
+    "name": "Sunken Seal, Forged Lock (Outro)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Suoming(Outro: Canopy Rumble)] IF (@Self.HasBuff(@Suoming(Sunken Seal Window)) && @Self.HasBuff(@Suoming(Aligned Seals)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Aligned Seals Electro DMG",
+        "label": "Aligned Seals",
+        "target": "@Next",
+        "duration": 8,
+        "stat": "Electro DMG Bonus",
+        "value": "30%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Seal Master": {
+    "name": "Seal Master",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Suoming(Rift Cleaver)] IF (@Self.HasBuff(Unison) && !@Self.HasBuff(@Suoming(Aligned Seals)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Suoming_Unison Boon",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "resource",
+        "name": "concerto",
+        "value": -20
+      },
+      {
+        "type": "tracker",
+        "name": "Partial Concerto Consumed",
+        "action": "add",
+        "value": 1
+      },
+      {
+        "type": "resource",
+        "name": "forte1",
+        "value": "-@Self.Delusion"
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Seal Master",
+        "label": "Seal Master",
+        "target": "@Self",
+        "duration": 12,
+        "removeOnSwap": true
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Seal Master Mult",
+        "label": "Seal Master",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Multiplicative Mult",
+        "value": "100%",
+        "removeOnSwap": true,
+        "applyTo": ["@Suoming(Unfurled Canopy 1)", "@Suoming(Unfurled Canopy 2)", "@Suoming(Unfurled Canopy 3)", "@Suoming(Unfurled Canopy 4)", "@Suoming(Whirling Thunder 1)", "@Suoming(Whirling Thunder 2)"]
+      },
+      {
+        "type": "buff",
+        "name": "Suoming_Seal Master Crit DMG",
+        "label": "Seal Master",
+        "target": "@Self",
+        "duration": 12,
+        "stat": "Crit DMG",
+        "value": "(@Self.Sequence >= 6 ? 300 : 100)%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Sequence 1: Into the Blight Rain": {
+    "name": "Sequence 1: Into the Blight Rain",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 1)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S1 Mult",
+        "label": "Into the Blight Rain",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "60%",
+        "applyTo": ["@Suoming(Intro: Flash Rift)", "@Suoming(Intro: Thunder Rending)", "@Suoming(Intro: Sealed Delusion (Unison))", "@Suoming(Intro: Whirling Thunder (Unison))"]
+      }
+    ]
+  },
+  "Suoming_Sequence 2: Breaking Thunder, Slaying Evil": {
+    "name": "Sequence 2: Breaking Thunder, Slaying Evil",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S2 Crit DMG",
+        "label": "Breaking Thunder, Slaying Evil",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Crit DMG",
+        "value": "40%"
+      }
+    ]
+  },
+  "Suoming_Sequence 2: Breaking Thunder, Slaying Evil (Outro)": {
+    "name": "Sequence 2: Breaking Thunder, Slaying Evil (Outro)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Outro] IF (@Self.Sequence >= 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S2 Outro Crit DMG",
+        "label": "Breaking Thunder, Slaying Evil",
+        "target": "@Next",
+        "duration": 30,
+        "stat": "Crit DMG",
+        "value": "10%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Sequence 3: Lone Canopy, Solitary Road": {
+    "name": "Sequence 3: Lone Canopy, Solitary Road",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Suoming(Intro: Flash Rift)], OnCast[Self, @Suoming(Intro: Thunder Rending)]) IF (@Self.Sequence >= 3)",
+    "cooldown": 25,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Unison Boon",
+        "label": "Unison Boon",
+        "target": "@Self",
+        "duration": 30,
+        "stat": "DMG Taken",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Suoming_Sequence 3: Lone Canopy, Solitary Road (Liberation)": {
+    "name": "Sequence 3: Lone Canopy, Solitary Road (Liberation)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Liberation] IF (@Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S3 Basic DMG Amp",
+        "label": "Lone Canopy, Solitary Road",
+        "target": "@Self",
+        "duration": 25,
+        "stat": "Basic DMG Amp",
+        "value": "30%"
+      }
+    ]
+  },
+  "Suoming_Sequence 4: Covenant Borne Upon the Heart": {
+    "name": "Sequence 4: Covenant Borne Upon the Heart",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 4)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S4 ATK",
+        "label": "Covenant Borne Upon the Heart",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "ATK %",
+        "value": "20%"
+      }
+    ]
+  },
+  "Suoming_Sequence 5: Seal Deep, Never Forgotten": {
+    "name": "Sequence 5: Seal Deep, Never Forgotten",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 5)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S5 Mult",
+        "label": "Seal Deep, Never Forgotten",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "40%",
+        "applyTo": ["@Suoming(Miasma Lock)"]
+      }
+    ]
+  },
+  "Suoming_Sequence 6: Nine Shadows at Her Side": {
+    "name": "Sequence 6: Nine Shadows at Her Side",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 6)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_S6 Mult",
+        "label": "Nine Shadows at Her Side",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "50%",
+        "applyTo": ["@Suoming(Engraved Heart)"]
+      }
+    ]
+  }
+}

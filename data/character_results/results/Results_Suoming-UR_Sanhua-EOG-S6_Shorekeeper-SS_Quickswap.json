@@ -1,0 +1,856 @@
+{
+  "format": 2,
+  "hash": "b0d55829b55d94d6",
+  "build": "default",
+  "rotationType": "quickswap",
+  "author": "Pigeon",
+  "team": [
+    {
+      "index": 0,
+      "character": "Suoming",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Unspoken Rue",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Heart of Sworn Vigil",
+      "subSet": "",
+      "mainEcho": "Reminiscence - Suhsin the Inevitable",
+      "echoes": [
+        {
+          "mainStat": "CR DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 83.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 37.5,
+        "critDamage": 119,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 30,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "",
+      "subSet2b": ""
+    },
+    {
+      "index": 1,
+      "character": "Sanhua",
+      "sequence": 6,
+      "mode": "None",
+      "weapon": "Emerald of Genesis",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Moonlit Clouds",
+      "subSet": "",
+      "mainEcho": "Impermanence Heron",
+      "echoes": [
+        {
+          "mainStat": "CR Rate",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "Lib DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Glacio DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 59.5,
+        "critDamage": 75,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 17.2,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 60,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Moonlit Clouds"
+    },
+    {
+      "index": 2,
+      "character": "Shorekeeper",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Stellar Symphony",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Rejuvenating Glow",
+      "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
+      "mainEcho": "Fallacy of No Return",
+      "echoes": [
+        {
+          "mainStat": "Healing Bonus",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Spectro DMG",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 6280,
+        "percentHP": 88.6,
+        "flatAtk": 350,
+        "percentAtk": 17.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 22.5,
+        "critDamage": 0,
+        "energyRegen": 78,
+        "healingBonus": 26.4,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 30,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      }
+    }
+  ],
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "results": {
+    "dpsStats": {
+      "openerDps": 80163.4764826176,
+      "firstLoopDps": 83349.78303747534,
+      "avgLoopDps": 83859.81920405688,
+      "twoMinDps": 84688.68333333333
+    },
+    "contribution": {
+      "opener": {
+        "team": [
+          {
+            "label": "Suoming",
+            "dmg": 1805039
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 77864
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 14406
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Suoming": [
+            {
+              "castType": "Echo",
+              "dmg": 46515
+            },
+            {
+              "castType": "Basic",
+              "dmg": 1663665
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 94859
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Liberation",
+              "dmg": 27211
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 35249
+            },
+            {
+              "castType": "Intro",
+              "dmg": 6309
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9095
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Basic",
+              "dmg": 7522
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1365
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1690
+            },
+            {
+              "castType": "Echo",
+              "dmg": 3829
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 4.583333333333333,
+          "Sanhua": 1.7,
+          "Suoming": 18.166666666666668
+        },
+        "duration": 24.45
+      },
+      "firstLoop": {
+        "team": [
+          {
+            "label": "Suoming",
+            "dmg": 1917430
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 99261
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 33538
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 1776056
+            },
+            {
+              "castType": "Echo",
+              "dmg": 46515
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 94859
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Skill",
+              "dmg": 12646
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 31293
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 39918
+            },
+            {
+              "castType": "Intro",
+              "dmg": 6309
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9095
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Liberation",
+              "dmg": 21585
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4720
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1735
+            },
+            {
+              "castType": "Echo",
+              "dmg": 4403
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1095
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 4,
+          "Sanhua": 1.8166666666666667,
+          "Suoming": 19.533333333333335
+        },
+        "duration": 25.35
+      },
+      "avgLoop": {
+        "team": [
+          {
+            "label": "Suoming",
+            "dmg": 1917547.5
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 99261
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 33538
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 1776173.5
+            },
+            {
+              "castType": "Echo",
+              "dmg": 46515
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 94859
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Skill",
+              "dmg": 12646
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 31293
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 39918
+            },
+            {
+              "castType": "Intro",
+              "dmg": 6309
+            },
+            {
+              "castType": "Echo",
+              "dmg": 9095
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Liberation",
+              "dmg": 21585
+            },
+            {
+              "castType": "Basic",
+              "dmg": 4720
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1735
+            },
+            {
+              "castType": "Echo",
+              "dmg": 4403
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1095
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 3.847222222222222,
+          "Sanhua": 1.8166666666666667,
+          "Suoming": 19.533333333333335
+        },
+        "duration": 25.197222222222223
+      },
+      "twoMin": {
+        "team": [
+          {
+            "label": "Suoming",
+            "dmg": 9204151
+          },
+          {
+            "label": "Sanhua",
+            "dmg": 474908
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 170143
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 313440
+          }
+        ],
+        "units": {
+          "Suoming": [
+            {
+              "castType": "Echo",
+              "dmg": 232575
+            },
+            {
+              "castType": "Basic",
+              "dmg": 8497281
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 474295
+            }
+          ],
+          "Sanhua": [
+            {
+              "castType": "Liberation",
+              "dmg": 152383
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 194921
+            },
+            {
+              "castType": "Intro",
+              "dmg": 31545
+            },
+            {
+              "castType": "Echo",
+              "dmg": 45475
+            },
+            {
+              "castType": "Skill",
+              "dmg": 50584
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Basic",
+              "dmg": 26402
+            },
+            {
+              "castType": "Skill",
+              "dmg": 8305
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 6070
+            },
+            {
+              "castType": "Echo",
+              "dmg": 21441
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 107925
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 21.283333333333335,
+          "Sanhua": 8.966666666666667,
+          "Suoming": 89.01666666666667
+        },
+        "duration": 120
+      }
+    },
+    "issues": {
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

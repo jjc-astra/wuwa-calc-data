@@ -523,5 +523,27 @@
         "ER %": 1
       }
     }
+  },
+  "Suoming": {
+    "Main DPS": {
+      "weapon": "Unspoken Rue",
+      "r0Weapon": "Emerald of Genesis",
+      "echoLayout": "4 3 3 1 1",
+      "mainSet": "Heart of Sworn Vigil",
+      "mainEcho": "Reminiscence - Suhsin the Inevitable",
+      "mainStats": {
+        "cost4": "CR DMG",
+        "cost3": ["Electro DMG", "Electro DMG"],
+        "cost1": ["ATK %", "ATK %"]
+      },
+      "subStats": {
+        "CR Rate": 5,
+        "CR DMG": 5,
+        "ATK %": 2,
+        "ATK": 2,
+        "Basic DMG": 2,
+        "ER %": 1
+      }
+    }
   }
 }

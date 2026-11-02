@@ -1,0 +1,41 @@
+{
+  "Heart of Sworn Vigil_2-pc Effect": {
+    "name": "2-pc Effect",
+    "category": "2-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Heart of Sworn Vigil 2-pc",
+        "stat": "Electro DMG Bonus",
+        "value": "10%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Heart of Sworn Vigil_5-pc Effect": {
+    "name": "5-pc Effect",
+    "category": "5-pc Set Effect",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Self, Unison], OnTrackerAdd[Self, Unison Response], OnBuffAdd[Self, Electro Flare])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Heart of Sworn Vigil 5-pc Crit Rate",
+        "stat": "CR Rate",
+        "value": "15%",
+        "duration": 30,
+        "maxStacks": 1
+      },
+      {
+        "type": "buff",
+        "name": "Heart of Sworn Vigil 5-pc Electro DMG",
+        "stat": "Electro DMG Bonus",
+        "value": "22.5%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  }
+}
