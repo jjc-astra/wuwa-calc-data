@@ -49,7 +49,8 @@
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 33,
     "swapTiming": "@Default.SwapTime",
@@ -73,7 +74,8 @@
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 2",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 36,
     "swapTiming": "@Default.SwapTime",
@@ -102,7 +104,8 @@
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 3",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 3,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 36,
     "swapTiming": "@Default.SwapTime",
@@ -131,7 +134,8 @@
     "scalar": "ATK",
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 4",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 4,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 109,
     "swapTiming": "@Default.SwapTime",
@@ -431,7 +435,8 @@
     "damageTimeframe": {
       "start": 72,
       "end": 72
-    }
+    },
+    "swapTiming": 90
   },
   "Sanhua_Intro Skill": {
     "name": "Intro Skill",

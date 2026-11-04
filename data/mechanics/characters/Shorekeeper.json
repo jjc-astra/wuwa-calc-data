@@ -49,7 +49,8 @@
     "hitMults": ["23.86%", "23.86%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 33,
     "swapTiming": "@Default.SwapTime",
@@ -78,7 +79,8 @@
     "hitMults": ["23.32%", "23.32%", "23.32%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 2",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 47,
     "swapTiming": "@Default.SwapTime",
@@ -107,7 +109,8 @@
     "hitMults": ["72.72%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 3",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 3,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 51,
     "swapTiming": "@Default.SwapTime",
@@ -438,7 +441,8 @@
     "actionDuration": 207,
     "cooldown": 25,
     "freezeTime": 207,
-    "motionStop": 207
+    "motionStop": 207,
+    "swapTiming": 207
   },
   "Shorekeeper_Stellarealm (Healing)": {
     "name": "Stellarealm (Healing)",
@@ -631,13 +635,14 @@
     "priority": "@Default.IntroPriority",
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 215,
-    "freezeTime": 140,
+    "freezeTime": 134,
     "freezeStart": 6,
     "motionStop": 140,
     "damageTimeframe": {
       "start": 143,
       "end": 167
-    }
+    },
+    "swapTiming": 140
   },
   "Shorekeeper_Discernment (Guaranteed Crit)": {
     "name": "Discernment (Guaranteed Crit)",

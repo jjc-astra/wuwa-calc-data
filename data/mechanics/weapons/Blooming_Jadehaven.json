@@ -1,0 +1,64 @@
+{
+  "Blooming Jadehaven_Hundredfold Artifice (DMG Bonus)": {
+    "name": "Hundredfold Artifice (DMG Bonus)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ALWAYS",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hundredfold Artifice DMG Bonus",
+        "target": "@Equipper",
+        "stat": "DMG Bonus",
+        "value": "12%/15%/18%/21%/24%",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Blooming Jadehaven_Hundredfold Artifice (Skill)": {
+    "name": "Hundredfold Artifice (Skill)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Self, Electro Flare], OnTrackerAdd[Self, Unison Response])",
+    "cooldown": 0.1,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hundredfold Artifice Skill DMG Amp",
+        "target": "@Equipper",
+        "stat": "Skill DMG Amp",
+        "value": "36%/45%/54%/63%/72%",
+        "duration": 30,
+        "maxStacks": 1
+      },
+      {
+        "type": "buff",
+        "name": "Hundredfold Artifice Skill RES Ignore",
+        "target": "@Equipper",
+        "stat": "Skill Ignore RES",
+        "value": "10%/13.5%/17%/20.5%/24%",
+        "duration": 30,
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Blooming Jadehaven_Hundredfold Artifice (Electro Flare)": {
+    "name": "Hundredfold Artifice (Electro Flare)",
+    "category": "Weapon Passive",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Self, Electro Flare], OnTrackerAdd[Self, Unison Response]) IF (@Active.Name == @Self.Name)",
+    "cooldown": 0.1,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hundredfold Artifice Electro Flare DMG Amp",
+        "target": "@Team",
+        "stat": "Electro Flare DMG Amp",
+        "value": "30%/37.5%/45%/52.5%/60%",
+        "duration": 30,
+        "maxStacks": 1,
+        "applyTo": ["Electro Flare"]
+      }
+    ]
+  }
+}

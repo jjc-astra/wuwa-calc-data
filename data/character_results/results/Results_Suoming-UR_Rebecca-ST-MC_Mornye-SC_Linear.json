@@ -505,10 +505,10 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 76056.07961399277,
-      "firstLoopDps": 92535.68988173456,
-      "avgLoopDps": 88256.68856767412,
-      "twoMinDps": 82178.13333333333
+      "openerDps": 75329.13978494624,
+      "firstLoopDps": 91573.02990897269,
+      "avgLoopDps": 87338.54356306892,
+      "twoMinDps": 80829.75833333333
     },
     "contribution": {
       "opener": {
@@ -589,9 +589,9 @@
         "fieldTime": {
           "Rebecca": 8.45,
           "Mornye": 6.916666666666667,
-          "Suoming": 12.266666666666667
+          "Suoming": 12.533333333333333
         },
-        "duration": 27.633333333333333
+        "duration": 27.9
       },
       "firstLoop": {
         "team": [
@@ -675,9 +675,9 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Rebecca": 7.866666666666666,
-          "Suoming": 12.266666666666667
+          "Suoming": 12.533333333333333
         },
-        "duration": 25.366666666666667
+        "duration": 25.633333333333333
       },
       "avgLoop": {
         "team": [
@@ -761,19 +761,19 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Rebecca": 7.866666666666667,
-          "Suoming": 12.266666666666666
+          "Suoming": 12.533333333333333
         },
-        "duration": 25.366666666666664
+        "duration": 25.633333333333336
       },
       "twoMin": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 6718806
+            "dmg": 6612464
           },
           {
             "label": "Rebecca",
-            "dmg": 2328168
+            "dmg": 2272705
           },
           {
             "label": "Mornye",
@@ -788,7 +788,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 5871576
+              "dmg": 5765234
             },
             {
               "castType": "Liberation",
@@ -802,7 +802,7 @@
           "Rebecca": [
             {
               "castType": "Basic",
-              "dmg": 1215522
+              "dmg": 1160949
             },
             {
               "castType": "Intro",
@@ -814,7 +814,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 33174
+              "dmg": 32284
             },
             {
               "castType": "TuneHack",

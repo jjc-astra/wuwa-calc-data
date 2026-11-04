@@ -503,21 +503,21 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 42431.60813308688,
-      "firstLoopDps": 55792.19765929779,
-      "avgLoopDps": 52309.03353057199,
-      "twoMinDps": 51592.083333333336
+      "openerDps": 41358.98594990837,
+      "firstLoopDps": 55791.33940182054,
+      "avgLoopDps": 51023.74345549738,
+      "twoMinDps": 50828.09166666667
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 440075
+            "dmg": 420537
           },
           {
             "label": "Rebecca",
-            "dmg": 567797
+            "dmg": 567971
           },
           {
             "label": "Mornye",
@@ -548,7 +548,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 319302
+              "dmg": 299764
             },
             {
               "castType": "Intro",
@@ -582,7 +582,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 10718
+              "dmg": 10892
             }
           ],
           "Mornye": [
@@ -605,11 +605,11 @@
           ]
         },
         "fieldTime": {
-          "Lumi": 14.483333333333333,
+          "Lumi": 14.716666666666667,
           "Mornye": 7.066666666666666,
           "Rebecca": 5.5
         },
-        "duration": 27.05
+        "duration": 27.283333333333335
       },
       "firstLoop": {
         "team": [
@@ -623,7 +623,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 68207
+            "dmg": 68185
           },
           {
             "label": "TuneBreak",
@@ -698,7 +698,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 3486
+              "dmg": 3464
             },
             {
               "castType": "Skill",
@@ -721,15 +721,15 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 485590
+            "dmg": 458884.6666666667
           },
           {
             "label": "Rebecca",
-            "dmg": 650059
+            "dmg": 650146
           },
           {
             "label": "Mornye",
-            "dmg": 68144
+            "dmg": 68133
           },
           {
             "label": "TuneBreak",
@@ -740,7 +740,7 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 341876
+              "dmg": 315170.6666666667
             },
             {
               "castType": "Echo",
@@ -790,7 +790,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 10676
+              "dmg": 10763
             }
           ],
           "Mornye": [
@@ -804,7 +804,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 3446
+              "dmg": 3435
             },
             {
               "castType": "Skill",
@@ -819,23 +819,23 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Rebecca": 5.783333333333334,
-          "Lumi": 14.333333333333334
+          "Lumi": 14.450000000000001
         },
-        "duration": 25.349999999999998
+        "duration": 25.46666666666667
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2130102
+            "dmg": 2038776
           },
           {
             "label": "Rebecca",
-            "dmg": 3159505
+            "dmg": 3159196
           },
           {
             "label": "Mornye",
-            "dmg": 324716
+            "dmg": 324672
           },
           {
             "label": "TuneBreak",
@@ -862,7 +862,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 1434473
+              "dmg": 1343147
             },
             {
               "castType": "Intro",
@@ -896,13 +896,13 @@
             },
             {
               "castType": "Outro",
-              "dmg": 44894
+              "dmg": 44585
             }
           ],
           "Mornye": [
             {
               "castType": "Basic",
-              "dmg": 17546
+              "dmg": 17502
             },
             {
               "castType": "Heavy",

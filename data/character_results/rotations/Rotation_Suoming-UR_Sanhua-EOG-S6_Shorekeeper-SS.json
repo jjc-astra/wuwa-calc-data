@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "7cf3d422367baa0e",
+  "hash": "865ac5032e7aacfc",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -182,6 +182,11 @@
     },
     {
       "unit": "Suoming",
+      "action": "System_Tune Break",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
       "action": "Suoming_Unforsaken Mind",
       "timing": "Auto"
     },
@@ -192,7 +197,7 @@
     },
     {
       "unit": "Suoming",
-      "action": "System_Tune Break",
+      "action": "System_Dodge",
       "timing": "Auto"
     },
     {
@@ -203,11 +208,6 @@
     {
       "unit": "Suoming",
       "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 3",
       "timing": "Auto"
     },
     {
@@ -395,17 +395,17 @@
     },
     {
       "unit": "Suoming",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
       "action": "Suoming_Furled Canopy 1",
       "timing": "Auto"
     },
     {
       "unit": "Suoming",
       "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 3",
       "timing": "Auto"
     },
     {

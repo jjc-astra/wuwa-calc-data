@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "fa3f2270dc207c6a",
+  "hash": "b72dcfb2e6963eed",
   "build": "default",
   "rotationType": "linear",
   "author": "Astrais",
@@ -505,21 +505,21 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 80475.35055350553,
-      "firstLoopDps": 88454.08,
-      "avgLoopDps": 88454.08,
-      "twoMinDps": 84129.36666666667
+      "openerDps": 79892.21402214022,
+      "firstLoopDps": 87810.08,
+      "avgLoopDps": 87810.08,
+      "twoMinDps": 83556.46666666666
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1678075
+            "dmg": 1663022
           },
           {
             "label": "Rebecca",
-            "dmg": 426507
+            "dmg": 425757
           },
           {
             "label": "Shorekeeper",
@@ -534,7 +534,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1499150
+              "dmg": 1484097
             },
             {
               "castType": "Liberation",
@@ -560,7 +560,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 9971
+              "dmg": 9221
             },
             {
               "castType": "TuneHack",
@@ -597,11 +597,11 @@
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1702252
+            "dmg": 1686880
           },
           {
             "label": "Rebecca",
-            "dmg": 411578
+            "dmg": 410850
           },
           {
             "label": "Shorekeeper",
@@ -616,7 +616,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1523327
+              "dmg": 1507955
             },
             {
               "castType": "Liberation",
@@ -646,7 +646,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 9971
+              "dmg": 9243
             },
             {
               "castType": "TuneHack",
@@ -677,8 +677,8 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 3.7333333333333334,
-          "Rebecca": 7.666666666666667,
+          "Shorekeeper": 3.8333333333333335,
+          "Rebecca": 7.566666666666666,
           "Suoming": 13.6
         },
         "duration": 25
@@ -687,11 +687,11 @@
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1702252
+            "dmg": 1686880
           },
           {
             "label": "Rebecca",
-            "dmg": 411578
+            "dmg": 410850
           },
           {
             "label": "Shorekeeper",
@@ -706,7 +706,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1523327
+              "dmg": 1507955
             },
             {
               "castType": "Liberation",
@@ -736,7 +736,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 9971
+              "dmg": 9243
             },
             {
               "castType": "TuneHack",
@@ -767,8 +767,8 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 3.733333333333333,
-          "Rebecca": 7.666666666666667,
+          "Shorekeeper": 3.8333333333333335,
+          "Rebecca": 7.566666666666666,
           "Suoming": 13.6
         },
         "duration": 25
@@ -777,11 +777,11 @@
         "team": [
           {
             "label": "Suoming",
-            "dmg": 7561355
+            "dmg": 7495541
           },
           {
             "label": "Rebecca",
-            "dmg": 2067781
+            "dmg": 2064847
           },
           {
             "label": "Shorekeeper",
@@ -796,7 +796,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 6666730
+              "dmg": 6600916
             },
             {
               "castType": "Liberation",
@@ -822,7 +822,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 44817
+              "dmg": 41883
             },
             {
               "castType": "TuneHack",
@@ -857,8 +857,8 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 20.083333333333332,
-          "Rebecca": 39.016666666666666,
+          "Shorekeeper": 20.483333333333334,
+          "Rebecca": 38.61666666666667,
           "Suoming": 60.9
         },
         "duration": 120

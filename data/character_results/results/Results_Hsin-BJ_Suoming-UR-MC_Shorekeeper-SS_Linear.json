@@ -1,0 +1,860 @@
+{
+  "format": 2,
+  "hash": "1a38c4b2dd37a985",
+  "build": "default",
+  "rotationType": "linear",
+  "author": "アント・クラッシャー",
+  "team": [
+    {
+      "index": 0,
+      "character": "Hsin",
+      "sequence": 0,
+      "mode": "mode1",
+      "weapon": "Blooming Jadehaven",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Heart of Sworn Vigil",
+      "subSet": "",
+      "mainEcho": "Reminiscence - Suhsin the Inevitable",
+      "echoes": [
+        {
+          "mainStat": "CR DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Skill DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Skill DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 37.5,
+        "critDamage": 119,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 17.2,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Moonlit Clouds"
+    },
+    {
+      "index": 1,
+      "character": "Suoming",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Unspoken Rue",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Moonlit Clouds",
+      "subSet": "",
+      "mainEcho": "Impermanence Heron",
+      "echoes": [
+        {
+          "mainStat": "CR DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 37.5,
+        "critDamage": 119,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "",
+      "subSet2b": ""
+    },
+    {
+      "index": 2,
+      "character": "Shorekeeper",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Stellar Symphony",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Rejuvenating Glow",
+      "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
+      "mainEcho": "Fallacy of No Return",
+      "echoes": [
+        {
+          "mainStat": "Healing Bonus",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Spectro DMG",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 6280,
+        "percentHP": 88.6,
+        "flatAtk": 350,
+        "percentAtk": 17.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 22.5,
+        "critDamage": 0,
+        "energyRegen": 78,
+        "healingBonus": 26.4,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 30,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      }
+    }
+  ],
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "results": {
+    "dpsStats": {
+      "openerDps": 109623.59183673469,
+      "firstLoopDps": 110885.96,
+      "avgLoopDps": 110873.93333333333,
+      "twoMinDps": 103456.90833333334
+    },
+    "contribution": {
+      "opener": {
+        "team": [
+          {
+            "label": "Hsin",
+            "dmg": 2061764
+          },
+          {
+            "label": "Suoming",
+            "dmg": 548647
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 12679
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Hsin": [
+            {
+              "castType": "Skill",
+              "dmg": 1824846
+            },
+            {
+              "castType": "Basic",
+              "dmg": 149084
+            },
+            {
+              "castType": "Outro",
+              "dmg": 23279
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 15490
+            },
+            {
+              "castType": "Echo",
+              "dmg": 49065
+            }
+          ],
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 445861
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 91100
+            },
+            {
+              "castType": "Echo",
+              "dmg": 11686
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Basic",
+              "dmg": 6075
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1535
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1240
+            },
+            {
+              "castType": "Echo",
+              "dmg": 3829
+            }
+          ]
+        },
+        "fieldTime": {
+          "Hsin": 10.6,
+          "Shorekeeper": 5.183333333333334,
+          "Suoming": 8.716666666666667
+        },
+        "duration": 24.5
+      },
+      "firstLoop": {
+        "team": [
+          {
+            "label": "Hsin",
+            "dmg": 2083541
+          },
+          {
+            "label": "Suoming",
+            "dmg": 586836
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 39084
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Hsin": [
+            {
+              "castType": "Skill",
+              "dmg": 1826411
+            },
+            {
+              "castType": "Outro",
+              "dmg": 27553
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 31821
+            },
+            {
+              "castType": "Basic",
+              "dmg": 150236
+            },
+            {
+              "castType": "Echo",
+              "dmg": 47520
+            }
+          ],
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 459900
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 112829
+            },
+            {
+              "castType": "Echo",
+              "dmg": 14107
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Liberation",
+              "dmg": 25338
+            },
+            {
+              "castType": "Basic",
+              "dmg": 5532
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1865
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1180
+            },
+            {
+              "castType": "Echo",
+              "dmg": 5169
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 5.583333333333333,
+          "Suoming": 8.966666666666667,
+          "Hsin": 10.45
+        },
+        "duration": 25
+      },
+      "avgLoop": {
+        "team": [
+          {
+            "label": "Hsin",
+            "dmg": 2083240.3333333333
+          },
+          {
+            "label": "Suoming",
+            "dmg": 586836
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 39084
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 62688
+          }
+        ],
+        "units": {
+          "Hsin": [
+            {
+              "castType": "Skill",
+              "dmg": 1826241.6666666667
+            },
+            {
+              "castType": "Outro",
+              "dmg": 27445.666666666668
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 31797
+            },
+            {
+              "castType": "Basic",
+              "dmg": 150236
+            },
+            {
+              "castType": "Echo",
+              "dmg": 47520
+            }
+          ],
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 459900
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 112829
+            },
+            {
+              "castType": "Echo",
+              "dmg": 14107
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Liberation",
+              "dmg": 25338
+            },
+            {
+              "castType": "Basic",
+              "dmg": 5532
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1865
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 1180
+            },
+            {
+              "castType": "Echo",
+              "dmg": 5169
+            }
+          ]
+        },
+        "fieldTime": {
+          "Shorekeeper": 5.583333333333333,
+          "Suoming": 8.966666666666667,
+          "Hsin": 10.450000000000001
+        },
+        "duration": 25
+      },
+      "twoMin": {
+        "team": [
+          {
+            "label": "Hsin",
+            "dmg": 9099071
+          },
+          {
+            "label": "Suoming",
+            "dmg": 2895991
+          },
+          {
+            "label": "Shorekeeper",
+            "dmg": 169015
+          },
+          {
+            "label": "TuneBreak",
+            "dmg": 250752
+          }
+        ],
+        "units": {
+          "Hsin": [
+            {
+              "castType": "Skill",
+              "dmg": 7978231
+            },
+            {
+              "castType": "Basic",
+              "dmg": 670468
+            },
+            {
+              "castType": "Outro",
+              "dmg": 124324
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 134423
+            },
+            {
+              "castType": "Echo",
+              "dmg": 191625
+            }
+          ],
+          "Suoming": [
+            {
+              "castType": "Basic",
+              "dmg": 2285461
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 542416
+            },
+            {
+              "castType": "Echo",
+              "dmg": 68114
+            }
+          ],
+          "Shorekeeper": [
+            {
+              "castType": "Basic",
+              "dmg": 28203
+            },
+            {
+              "castType": "Heavy",
+              "dmg": 6255
+            },
+            {
+              "castType": "Skill",
+              "dmg": 8700
+            },
+            {
+              "castType": "Echo",
+              "dmg": 24505
+            },
+            {
+              "castType": "Liberation",
+              "dmg": 101352
+            }
+          ]
+        },
+        "fieldTime": {
+          "Hsin": 47.9,
+          "Shorekeeper": 27.516666666666666,
+          "Suoming": 44.583333333333336
+        },
+        "duration": 120
+      }
+    },
+    "issues": {
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

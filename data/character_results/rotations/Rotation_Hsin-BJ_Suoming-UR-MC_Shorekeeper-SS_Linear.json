@@ -1,0 +1,979 @@
+{
+  "format": 2,
+  "hash": "1a38c4b2dd37a985",
+  "rotation": [
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Heartward by Moon: Answering Form",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Illation",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Chaos Theory",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Illation",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Fallacy of No Return_Attack",
+      "timing": "Simultaneous"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_End Loop",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Outro: Binary Butterfly",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Intro: Flash Rift",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Miasma Lock",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Impermanence Heron_Attack",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Outro: Canopy Rumble (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Intro: Answering Form (Manifold Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Answering Form 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Answering Form 4",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Realm Protector",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Formshift",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Illumining Form 1",
+      "timing": "Instant_Cancel"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Heartward by Moon: Illumining Form",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Outro: Herself a Thousand Lanterns (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Intro: Whirling Thunder (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Whirling Thunder 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unfurled Canopy 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unfurled Canopy 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unforsaken Mind",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Engraved Heart",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Outro: Canopy Rumble",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Intro: Illumining Form (Source Intent)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 3",
+      "timing": "Cancel_1"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Stilling All Horizons",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Reminiscence - Suhsin the Inevitable_Attack",
+      "timing": "Simultaneous"
+    },
+    {
+      "unit": "Hsin",
+      "action": "System_Tune Break",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Across Heaven",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Heartward by Moon: Answering Form",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Outro: Herself a Thousand Lanterns",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Intro: Discernment",
+      "timing": "Auto",
+      "loopStartOverride": true
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Chaos Theory",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Basic Attack 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Illation",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Fallacy of No Return_Attack",
+      "timing": "Simultaneous"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_End Loop",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Shorekeeper",
+      "action": "Shorekeeper_Outro: Binary Butterfly",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Intro: Flash Rift",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Miasma Lock",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Impermanence Heron_Attack",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Outro: Canopy Rumble (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Intro: Answering Form (Manifold Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Answering Form 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Answering Form 4",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Realm Protector",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Formshift",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Illumining Form 1",
+      "timing": "Instant_Cancel"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Heartward by Moon: Illumining Form",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Outro: Herself a Thousand Lanterns (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Intro: Whirling Thunder (Unison)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Whirling Thunder 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unfurled Canopy 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unfurled Canopy 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Unforsaken Mind",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Engraved Heart",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "Suoming_Outro: Canopy Rumble",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Intro: Illumining Form (Source Intent)",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 1",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 2",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Aligned 3",
+      "timing": "Cancel_1"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Stilling All Horizons",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Reminiscence - Suhsin the Inevitable_Attack",
+      "timing": "Simultaneous"
+    },
+    {
+      "unit": "Hsin",
+      "action": "System_Tune Break",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Pillars Across Heaven",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Heartward by Moon: Answering Form",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Hsin",
+      "action": "Hsin_Outro: Herself a Thousand Lanterns",
+      "timing": "Auto"
+    },
+    {
+      "unit": "",
+      "action": "",
+      "timing": "Auto"
+    }
+  ],
+  "team": [
+    {
+      "index": 0,
+      "character": "Hsin",
+      "sequence": 0,
+      "mode": "mode1",
+      "weapon": "Blooming Jadehaven",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Heart of Sworn Vigil",
+      "subSet": "",
+      "mainEcho": "Reminiscence - Suhsin the Inevitable",
+      "echoes": [
+        {
+          "mainStat": "CR DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Skill DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Skill DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 37.5,
+        "critDamage": 119,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 17.2,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Moonlit Clouds"
+    },
+    {
+      "index": 1,
+      "character": "Suoming",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Unspoken Rue",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Moonlit Clouds",
+      "subSet": "",
+      "mainEcho": "Impermanence Heron",
+      "echoes": [
+        {
+          "mainStat": "CR DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            },
+            {
+              "name": "ATK",
+              "value": 40
+            },
+            {
+              "name": "Basic DMG",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Electro DMG",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "ATK %",
+          "substats": [
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "CR DMG",
+              "value": 15
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 4560,
+        "percentHP": 0,
+        "flatAtk": 430,
+        "percentAtk": 53.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 37.5,
+        "critDamage": 119,
+        "energyRegen": 9.2,
+        "healingBonus": 0,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 17.2,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 0,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 60,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      },
+      "subSet2a": "",
+      "subSet2b": ""
+    },
+    {
+      "index": 2,
+      "character": "Shorekeeper",
+      "sequence": 0,
+      "mode": "None",
+      "weapon": "Stellar Symphony",
+      "rank": 1,
+      "layout": "4 3 3 1 1",
+      "mainSet": "Rejuvenating Glow",
+      "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
+      "mainEcho": "Fallacy of No Return",
+      "echoes": [
+        {
+          "mainStat": "Healing Bonus",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "Spectro DMG",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "ATK %",
+              "value": 8.6
+            }
+          ]
+        },
+        {
+          "mainStat": "ER %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "CR Rate",
+              "value": 7.5
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "HP",
+              "value": 430
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "mainStat": "HP %",
+          "substats": [
+            {
+              "name": "ER %",
+              "value": 9.2
+            },
+            {
+              "name": "HP %",
+              "value": 8.6
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            },
+            {
+              "name": "N/A",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "echoStats": {
+        "flatHP": 6280,
+        "percentHP": 88.6,
+        "flatAtk": 350,
+        "percentAtk": 17.2,
+        "flatDef": 0,
+        "percentDef": 0,
+        "critRate": 22.5,
+        "critDamage": 0,
+        "energyRegen": 78,
+        "healingBonus": 26.4,
+        "skillDmgBonus": 0,
+        "basicDmgBonus": 0,
+        "heavyDmgBonus": 0,
+        "libDmgBonus": 0,
+        "spectroDmgBonus": 30,
+        "fusionDmgBonus": 0,
+        "glacioDmgBonus": 0,
+        "aeroDmgBonus": 0,
+        "electroDmgBonus": 0,
+        "havocDmgBonus": 0,
+        "physicalDmgBonus": 0
+      }
+    }
+  ],
+  "settings": {
+    "startEnergy": true,
+    "startConcerto": false,
+    "endingRotationEnabled": false,
+    "endRotationStartsEarlier": false
+  },
+  "enemy": {
+    "level": 100,
+    "res": 20,
+    "hp": 3000000
+  },
+  "rotationType": "linear",
+  "author": "アント・クラッシャー"
+}

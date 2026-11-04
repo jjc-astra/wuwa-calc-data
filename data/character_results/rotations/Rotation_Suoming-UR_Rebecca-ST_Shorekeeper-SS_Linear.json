@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "4b23634889552fb1",
+  "hash": "4913ed47bbb668e0",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -224,6 +224,11 @@
     },
     {
       "unit": "Suoming",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
       "action": "Suoming_Furled Canopy 1",
       "timing": "Auto"
     },
@@ -420,6 +425,11 @@
     {
       "unit": "Suoming",
       "action": "Suoming_Engraved Heart",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
+      "action": "System_Dodge",
       "timing": "Auto"
     },
     {

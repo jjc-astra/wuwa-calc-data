@@ -505,17 +505,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 80163.4764826176,
-      "firstLoopDps": 83349.78303747534,
-      "avgLoopDps": 83859.81920405688,
-      "twoMinDps": 84688.68333333333
+      "openerDps": 78628.46979865772,
+      "firstLoopDps": 83177.35700197238,
+      "avgLoopDps": 84160.6983704689,
+      "twoMinDps": 84533.08333333333
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1805039
+            "dmg": 1797649
           },
           {
             "label": "Sanhua",
@@ -538,7 +538,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 1663665
+              "dmg": 1656275
             },
             {
               "castType": "Liberation",
@@ -585,15 +585,15 @@
         "fieldTime": {
           "Shorekeeper": 4.583333333333333,
           "Sanhua": 1.7,
-          "Suoming": 18.166666666666668
+          "Suoming": 18.55
         },
-        "duration": 24.45
+        "duration": 24.833333333333332
       },
       "firstLoop": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1917430
+            "dmg": 1913059
           },
           {
             "label": "Sanhua",
@@ -612,7 +612,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1776056
+              "dmg": 1771685
             },
             {
               "castType": "Echo",
@@ -669,9 +669,9 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 4,
+          "Shorekeeper": 3.6166666666666667,
           "Sanhua": 1.8166666666666667,
-          "Suoming": 19.533333333333335
+          "Suoming": 19.916666666666668
         },
         "duration": 25.35
       },
@@ -679,7 +679,7 @@
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1917547.5
+            "dmg": 1913439.8333333333
           },
           {
             "label": "Sanhua",
@@ -698,7 +698,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1776173.5
+              "dmg": 1772065.8333333333
             },
             {
               "castType": "Echo",
@@ -755,17 +755,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 3.847222222222222,
+          "Shorekeeper": 3.3249999999999997,
           "Sanhua": 1.8166666666666667,
-          "Suoming": 19.533333333333335
+          "Suoming": 19.916666666666668
         },
-        "duration": 25.197222222222223
+        "duration": 25.058333333333334
       },
       "twoMin": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 9204151
+            "dmg": 9185479
           },
           {
             "label": "Sanhua",
@@ -788,7 +788,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 8497281
+              "dmg": 8478609
             },
             {
               "castType": "Liberation",
@@ -841,9 +841,9 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 21.283333333333335,
+          "Shorekeeper": 19.35,
           "Sanhua": 8.966666666666667,
-          "Suoming": 89.01666666666667
+          "Suoming": 90.71666666666667
         },
         "duration": 120
       }

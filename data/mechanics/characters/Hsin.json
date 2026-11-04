@@ -1,0 +1,2180 @@
+{
+  "Hsin_Forms Born of Heart": {
+    "name": "Forms Born of Heart",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnStart",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Answering Form",
+        "label": "Answering Form",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Nightglow",
+        "label": "Nightglow",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Hsin_Answering Form 1": {
+    "name": "Answering Form 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.5, 0.75],
+      "concerto": [0.8, 1.2],
+      "tune": [0.16, 0.24],
+      "forte1": [2.83, 4.25]
+    },
+    "cancelTimings": [
+      {
+        "time": 16
+      }
+    ],
+    "hitMults": ["27.84%", "41.76%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 30,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 12,
+      "end": 16
+    }
+  },
+  "Hsin_Answering Form 2": {
+    "name": "Answering Form 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && ANY(@Self.PrevAction == @Hsin(Answering Form 1), @Self.PrevAction == @Hsin(Heavy Attack: Answering Form), @Self.PrevAction == @Hsin(Mid-air Attack: Answering Form)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.28, 0.28, 1.23, 0.96],
+      "concerto": [0.44, 0.44, 1.96, 1.53],
+      "tune": [0.0871, 0.0871, 0.3917, 0.3047],
+      "forte1": [1.54, 1.54, 6.93, 5.39]
+    },
+    "cancelTimings": [
+      {
+        "time": 42
+      }
+    ],
+    "hitMults": ["15.15%", "15.15%", "68.14%", "53.00%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 64,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 24,
+      "end": 42
+    },
+    "hitFrames": [30, 38]
+  },
+  "Hsin_Answering Form 3": {
+    "name": "Answering Form 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && ANY(@Self.PrevAction == @Hsin(Answering Form 2), @Self.PrevAction == @Hsin(Invoked Form: Answering), @Self.PrevAction == @Hsin(Intro: Answering Form), @Self.PrevAction == @Hsin(Intro: Answering Form (Manifold Unison)), @Self.PrevAction == @Hsin(Intro: Answering Form (Source Intent))))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.57, 0.57, 0.43, 0.43, 0.85],
+      "concerto": [0.48, 0.48, 0.36, 0.36, 0.72],
+      "tune": [0.096, 0.096, 0.072, 0.072, 0.144],
+      "forte1": [1.7, 1.7, 1.28, 1.28, 2.55]
+    },
+    "cancelTimings": [
+      {
+        "time": 12
+      }
+    ],
+    "hitMults": ["31.51%", "31.51%", "23.63%", "23.63%", "47.26%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 66,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 27,
+      "end": 84
+    },
+    "hitFrames": [31, 45, 49]
+  },
+  "Hsin_Answering Form 4": {
+    "name": "Answering Form 4",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && ANY(@Self.PrevAction == @Hsin(Answering Form 3), @Self.PrevAction == @Hsin(Heartward by Moon: Answering Form), @Self.PrevAction == @Hsin(Intro: Answering Form (Electro Flare))))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.72, 0.72, 2.15],
+      "concerto": [1.57, 1.57, 4.71],
+      "tune": [0.3135, 0.3135, 0.9403],
+      "forte1": [5.54, 5.54, 16.62]
+    },
+    "cancelTimings": [
+      {
+        "time": 77
+      }
+    ],
+    "hitMults": ["39.72%", "39.72%", "119.15%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 3,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 89,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 26,
+      "end": 79
+    },
+    "hitFrames": [51]
+  },
+  "Hsin_Heavy Attack: Answering Form": {
+    "name": "Heavy Attack: Answering Form",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Self.AnsweringHeart < @Self.MaxAnsweringHeart)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Heavy"],
+    "hitResources": {
+      "energy": [0.37, 0.19, 0.19, 0.37, 0.37, 0.37],
+      "concerto": [0.6, 0.3, 0.3, 0.6, 0.6, 0.6],
+      "tune": [0.1181, 0.0591, 0.0591, 0.1181, 0.1181, 0.1181],
+      "forte1": [2.09, 1.05, 1.05, 2.09, 2.09, 2.09]
+    },
+    "hitMults": ["20.55%", "10.28%", "10.28%", "20.55%", "20.55%", "20.55%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 44,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 21,
+      "end": 43
+    },
+    "hitFrames": [25, 29, 35, 39]
+  },
+  "Hsin_Mid-air Attack: Answering Form": {
+    "name": "Mid-air Attack: Answering Form",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && true)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.41],
+      "concerto": [0.65],
+      "tune": [0.208],
+      "forte1": [2.28]
+    },
+    "cancelTimings": [
+      {
+        "time": 40
+      }
+    ],
+    "hitMults": ["22.44%"],
+    "input": "Basic",
+    "stanceReq": "Midair",
+    "priority": "@Default.SkillPriority + 2",
+    "priorityTimeline": [
+      {
+        "time": 38,
+        "priority": "@Default.SkillPriority + 1"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 58,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 40,
+      "end": 40
+    },
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 40
+      }
+    ]
+  },
+  "Hsin_Heartward by Moon: Answering Form": {
+    "name": "Heartward by Moon: Answering Form",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)))",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "hitResources": {
+      "energy": [0.45, 0.45, 0.45, 0.3, 0.3, 1.05],
+      "concerto": [0.36, 0.36, 0.36, 0.24, 0.24, 0.84],
+      "tune": [0.144, 0.144, 0.144, 0.096, 0.096, 0.336],
+      "forte1": [1.28, 1.28, 1.28, 0.85, 0.85, 2.98]
+    },
+    "cancelTimings": [
+      {
+        "time": 69
+      }
+    ],
+    "hitMults": ["25.06%", "25.06%", "25.06%", "16.71%", "16.71%", "58.46%"],
+    "input": "Skill",
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 95,
+    "cooldown": 12,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 14,
+      "end": 69
+    },
+    "hitFrames": [26, 45, 59, 67]
+  },
+  "Hsin_Heartward by Moon: Illumining Form": {
+    "name": "Heartward by Moon: Illumining Form",
+    "category": "Resonance Skill",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.IlluminingHeart < @Self.MaxIlluminingHeart)",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "hitResources": {
+      "energy": [0.2, 0.2, 0.2, 0.2, 3.2],
+      "concerto": [0.32, 0.32, 0.32, 0.32, 5.12],
+      "tune": [0.064, 0.064, 0.064, 0.064, 1.024],
+      "forte2": [5.73, 5.73, 5.73, 5.73, 91.56]
+    },
+    "cancelTimings": [
+      {
+        "time": 90
+      }
+    ],
+    "hitMults": ["11.14%", "11.14%", "11.14%", "11.14%", "178.14%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 100,
+    "cooldown": 20,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 20,
+      "end": 90
+    },
+    "hitFrames": [29, 38, 47]
+  },
+  "Hsin_Realm Wanderer": {
+    "name": "Realm Wanderer",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Self.AnsweringHeart >= @Self.MaxAnsweringHeart && @Self.Cooldown(@Hsin(Realm Protector)) > 0)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "forte1": -100
+    },
+    "hitResources": {
+      "energy": [0.43, 0.11, 0.11, 0.11, 0.11, 0.11, 0.11, 4.3],
+      "concerto": [0.69, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 6.87],
+      "tune": [0.1374, 0.0344, 0.0344, 0.0344, 0.0344, 0.0344, 0.0344, 1.3739]
+    },
+    "cancelTimings": [
+      {
+        "time": 106
+      }
+    ],
+    "hitMults": ["45.65%", "11.42%", "11.42%", "11.42%", "11.42%", "11.42%", "11.42%", "456.45%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "priority": "@Default.SkillPriority + 1",
+    "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.IntroPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 122,
+    "swapTiming": 114,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 107
+    },
+    "hitFrames": [47, 54, 60, 67, 74, 80]
+  },
+  "Hsin_Realm Protector": {
+    "name": "Realm Protector",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Self.AnsweringHeart >= @Self.MaxAnsweringHeart && @Self.Cooldown(@Hsin(Realm Protector)) <= 0)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "forte1": -100
+    },
+    "hitResources": {
+      "energy": [1.07, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 10.7],
+      "concerto": [0.69, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 6.87],
+      "tune": [0.5176, 0.1294, 0.1294, 0.1294, 0.1294, 0.1294, 0.1294, 5.1755]
+    },
+    "cancelTimings": [
+      {
+        "time": 107
+      }
+    ],
+    "hitMults": ["99.32%", "24.83%", "24.83%", "24.83%", "24.83%", "24.83%", "24.83%", "993.15%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "priority": "@Default.SkillPriority + 1",
+    "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.IntroPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 122,
+    "cooldown": 24,
+    "swapTiming": 114,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 107
+    },
+    "hitFrames": [47, 54, 60, 67, 74, 80]
+  },
+  "Hsin_Realm Wanderer (Formshift)": {
+    "name": "Realm Wanderer (Formshift)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Hsin(Realm Wanderer)], OnCast[Self, @Hsin(Realm Protector)]) IF (!@Self.HasBuff(@Hsin(Heart Manifest)))",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Formshift Unlocked",
+        "label": "Formshift",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Hsin_Formshift": {
+    "name": "Formshift",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Self.HasBuff(@Hsin(Formshift Unlocked)))",
+    "castTypes": ["Liberation"],
+    "castResources": {
+      "concerto": 20
+    },
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Formshift Unlocked",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Answering Form",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Illumining Form",
+        "label": "Illumining Form",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Mechanism Dominion",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": "-@Self.IlluminingHeart"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Heart Manifest",
+        "label": "Heart Manifest",
+        "target": "@Self",
+        "duration": 45
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Edict",
+        "label": "Edict",
+        "target": "@Self",
+        "duration": 45,
+        "stacks": 21,
+        "maxStacks": 21
+      }
+    ],
+    "input": "Liberation",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 254,
+    "cooldown": 25,
+    "freezeTime": 254,
+    "swapTiming": 254,
+    "motionStop": 254
+  },
+  "Hsin_Formshift (Unison)": {
+    "name": "Formshift (Unison)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Hsin(Formshift)] IF (@Self.Mode != 2 && @Self.HasBuff(@Hsin(Unison Ready)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Unison Ready",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Unison",
+        "label": "Unison",
+        "target": "@Self",
+        "duration": 5,
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Hsin_Formshift (Electro Flare)": {
+    "name": "Formshift (Electro Flare)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Hsin(Formshift)] IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 5
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Aligned Flare",
+        "label": "Pillars Aligned: Electro Flare",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stacks": 5,
+        "maxStacks": 5
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Heartlock Bonus",
+        "label": "Illumining Heart",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Hsin_Realm Protector (Electro Flare)": {
+    "name": "Realm Protector (Electro Flare)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "AfterHit(1)[@Hsin(Realm Protector)] IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 1
+      }
+    ]
+  },
+  "Hsin_Pillars Aligned (Bulk Electro Flare)": {
+    "name": "Pillars Aligned (Bulk Electro Flare)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(AfterHit(1)[@Hsin(Pillars Aligned)], AfterHit(1)[@Hsin(Stilling All Horizons)]) IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 5
+      }
+    ]
+  },
+  "Hsin_Soaring Pillar": {
+    "name": "Soaring Pillar",
+    "category": "Resonance Liberation",
+    "isPassive": true,
+    "triggerRule": "OnHit IF (@Hit.OnField && @Self.HasBuff(@Hsin(Edict)))",
+    "cooldown": 1,
+    "castTypes": ["Coordinated"],
+    "dmgTypes": ["Electro", "Liberation", "Coordinated"],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "consume",
+        "name": "Hsin_Edict",
+        "target": "@Self",
+        "value": 1
+      }
+    ],
+    "hitMults": ["11.37%"],
+    "damageTimeframe": {
+      "start": 24,
+      "end": 24
+    }
+  },
+  "Hsin_Illumining Form 1": {
+    "name": "Illumining Form 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !@Self.HasBuff(@Hsin(Mechanism Dominion)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.23, 0.23, 0.68],
+      "concerto": [0.37, 0.37, 1.09],
+      "tune": [0.0722, 0.0722, 0.2165],
+      "forte2": [5.71, 5.71, 17.13]
+    },
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Modular Heartlock",
+        "label": "Modular Heartlock",
+        "target": "@Self",
+        "duration": 10
+      }
+    ],
+    "hitMults": ["12.55%", "12.55%", "37.65%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 45,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 4,
+      "end": 32
+    },
+    "hitFrames": [10]
+  },
+  "Hsin_Illumining Form 2": {
+    "name": "Illumining Form 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !@Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.PrevAction == @Hsin(Illumining Form 1))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.63, 0.63],
+      "concerto": [1, 1],
+      "tune": [0.2, 0.2],
+      "forte2": [15.83, 15.83]
+    },
+    "cancelTimings": [
+      {
+        "time": 18
+      }
+    ],
+    "hitMults": ["34.80%", "34.80%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 30,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 25
+    }
+  },
+  "Hsin_Illumining Form 3": {
+    "name": "Illumining Form 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !@Self.HasBuff(@Hsin(Mechanism Dominion)) && ANY(@Self.PrevAction == @Hsin(Illumining Form 2), @Self.PrevAction == @Hsin(Heavy Attack: Illumining Form)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.17, 0.5, 0.17, 0.5, 0.17, 0.5, 0.17, 0.5, 0.33, 0.33],
+      "concerto": [0.27, 0.79, 0.27, 0.79, 0.27, 0.79, 0.27, 0.79, 0.53, 0.53],
+      "tune": [0.0524, 0.157, 0.0524, 0.157, 0.0524, 0.157, 0.0524, 0.157, 0.1047, 0.1047],
+      "forte2": [4.14, 12.42, 4.14, 12.42, 4.14, 12.42, 4.14, 12.42, 8.28, 8.28]
+    },
+    "cancelTimings": [
+      {
+        "time": 53
+      }
+    ],
+    "hitMults": ["9.11%", "27.31%", "9.11%", "27.31%", "9.11%", "27.31%", "9.11%", "27.31%", "18.21%", "18.21%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 98,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 62
+    },
+    "hitFrames": [18, 26, 26, 34, 34, 41, 41, 59]
+  },
+  "Hsin_Heavy Attack: Illumining Form": {
+    "name": "Heavy Attack: Illumining Form",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !(@Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.IlluminingHeart <= 0))",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Heavy"],
+    "hitResources": {
+      "energy": [0.97, 0.97],
+      "concerto": [1.55, 1.55],
+      "tune": [0.31, 0.31],
+      "forte2": [15.83, 15.83]
+    },
+    "cancelTimings": [
+      {
+        "time": 32
+      }
+    ],
+    "hitMults": ["53.93%", "53.93%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "stanceReq": "Grounded",
+    "priority": "@Default.HeavyPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 43,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 35,
+      "end": 41
+    }
+  },
+  "Hsin_Upward Cut: Illumining Form": {
+    "name": "Upward Cut: Illumining Form",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.63, 0.95],
+      "concerto": [1.01, 1.52],
+      "tune": [0.2014, 0.3021],
+      "forte2": [15.94, 23.9]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "hitMults": ["35.03%", "52.54%"],
+    "input": "Jump",
+    "stanceReq": "Grounded",
+    "priority": "@Default.JumpPriority + 1",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 38,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 22,
+      "end": 34
+    },
+    "stanceResult": "Midair"
+  },
+  "Hsin_Mid-air Attack: Illumining Form": {
+    "name": "Mid-air Attack: Illumining Form",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.25, 0.17],
+      "concerto": [0.39, 0.26],
+      "tune": [0.1248, 0.0832],
+      "forte2": [6.13, 4.09]
+    },
+    "cancelTimings": [
+      {
+        "time": 47
+      }
+    ],
+    "hitMults": ["13.47%", "8.98%"],
+    "input": "Skill",
+    "stanceReq": "Midair",
+    "priority": "@Default.SkillPriority + 5",
+    "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.SkillPriority + 2"
+      },
+      {
+        "time": 29,
+        "priority": "@Default.SkillPriority + 1"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 53,
+    "cooldown": 1.5,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 31,
+      "end": 47
+    },
+    "stanceChanges": [
+      {
+        "stance": "Grounded",
+        "time": 47
+      }
+    ]
+  },
+  "Hsin_Modular Heartlock": {
+    "name": "Modular Heartlock",
+    "category": "Basic Attack",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Hsin(Illumining Form 2)], OnCast[Self, @Hsin(Heavy Attack: Illumining Form)], OnCast[Self, @Hsin(Heartward by Moon: Illumining Form)]) IF (@Self.HasBuff(@Hsin(Modular Heartlock)))",
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.38, 0.38],
+      "concerto": [0.61, 0.61],
+      "tune": [0.1203, 0.1203],
+      "forte2": [9.52, 9.52]
+    },
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Modular Heartlock",
+        "target": "@Self",
+        "value": "ALL"
+      }
+    ],
+    "hitMults": ["20.92%", "20.92%"],
+    "damageTimeframe": {
+      "start": 18,
+      "end": 25
+    }
+  },
+  "Hsin_Modular Heartlock (Electro Flare)": {
+    "name": "Modular Heartlock (Electro Flare)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Hsin(Illumining Form 2)], OnCast[Self, @Hsin(Heavy Attack: Illumining Form)], OnCast[Self, @Hsin(Heartward by Moon: Illumining Form)]) IF (@Self.Mode == 2 && !@Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.HasBuff(@Hsin(Modular Heartlock)) && @Self.HasBuff(@Hsin(Heartlock Bonus)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Heartlock Bonus",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": 150
+      }
+    ]
+  },
+  "Hsin_Pillars Aligned": {
+    "name": "Pillars Aligned",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !@Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.IlluminingHeart >= @Self.MaxIlluminingHeart)",
+    "castTypes": ["Skill"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 20
+    },
+    "hitResources": {
+      "energy": [0.11, 0.21, 0.21, 0.26, 0.26, 1.02, 1.02, 1.02, 1.02],
+      "concerto": [0.27, 0.53, 0.53, 0.66, 0.66, 2.63, 2.63, 2.63, 2.63],
+      "tune": [0.0326, 0.0651, 0.0651, 0.0814, 0.0814, 0.3253, 0.3253, 0.3253, 0.3253]
+    },
+    "cancelTimings": [
+      {
+        "time": 122
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Mechanism Dominion",
+        "label": "Mechanism Dominion",
+        "target": "@Self",
+        "duration": 13
+      }
+    ],
+    "hitMults": ["17.95%", "35.89%", "35.89%", "44.86%", "44.86%", "179.43%", "179.43%", "179.43%", "179.43%"],
+    "input": "Skill",
+    "stanceReq": "Grounded",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 152,
+    "cooldown": 12,
+    "freezeTime": 30,
+    "swapTiming": 30,
+    "motionStop": 152,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 140
+    },
+    "hitFrames": [42, 48, 68, 74, 122, 128, 134]
+  },
+  "Hsin_Pillars Aligned 1": {
+    "name": "Pillars Aligned 1",
+    "category": "Basic Attack",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Move.IsNextInCombo)",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.52, 0.52, 0.52],
+      "concerto": [0.83, 0.83, 0.83],
+      "tune": [0.1659, 0.1659, 0.1659],
+      "forte2": [-19.72, -19.72, -19.72]
+    },
+    "cancelTimings": [
+      {
+        "time": 12
+      }
+    ],
+    "hitMults": ["28.86%", "28.86%", "28.86%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 35,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 18,
+      "end": 35
+    },
+    "hitFrames": [26]
+  },
+  "Hsin_Pillars Aligned 2": {
+    "name": "Pillars Aligned 2",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.PrevAction == @Hsin(Pillars Aligned 1))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.69, 0.69, 0.69],
+      "concerto": [1.1, 1.1, 1.1],
+      "tune": [0.2198, 0.2198, 0.2198],
+      "forte2": [-26.12, -26.12, -26.12]
+    },
+    "cancelTimings": [
+      {
+        "time": 15
+      }
+    ],
+    "hitMults": ["38.23%", "38.23%", "38.23%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 49,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 21,
+      "end": 38
+    },
+    "hitFrames": [29]
+  },
+  "Hsin_Pillars Aligned 3": {
+    "name": "Pillars Aligned 3",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.PrevAction == @Hsin(Pillars Aligned 2))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.39, 0.39, 0.39, 0.39, 0.39],
+      "concerto": [0.62, 0.62, 0.62, 0.62, 0.62],
+      "tune": [0.1228, 0.1228, 0.1228, 0.1228, 0.1228],
+      "forte2": [-14.59, -14.59, -14.59, -14.59, -14.59]
+    },
+    "cancelTimings": [
+      {
+        "time": 8,
+        "hits": 1,
+        "triggerRule": "ANY(OnCast[Self, @Hsin(Beholding All Horizons)], OnCast[Self, @Hsin(Stilling All Horizons)]) IF (@Self.IlluminingHeart <= 14.59)"
+      },
+      {
+        "time": 16,
+        "hits": 2,
+        "triggerRule": "ANY(OnCast[Self, @Hsin(Beholding All Horizons)], OnCast[Self, @Hsin(Stilling All Horizons)]) IF (@Self.IlluminingHeart <= 29.18)"
+      },
+      {
+        "time": 24,
+        "hits": 3,
+        "triggerRule": "ANY(OnCast[Self, @Hsin(Beholding All Horizons)], OnCast[Self, @Hsin(Stilling All Horizons)]) IF (@Self.IlluminingHeart <= 43.77)"
+      },
+      {
+        "time": 31,
+        "hits": 4,
+        "triggerRule": "ANY(OnCast[Self, @Hsin(Beholding All Horizons)], OnCast[Self, @Hsin(Stilling All Horizons)]) IF (@Self.IlluminingHeart <= 58.36)"
+      },
+      {
+        "time": 39
+      }
+    ],
+    "hitMults": ["21.35%", "21.35%", "21.35%", "21.35%", "21.35%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 46,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 8,
+      "end": 39
+    },
+    "hitFrames": [16, 24, 31]
+  },
+  "Hsin_Pillars Aligned 4": {
+    "name": "Pillars Aligned 4",
+    "category": "Basic Attack",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.PrevAction == @Hsin(Pillars Aligned 3))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.9],
+      "concerto": [0.48, 0.48, 0.48, 0.48, 0.48, 0.48, 0.48, 1.44],
+      "tune": [0.0956, 0.0956, 0.0956, 0.0956, 0.0956, 0.0956, 0.0956, 0.2868],
+      "forte2": [-11.37, -11.37, -11.37, -11.37, -11.37, -11.37, -11.37, -34.09]
+    },
+    "cancelTimings": [
+      {
+        "time": 67
+      }
+    ],
+    "hitMults": ["16.64%", "16.64%", "16.64%", "16.64%", "16.64%", "16.64%", "16.64%", "49.90%"],
+    "input": "Basic",
+    "stanceReq": "Grounded",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 3,
+    "priorityTimeline": [
+      {
+        "time": 82,
+        "priority": "@Default.BasicPriority - 2"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 90,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 7,
+      "end": 67
+    },
+    "hitFrames": [16, 25, 34, 43, 52, 61]
+  },
+  "Hsin_Pillars Aligned (Electro Flare)": {
+    "name": "Pillars Aligned (Electro Flare)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "ANY(AfterHit(1)[@Hsin(Pillars Aligned 1)], AfterHit(1)[@Hsin(Pillars Aligned 2)], AfterHit(1)[@Hsin(Pillars Aligned 3)], AfterHit(1)[@Hsin(Pillars Aligned 4)]) IF (@Self.Mode == 2 && @Self.HasBuff(@Hsin(Aligned Flare)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "consume",
+        "name": "Hsin_Aligned Flare",
+        "target": "@Self",
+        "value": 1
+      },
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 1
+      }
+    ]
+  },
+  "Hsin_Mechanism Dominion (End)": {
+    "name": "Mechanism Dominion (End)",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnBuffExpire[Self, @Hsin(Mechanism Dominion)]",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": "-@Self.IlluminingHeart"
+      }
+    ]
+  },
+  "Hsin_Beholding All Horizons": {
+    "name": "Beholding All Horizons",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.IlluminingHeart <= 0 && @Self.Cooldown(@Hsin(Stilling All Horizons)) > 0)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 20
+    },
+    "hitResources": {
+      "energy": [0.06, 0.06, 0.06, 0.06, 1.85],
+      "tune": [0.0003, 0.0003, 0.0003, 0.0003, 0.009]
+    },
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Mechanism Dominion",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": "-@Self.IlluminingHeart"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Pillars Across Heaven Unlocked",
+        "label": "Pillars Across Heaven",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["10.27%", "10.27%", "10.27%", "10.27%", "369.70%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 150,
+    "freezeTime": 150,
+    "swapTiming": 150,
+    "motionStop": 150,
+    "damageTimeframe": {
+      "start": 86,
+      "end": 113
+    },
+    "hitFrames": [92, 98, 104]
+  },
+  "Hsin_Stilling All Horizons": {
+    "name": "Stilling All Horizons",
+    "category": "Forte Circuit",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Mechanism Dominion)) && @Self.IlluminingHeart <= 0 && @Self.Cooldown(@Hsin(Stilling All Horizons)) <= 0)",
+    "castTypes": ["Heavy"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 20
+    },
+    "hitResources": {
+      "energy": [0.36, 0.36, 0.36, 0.36, 12.65],
+      "tune": [0.1188, 0.1188, 0.1188, 0.1188, 4.2768]
+    },
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Mechanism Dominion",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "resource",
+        "name": "forte2",
+        "value": "-@Self.IlluminingHeart"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Pillars Across Heaven Unlocked",
+        "label": "Pillars Across Heaven",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["27.05%", "27.05%", "27.05%", "27.05%", "973.49%"],
+    "input": "Basic",
+    "inputType": "Hold",
+    "priority": "@Default.LibPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 150,
+    "cooldown": 24,
+    "freezeTime": 150,
+    "swapTiming": 150,
+    "motionStop": 150,
+    "damageTimeframe": {
+      "start": 86,
+      "end": 113
+    },
+    "hitFrames": [92, 98, 104]
+  },
+  "Hsin_Pillars Across Heaven": {
+    "name": "Pillars Across Heaven",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && @Self.HasBuff(@Hsin(Pillars Across Heaven Unlocked)))",
+    "castTypes": ["Liberation"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "energy": -125,
+      "concerto": 20
+    },
+    "hitResources": {
+      "tune": [0.1959, 0.2204, 0.1469, 0.2448, 0.1714, 3.9168]
+    },
+    "cancelTimings": [
+      {
+        "time": 302
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Pillars Across Heaven Unlocked",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Illumining Form",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Answering Form",
+        "label": "Answering Form",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Heart Manifest",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Aligned Flare",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Heartlock Bonus",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Nightglow",
+        "label": "Nightglow",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["80.51%", "90.57%", "60.38%", "100.64%", "70.45%", "1610.12%"],
+    "input": "Liberation",
+    "priority": "@Default.LibPriority",
+    "priorityTimeline": [
+      {
+        "time": 302,
+        "priority": "@Default.BasicPriority - 2"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 305,
+    "freezeTime": 302,
+    "swapTiming": 302,
+    "motionStop": 302,
+    "damageTimeframe": {
+      "start": 136,
+      "end": 240
+    },
+    "hitFrames": [150, 164, 190, 214]
+  },
+  "Hsin_Invoked Form: Answering": {
+    "name": "Invoked Form: Answering",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Illumining Form)) && !@Self.HasBuff(@Hsin(Pillars Across Heaven Unlocked)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.28, 0.28, 1.23, 0.96],
+      "concerto": [0.44, 0.44, 1.96, 1.53],
+      "tune": [0.0871, 0.0871, 0.3917, 0.3047],
+      "forte1": [1.54, 1.54, 6.93, 5.39]
+    },
+    "cancelTimings": [
+      {
+        "time": 42
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Illumining Form",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Answering Form",
+        "label": "Answering Form",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["15.15%", "15.15%", "68.14%", "53.00%"],
+    "input": "Liberation",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority + 5",
+    "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.BasicPriority"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 64,
+    "cooldown": 1.5,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 24,
+      "end": 42
+    },
+    "hitFrames": [30, 38]
+  },
+  "Hsin_Invoked Form: Illumining": {
+    "name": "Invoked Form: Illumining",
+    "category": "Resonance Liberation",
+    "triggerRule": "IF (@Self.HasBuff(@Hsin(Answering Form)) && @Self.HasBuff(@Hsin(Heart Manifest)))",
+    "castTypes": ["Basic"],
+    "dmgTypes": ["Electro", "Basic"],
+    "hitResources": {
+      "energy": [0.63, 0.95],
+      "concerto": [1.01, 1.52],
+      "tune": [0.2014, 0.3021],
+      "forte2": [15.94, 23.9]
+    },
+    "cancelTimings": [
+      {
+        "time": 34
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Answering Form",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Illumining Form",
+        "label": "Illumining Form",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["35.03%", "52.54%"],
+    "input": "Liberation",
+    "stanceReq": "Grounded",
+    "priority": "@Default.SkillPriority + 5",
+    "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.SkillPriority + 2"
+      }
+    ],
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 38,
+    "cooldown": 1.5,
+    "swapTiming": "@Default.SwapTime",
+    "damageTimeframe": {
+      "start": 22,
+      "end": 34
+    },
+    "stanceResult": "Midair"
+  },
+  "Hsin_Resonance Mode: Electro Flare": {
+    "name": "Resonance Mode: Electro Flare",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Electro Flare] IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 0,
+        "expireBehavior": "keep"
+      }
+    ]
+  },
+  "Hsin_Heart of Thunder": {
+    "name": "Heart of Thunder",
+    "category": "Forte Circuit",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Electro Rage] IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte3",
+        "value": "@Enemy.BuffStacks(Electro Rage)"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Electro Rage",
+        "target": "@Enemy",
+        "value": "ALL"
+      }
+    ]
+  },
+  "Hsin_Heartward by Moon: Electro Flare": {
+    "name": "Heartward by Moon: Electro Flare",
+    "category": "Resonance Skill",
+    "isPassive": true,
+    "triggerRule": "ANY(AfterHit(all)[@Hsin(Heartward by Moon: Answering Form)], AfterHit(all)[@Hsin(Heartward by Moon: Illumining Form)]) IF (@Self.Mode == 2 && @Self.HeartofThunder > 0)",
+    "dmgTypes": ["Electro Flare"],
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Hsin_Released Heart of Thunder",
+        "action": "set",
+        "value": "@Self.HeartofThunder"
+      },
+      {
+        "type": "resource",
+        "name": "forte3",
+        "value": "-@Self.HeartofThunder"
+      }
+    ],
+    "hitMults": ["((@Self.Sequence >= 1 ? 42 : 35) * @Self.Tracker(Hsin_Released Heart of Thunder))%"]
+  },
+  "Hsin_Intro: Answering Form": {
+    "name": "Intro: Answering Form",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Answering Form)) && @Self.Mode != 2 && !@Self.HasBuff(Unison Swap) && !@Self.HasBuff(@Hsin(Source Intent)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 60
+    },
+    "hitResources": {
+      "energy": [0.75, 1.5, 0.75, 1.5, 1.5, 1.5],
+      "concerto": [0.3, 0.6, 0.3, 0.6, 0.6, 0.6],
+      "tune": [0.0591, 0.1181, 0.0591, 0.1181, 0.1181, 0.1181],
+      "forte1": [0.65, 1.3, 0.65, 1.3, 1.3, 1.3]
+    },
+    "cancelTimings": [
+      {
+        "time": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Unison Ready",
+        "label": "Unison",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["10.28%", "20.55%", "10.28%", "20.55%", "20.55%", "20.55%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 44,
+    "swapTiming": 44,
+    "motionStop": 14,
+    "damageTimeframe": {
+      "start": 23,
+      "end": 45
+    },
+    "hitFrames": [27, 31, 37, 41]
+  },
+  "Hsin_Intro: Answering Form (Manifold Unison)": {
+    "name": "Intro: Answering Form (Manifold Unison)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Answering Form)) && @Self.Mode != 2 && @Self.HasBuff(Unison Swap))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 60
+    },
+    "hitResources": {
+      "energy": [0.75, 1.5, 0.75, 1.5, 1.5, 1.5],
+      "concerto": [0.3, 0.6, 0.3, 0.6, 0.6, 0.6],
+      "tune": [0.0591, 0.1181, 0.0591, 0.1181, 0.1181, 0.1181],
+      "forte1": [0.65, 1.3, 0.65, 1.3, 1.3, 1.3]
+    },
+    "cancelTimings": [
+      {
+        "time": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison Swap",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Response",
+        "action": "add",
+        "value": 1
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Boon Grant",
+        "action": "add",
+        "value": 1,
+        "source": "Hsin: Unison Response"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Source Intent",
+        "label": "Source Intent",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Unison Ready",
+        "label": "Unison",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["60.59%", "121.18%", "60.59%", "121.18%", "121.18%", "121.18%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 44,
+    "swapTiming": 44,
+    "motionStop": 14,
+    "damageTimeframe": {
+      "start": 23,
+      "end": 45
+    },
+    "hitFrames": [27, 31, 37, 41]
+  },
+  "Hsin_Intro: Answering Form (Source Intent)": {
+    "name": "Intro: Answering Form (Source Intent)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Answering Form)) && @Self.Mode != 2 && !@Self.HasBuff(Unison Swap) && @Self.HasBuff(@Hsin(Source Intent)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 60
+    },
+    "hitResources": {
+      "energy": [0.75, 1.5, 0.75, 1.5, 1.5, 1.5],
+      "concerto": [0.3, 0.6, 0.3, 0.6, 0.6, 0.6],
+      "tune": [0.0591, 0.1181, 0.0591, 0.1181, 0.1181, 0.1181],
+      "forte1": [0.65, 1.3, 0.65, 1.3, 1.3, 1.3]
+    },
+    "cancelTimings": [
+      {
+        "time": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Source Intent",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Unison Ready",
+        "label": "Unison",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ],
+    "hitMults": ["60.59%", "121.18%", "60.59%", "121.18%", "121.18%", "121.18%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 44,
+    "swapTiming": 44,
+    "motionStop": 14,
+    "damageTimeframe": {
+      "start": 23,
+      "end": 45
+    },
+    "hitFrames": [27, 31, 37, 41]
+  },
+  "Hsin_Intro: Illumining Form": {
+    "name": "Intro: Illumining Form",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Illumining Form)) && @Self.Mode != 2 && !@Self.HasBuff(Unison Swap) && !@Self.HasBuff(@Hsin(Source Intent)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10,
+      "forte2": 300
+    },
+    "hitResources": {
+      "energy": [0.15, 0.3, 0.3, 0.38, 0.38, 1.5, 1.5, 1.5, 1.5],
+      "concerto": [0.17, 0.33, 0.33, 0.41, 0.41, 1.63, 1.63, 1.63, 1.63],
+      "tune": [0.0326, 0.0651, 0.0651, 0.0814, 0.0814, 0.3253, 0.3253, 0.3253, 0.3253]
+    },
+    "cancelTimings": [
+      {
+        "time": 122
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Mechanism Dominion",
+        "label": "Mechanism Dominion",
+        "target": "@Self",
+        "duration": 13
+      }
+    ],
+    "hitMults": ["5.66%", "11.32%", "11.32%", "14.15%", "14.15%", "56.59%", "56.59%", "56.59%", "56.59%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 152,
+    "freezeTime": 30,
+    "swapTiming": 151,
+    "motionStop": 152,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 140
+    },
+    "hitFrames": [42, 48, 68, 74, 122, 128, 134]
+  },
+  "Hsin_Intro: Illumining Form (Manifold Unison)": {
+    "name": "Intro: Illumining Form (Manifold Unison)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Illumining Form)) && @Self.Mode != 2 && @Self.HasBuff(Unison Swap))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 10,
+      "forte2": 300
+    },
+    "hitResources": {
+      "energy": [0.15, 0.3, 0.3, 0.38, 0.38, 1.5, 1.5, 1.5, 1.5],
+      "concerto": [0.27, 0.53, 0.53, 0.66, 0.66, 2.63, 2.63, 2.63, 2.63],
+      "tune": [0.0326, 0.0651, 0.0651, 0.0814, 0.0814, 0.3253, 0.3253, 0.3253, 0.3253]
+    },
+    "cancelTimings": [
+      {
+        "time": 122
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison Swap",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Response",
+        "action": "add",
+        "value": 1
+      },
+      {
+        "type": "tracker",
+        "name": "Unison Boon Grant",
+        "action": "add",
+        "value": 1,
+        "source": "Hsin: Unison Response"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Source Intent",
+        "label": "Source Intent",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Mechanism Dominion",
+        "label": "Mechanism Dominion",
+        "target": "@Self",
+        "duration": 13
+      }
+    ],
+    "hitMults": ["15.73%", "31.45%", "31.45%", "39.31%", "39.31%", "157.22%", "157.22%", "157.22%", "157.22%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 152,
+    "freezeTime": 30,
+    "swapTiming": 151,
+    "motionStop": 152,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 140
+    },
+    "hitFrames": [42, 48, 68, 74, 122, 128, 134]
+  },
+  "Hsin_Intro: Illumining Form (Source Intent)": {
+    "name": "Intro: Illumining Form (Source Intent)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Illumining Form)) && @Self.Mode != 2 && !@Self.HasBuff(Unison Swap) && @Self.HasBuff(@Hsin(Source Intent)))",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Skill"],
+    "castResources": {
+      "concerto": 10,
+      "forte2": 300
+    },
+    "hitResources": {
+      "energy": [0.15, 0.3, 0.3, 0.38, 0.38, 1.5, 1.5, 1.5, 1.5],
+      "concerto": [0.27, 0.53, 0.53, 0.66, 0.66, 2.63, 2.63, 2.63, 2.63],
+      "tune": [0.0326, 0.0651, 0.0651, 0.0814, 0.0814, 0.3253, 0.3253, 0.3253, 0.3253]
+    },
+    "cancelTimings": [
+      {
+        "time": 122
+      }
+    ],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Source Intent",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Mechanism Dominion",
+        "label": "Mechanism Dominion",
+        "target": "@Self",
+        "duration": 13
+      }
+    ],
+    "hitMults": ["15.73%", "31.45%", "31.45%", "39.31%", "39.31%", "157.22%", "157.22%", "157.22%", "157.22%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 152,
+    "freezeTime": 30,
+    "swapTiming": 151,
+    "motionStop": 152,
+    "damageTimeframe": {
+      "start": 14,
+      "end": 140
+    },
+    "hitFrames": [42, 48, 68, 74, 122, 128, 134]
+  },
+  "Hsin_Intro: Answering Form (Electro Flare)": {
+    "name": "Intro: Answering Form (Electro Flare)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Answering Form)) && @Self.Mode == 2)",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10,
+      "forte1": 60
+    },
+    "hitResources": {
+      "energy": [0.5, 0.5, 0.5, 0.5, 8],
+      "concerto": [0.23, 0.23, 0.23, 0.23, 3.63],
+      "tune": [0.0453, 0.0453, 0.0453, 0.0453, 0.7245],
+      "forte1": [0.75, 0.75, 0.75, 0.75, 11.97]
+    },
+    "cancelTimings": [
+      {
+        "time": 12
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 1
+      }
+    ],
+    "hitMults": ["7.88%", "7.88%", "7.88%", "7.88%", "126.02%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 66,
+    "swapTiming": 66,
+    "motionStop": 39,
+    "damageTimeframe": {
+      "start": 39,
+      "end": 84
+    },
+    "hitFrames": [43, 57, 61]
+  },
+  "Hsin_Intro: Illumining Form (Electro Flare)": {
+    "name": "Intro: Illumining Form (Electro Flare)",
+    "category": "Intro",
+    "isSwapInDefault": true,
+    "triggerRule": "IF (@Prev.CastTypes.includes('Outro') && @Self.HasBuff(@Hsin(Illumining Form)) && @Self.Mode == 2)",
+    "castTypes": ["Intro"],
+    "dmgTypes": ["Electro", "Intro"],
+    "castResources": {
+      "concerto": 10
+    },
+    "hitResources": {
+      "energy": [0.5, 1.75, 0.5, 1.75, 0.5, 1.75, 0.5, 1.75, 0.5, 0.5],
+      "concerto": [0.33, 1.15, 0.33, 1.15, 0.33, 1.15, 0.33, 1.15, 0.33, 0.33],
+      "tune": [0.0657, 0.2298, 0.0657, 0.2298, 0.0657, 0.2298, 0.0657, 0.2298, 0.0657, 0.0657],
+      "forte2": [2.6, 9.09, 2.6, 9.09, 2.6, 9.09, 2.6, 9.09, 2.6, 2.6]
+    },
+    "cancelTimings": [
+      {
+        "time": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 1
+      }
+    ],
+    "hitMults": ["11.42%", "39.97%", "11.42%", "39.97%", "11.42%", "39.97%", "11.42%", "39.97%", "11.42%", "11.42%"],
+    "priority": "@Default.IntroPriority",
+    "comboWindow": "@Default.ComboWindow",
+    "actionDuration": 98,
+    "swapTiming": 91,
+    "motionStop": 18,
+    "damageTimeframe": {
+      "start": 20,
+      "end": 64
+    },
+    "hitFrames": [20, 28, 28, 36, 36, 43, 43, 61]
+  },
+  "Hsin_Outro: Herself a Thousand Lanterns": {
+    "name": "Outro: Herself a Thousand Lanterns",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.Concerto >= 100 && !@Self.HasBuff(Unison))",
+    "castTypes": ["Outro"],
+    "dmgTypes": ["Electro", "Outro"],
+    "castResources": {
+      "concerto": -100
+    },
+    "hitMults": ["50.00%", "50.00%"],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0,
+    "damageTimeframe": {
+      "start": 0,
+      "end": 5
+    }
+  },
+  "Hsin_Outro: Herself a Thousand Lanterns (Unison)": {
+    "name": "Outro: Herself a Thousand Lanterns (Unison)",
+    "category": "Outro",
+    "triggerRule": "OnCast[Outro, Self] IF (@Self.HasBuff(Unison))",
+    "castTypes": ["Outro"],
+    "dmgTypes": ["Electro", "Outro"],
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Unison",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Unison Swap",
+        "label": "Unison Swap",
+        "target": "@Next",
+        "duration": 1
+      }
+    ],
+    "hitMults": ["50.00%", "50.00%"],
+    "priority": "@Default.OutroPriority",
+    "actionDuration": 0,
+    "damageTimeframe": {
+      "start": 0,
+      "end": 5
+    }
+  },
+  "Hsin_Nightglow (Unison)": {
+    "name": "Nightglow (Unison)",
+    "category": "Outro",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Outro] IF (@Self.Mode != 2 && @Self.HasBuff(@Hsin(Nightglow)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Nightglow",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Herself a Thousand Lanterns",
+        "label": "Herself a Thousand Lanterns",
+        "target": "@TeamOthers",
+        "duration": 30,
+        "stat": "DMG Amp",
+        "value": "20%"
+      },
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Shared Light",
+        "target": "@Team",
+        "value": "ALL"
+      }
+    ]
+  },
+  "Hsin_Nightglow (Electro Flare)": {
+    "name": "Nightglow (Electro Flare)",
+    "category": "Outro",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, Outro] IF (@Self.Mode == 2 && @Self.HasBuff(@Hsin(Nightglow)))",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Nightglow",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Herself a Thousand Lanterns (Electro Flare)",
+        "label": "Herself a Thousand Lanterns",
+        "target": "@TeamOthers",
+        "duration": 20,
+        "stat": "Electro DMG Amp",
+        "value": "20%"
+      }
+    ]
+  },
+  "Hsin_Shared Light": {
+    "name": "Shared Light",
+    "category": "Outro",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Unison] IF (@Self.HasBuff(Unison) && !@Self.HasBuff(@Hsin(Answering Form)) && !@Self.HasBuff(@Hsin(Illumining Form)))",
+    "actsForUnit": true,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Shared Light",
+        "label": "Shared Light",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration"
+      }
+    ]
+  },
+  "Hsin_Tides of Succession (Unison)": {
+    "name": "Tides of Succession (Unison)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Hsin(Intro: Answering Form (Manifold Unison))], OnCast[Self, @Hsin(Intro: Answering Form (Source Intent))], OnCast[Self, @Hsin(Intro: Illumining Form (Manifold Unison))], OnCast[Self, @Hsin(Intro: Illumining Form (Source Intent))])",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Tides of Succession ATK",
+        "label": "Tides of Succession",
+        "target": "@Self",
+        "duration": 8,
+        "stat": "ATK %",
+        "value": "50%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Hsin_Tides of Succession (Electro Flare)": {
+    "name": "Tides of Succession (Electro Flare)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Electro Flare] IF (@Self.Mode == 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Tides of Succession Electro DMG",
+        "label": "Tides of Succession",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Electro DMG",
+        "value": "25%",
+        "maxStacks": 2
+      }
+    ]
+  },
+  "Hsin_Gleaning Simple Joys (Max)": {
+    "name": "Gleaning Simple Joys (Max)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnStart IF (@Self.Mode != 2)",
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Unison Boon Bonus Stacks",
+        "action": "add",
+        "value": "(@Self.Sequence >= 6 ? 2 : 1)"
+      }
+    ]
+  },
+  "Hsin_Gleaning Simple Joys": {
+    "name": "Gleaning Simple Joys",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Unison Response] IF (@Self.Mode != 2)",
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Unison Boon Grant",
+        "action": "add",
+        "value": 1,
+        "source": "@EventSource"
+      }
+    ]
+  },
+  "Hsin_Gleaning Simple Joys (Thunderglow)": {
+    "name": "Gleaning Simple Joys (Thunderglow)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnBuffAdd[Electro Flare] IF (@Self.Mode == 2 && !@Self.HasBuff(@Hsin(Heart Manifest)) && @Active.Name != @Self.Name)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_Thunderglow",
+        "label": "Thunderglow",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "maxStacks": 10
+      }
+    ]
+  },
+  "Hsin_Gleaning Simple Joys (Fleeting Thunder)": {
+    "name": "Gleaning Simple Joys (Fleeting Thunder)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Hsin(Formshift)] IF (@Self.Mode == 2 && @Self.BuffStacks(@Hsin(Thunderglow)) >= 10)",
+    "effects": [
+      {
+        "type": "buffAction",
+        "action": "remove",
+        "name": "Hsin_Thunderglow",
+        "target": "@Self",
+        "value": "ALL"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_Fleeting Thunder",
+        "label": "Fleeting Thunder",
+        "target": "@Self",
+        "duration": 45
+      },
+      {
+        "type": "buff",
+        "name": "Electro Flare",
+        "target": "@Enemy",
+        "stacks": 16,
+        "maxStacks": 16
+      }
+    ]
+  },
+  "Hsin_Unison Boon": {
+    "name": "Unison Boon",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Unison Boon Grant] IF (@Self.Mode != 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Unison Boon",
+        "target": "@Self",
+        "source": "@EventSource"
+      }
+    ]
+  },
+  "Hsin_Sequence 1: A Boat to Cross the Rising Tide": {
+    "name": "Sequence 1: A Boat to Cross the Rising Tide",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "ANY(OnCast[Self, @Hsin(Intro: Answering Form (Manifold Unison))], OnCast[Self, @Hsin(Intro: Answering Form (Source Intent))], OnCast[Self, @Hsin(Intro: Illumining Form (Manifold Unison))], OnCast[Self, @Hsin(Intro: Illumining Form (Source Intent))]) IF (@Self.Sequence >= 1)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S1 Mult",
+        "label": "A Boat to Cross the Rising Tide",
+        "target": "@Self",
+        "duration": 3,
+        "stat": "Multiplicative Mult",
+        "value": "(15 + 10 * Math.min(@Self.BuffStacks(Unison Boon), 4))%",
+        "applyTo": ["@Hsin(Intro: Answering Form (Manifold Unison))", "@Hsin(Intro: Answering Form (Source Intent))", "@Hsin(Intro: Illumining Form (Manifold Unison))", "@Hsin(Intro: Illumining Form (Source Intent))"]
+      }
+    ]
+  },
+  "Hsin_Sequence 1: A Boat to Cross the Rising Tide (Electro Flare)": {
+    "name": "Sequence 1: A Boat to Cross the Rising Tide (Electro Flare)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnStart IF (@Self.Mode == 2 && @Self.Sequence >= 1)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte3",
+        "value": 50
+      }
+    ]
+  },
+  "Hsin_Sequence 2: To Wake Is to Wonder What I Am": {
+    "name": "Sequence 2: To Wake Is to Wonder What I Am",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 2)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S2 Mult",
+        "label": "To Wake Is to Wonder What I Am",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "60%",
+        "applyTo": ["@Hsin(Realm Wanderer)", "@Hsin(Realm Protector)", "@Hsin(Beholding All Horizons)", "@Hsin(Stilling All Horizons)"]
+      }
+    ]
+  },
+  "Hsin_Sequence 2: To Wake Is to Wonder What I Am (Start)": {
+    "name": "Sequence 2: To Wake Is to Wonder What I Am (Start)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnStart IF (@Self.Sequence >= 2)",
+    "effects": [
+      {
+        "type": "resource",
+        "name": "forte1",
+        "value": 100
+      }
+    ]
+  },
+  "Hsin_Sequence 3: A Dream of Return Among the Hills": {
+    "name": "Sequence 3: A Dream of Return Among the Hills",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S3 Mult",
+        "label": "A Dream of Return Among the Hills",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Multiplicative Mult",
+        "value": "70%",
+        "applyTo": ["@Hsin(Pillars Across Heaven)"]
+      }
+    ]
+  },
+  "Hsin_Sequence 3: A Dream of Return Among the Hills (Unison)": {
+    "name": "Sequence 3: A Dream of Return Among the Hills (Unison)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnCast[Self, @Hsin(Pillars Across Heaven)] IF (@Self.Mode != 2 && @Self.Sequence >= 3)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S3 Crit DMG",
+        "label": "A Dream of Return Among the Hills",
+        "target": "@Self",
+        "duration": 6,
+        "stat": "Crit DMG",
+        "value": "(20 + 15 * Math.min(@Self.BuffStacks(Unison Boon), 4))%",
+        "applyTo": ["@Hsin(Pillars Across Heaven)"]
+      }
+    ]
+  },
+  "Hsin_Sequence 3: A Dream of Return Among the Hills (Electro Flare)": {
+    "name": "Sequence 3: A Dream of Return Among the Hills (Electro Flare)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "AfterHit(all)[@Hsin(Pillars Across Heaven)] IF (@Self.Mode == 2 && @Self.Sequence >= 3 && @Enemy.HasBuff(Electro Flare))",
+    "dmgTypes": ["Electro Flare"],
+    "hitMults": ["1500%"]
+  },
+  "Hsin_Sequence 4: A River of Lanterns, a River of Wishes": {
+    "name": "Sequence 4: A River of Lanterns, a River of Wishes",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "ANY(OnBuffAdd[Electro Flare], OnBuffAdd[Electro Rage], OnBuffAdd[Unison], OnTrackerAdd[Unison Response]) IF (@Self.Sequence >= 4)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S4 DMG Bonus",
+        "label": "A River of Lanterns, a River of Wishes",
+        "target": "@Team",
+        "duration": 30,
+        "stat": "DMG Bonus",
+        "value": "20%",
+        "maxStacks": 1
+      }
+    ]
+  },
+  "Hsin_Sequence 6: The Moon Owes Its Light to the Living": {
+    "name": "Sequence 6: The Moon Owes Its Light to the Living",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "IF (@Self.Sequence >= 6)",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Hsin_S6 Skill DMG Taken",
+        "label": "The Moon Owes Its Light to the Living",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Skill DMG Taken",
+        "value": "40%"
+      },
+      {
+        "type": "buff",
+        "name": "Hsin_S6 Skill DEF Ignore",
+        "label": "The Moon Owes Its Light to the Living",
+        "target": "@Self",
+        "duration": "@Default.PermanentDuration",
+        "stat": "Skill Ignore DEF",
+        "value": "20%"
+      }
+    ]
+  },
+  "Hsin_Sequence 6: The Moon Owes Its Light to the Living (Unison)": {
+    "name": "Sequence 6: The Moon Owes Its Light to the Living (Unison)",
+    "category": "Resonance Chain",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Unison Response] IF (@Self.Mode != 2 && @Self.Sequence >= 6)",
+    "effects": [
+      {
+        "type": "tracker",
+        "name": "Unison Boon Grant",
+        "action": "add",
+        "value": 1,
+        "source": "Hsin: S6"
+      }
+    ]
+  }
+}

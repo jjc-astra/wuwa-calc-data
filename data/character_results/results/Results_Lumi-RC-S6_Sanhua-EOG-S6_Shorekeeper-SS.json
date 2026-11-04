@@ -505,9 +505,9 @@
   "results": {
     "dpsStats": {
       "openerDps": 30413.911368015415,
-      "firstLoopDps": 37238.88,
-      "avgLoopDps": 37238.88,
-      "twoMinDps": 35975.316666666666
+      "firstLoopDps": 37019.52,
+      "avgLoopDps": 37019.52,
+      "twoMinDps": 35792.51666666667
     },
     "contribution": {
       "opener": {
@@ -592,7 +592,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 730584
+            "dmg": 725100
           },
           {
             "label": "Sanhua",
@@ -611,7 +611,7 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 597840
+              "dmg": 592356
             },
             {
               "castType": "Echo",
@@ -682,7 +682,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 730584
+            "dmg": 725100
           },
           {
             "label": "Sanhua",
@@ -701,7 +701,7 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 597840
+              "dmg": 592356
             },
             {
               "castType": "Echo",
@@ -772,7 +772,7 @@
         "team": [
           {
             "label": "Lumi",
-            "dmg": 3398854
+            "dmg": 3376918
           },
           {
             "label": "Sanhua",
@@ -795,7 +795,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 2760450
+              "dmg": 2738514
             },
             {
               "castType": "Liberation",

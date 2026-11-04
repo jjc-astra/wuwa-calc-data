@@ -505,10 +505,10 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 75535.66176470589,
-      "firstLoopDps": 92014.24,
-      "avgLoopDps": 87672.46,
-      "twoMinDps": 82239.975
+      "openerDps": 74802.30582524273,
+      "firstLoopDps": 91283.96825396825,
+      "avgLoopDps": 86976.64682539683,
+      "twoMinDps": 81978.05833333333
     },
     "contribution": {
       "opener": {
@@ -593,9 +593,9 @@
         "fieldTime": {
           "Rebecca": 8.016666666666667,
           "Mornye": 6.916666666666667,
-          "Suoming": 12.266666666666667
+          "Suoming": 12.533333333333333
         },
-        "duration": 27.2
+        "duration": 27.466666666666665
       },
       "firstLoop": {
         "team": [
@@ -681,11 +681,11 @@
           ]
         },
         "fieldTime": {
-          "Mornye": 5.3,
+          "Mornye": 5.233333333333333,
           "Rebecca": 7.433333333333334,
-          "Suoming": 12.266666666666667
+          "Suoming": 12.533333333333333
         },
-        "duration": 25
+        "duration": 25.2
       },
       "avgLoop": {
         "team": [
@@ -771,21 +771,21 @@
           ]
         },
         "fieldTime": {
-          "Mornye": 5.3,
+          "Mornye": 5.233333333333333,
           "Rebecca": 7.433333333333334,
-          "Suoming": 12.266666666666666
+          "Suoming": 12.533333333333333
         },
-        "duration": 25
+        "duration": 25.2
       },
       "twoMin": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 6165456
+            "dmg": 6134790
           },
           {
             "label": "Rebecca",
-            "dmg": 2894495
+            "dmg": 2893731
           },
           {
             "label": "Mornye",
@@ -800,7 +800,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 5405586
+              "dmg": 5374920
             },
             {
               "castType": "Liberation",
@@ -830,7 +830,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 41596
+              "dmg": 40832
             },
             {
               "castType": "TuneHack",
@@ -862,8 +862,8 @@
         },
         "fieldTime": {
           "Rebecca": 37.75,
-          "Mornye": 28.116666666666667,
-          "Suoming": 54.13333333333333
+          "Mornye": 27.85,
+          "Suoming": 54.4
         },
         "duration": 120
       }

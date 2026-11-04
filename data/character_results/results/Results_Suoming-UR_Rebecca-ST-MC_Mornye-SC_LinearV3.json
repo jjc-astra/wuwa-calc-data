@@ -505,10 +505,10 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 74984.25634824668,
-      "firstLoopDps": 91413.83399209486,
-      "avgLoopDps": 87122.27272727272,
-      "twoMinDps": 81028.28333333334
+      "openerDps": 74265.84431137725,
+      "firstLoopDps": 90460.36505867014,
+      "avgLoopDps": 86213.56584093873,
+      "twoMinDps": 80576.25833333333
     },
     "contribution": {
       "opener": {
@@ -589,9 +589,9 @@
         "fieldTime": {
           "Rebecca": 8.45,
           "Mornye": 6.916666666666667,
-          "Suoming": 12.2
+          "Suoming": 12.466666666666667
         },
-        "duration": 27.566666666666666
+        "duration": 27.833333333333332
       },
       "firstLoop": {
         "team": [
@@ -675,9 +675,9 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Rebecca": 7.866666666666666,
-          "Suoming": 12.2
+          "Suoming": 12.466666666666667
         },
-        "duration": 25.3
+        "duration": 25.566666666666666
       },
       "avgLoop": {
         "team": [
@@ -761,19 +761,19 @@
         "fieldTime": {
           "Mornye": 5.233333333333333,
           "Rebecca": 7.866666666666667,
-          "Suoming": 12.200000000000001
+          "Suoming": 12.466666666666667
         },
-        "duration": 25.3
+        "duration": 25.566666666666666
       },
       "twoMin": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 6580338
+            "dmg": 6527163
           },
           {
             "label": "Rebecca",
-            "dmg": 2328654
+            "dmg": 2327586
           },
           {
             "label": "Mornye",
@@ -788,7 +788,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 5733108
+              "dmg": 5679933
             },
             {
               "castType": "Liberation",
@@ -814,7 +814,7 @@
             },
             {
               "castType": "Outro",
-              "dmg": 33660
+              "dmg": 32592
             },
             {
               "castType": "TuneHack",

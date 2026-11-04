@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "fa3f2270dc207c6a",
+  "hash": "b72dcfb2e6963eed",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -234,17 +234,17 @@
     },
     {
       "unit": "Suoming",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
       "action": "Suoming_Furled Canopy 1",
       "timing": "Auto"
     },
     {
       "unit": "Suoming",
       "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 3",
       "timing": "Auto"
     },
     {
@@ -454,17 +454,17 @@
     },
     {
       "unit": "Suoming",
+      "action": "System_Dodge",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Suoming",
       "action": "Suoming_Furled Canopy 1",
       "timing": "Auto"
     },
     {
       "unit": "Suoming",
       "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 3",
       "timing": "Auto"
     },
     {

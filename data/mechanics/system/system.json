@@ -80,7 +80,8 @@
         "duration": 15,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "clear"
+        "expireBehavior": "clear",
+        "label": "Fusion Burst"
       },
       {
         "type": "buff",
@@ -88,7 +89,8 @@
         "duration": 15,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "clear"
+        "expireBehavior": "clear",
+        "label": "Glacio Chafe"
       },
       {
         "type": "buff",
@@ -98,7 +100,8 @@
         "stackBehavior": "resettable",
         "expireBehavior": "clear",
         "stat": "Reduce DEF",
-        "value": 0.02
+        "value": 0.02,
+        "label": "Havoc Bane"
       },
       {
         "type": "buff",
@@ -106,7 +109,8 @@
         "duration": 15,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "clear"
+        "expireBehavior": "clear",
+        "label": "Aero Erosion"
       },
       {
         "type": "buff",
@@ -114,7 +118,8 @@
         "duration": 1.5,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "drop_one"
+        "expireBehavior": "drop_one",
+        "label": "Spectro Frazzle"
       },
       {
         "type": "buff",
@@ -122,7 +127,8 @@
         "duration": 5,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "drop_half"
+        "expireBehavior": "drop_half",
+        "label": "Electro Flare"
       },
       {
         "type": "buff",
@@ -130,7 +136,8 @@
         "duration": 5,
         "maxStacks": 10,
         "stackBehavior": "resettable",
-        "expireBehavior": "clear"
+        "expireBehavior": "clear",
+        "label": "Electro Rage"
       }
     ]
   },
@@ -298,6 +305,23 @@
         "name": "Hack - Shifting",
         "target": "@Enemy",
         "value": "ALL"
+      }
+    ]
+  },
+  "System_Unison Boon": {
+    "name": "Unison Boon Dictionary",
+    "isPassive": true,
+    "triggerRule": "NEVER",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Unison Boon",
+        "label": "Unison Boon",
+        "duration": 30,
+        "stat": "DMG Taken",
+        "value": "3%",
+        "maxStacks": "2 + @Self.Tracker(Unison Boon Bonus Stacks)",
+        "maxStacksPerSource": 1
       }
     ]
   }

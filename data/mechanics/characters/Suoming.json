@@ -81,7 +81,8 @@
     "hitMults": ["15.73%", "15.73%", "31.46%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 47,
     "swapTiming": "@Default.SwapTime",
@@ -111,7 +112,8 @@
     "hitMults": ["22.01%", "22.01%", "22.01%", "44.02%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 2",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 82,
     "swapTiming": "@Default.SwapTime",
@@ -223,7 +225,8 @@
       }
     ],
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 68,
     "swapTiming": "@Default.SwapTime",
@@ -253,7 +256,8 @@
     "hitMults": ["58.64%", "58.64%", "58.64%", "58.64%"],
     "input": "Basic",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 2",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 2,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 70,
     "swapTiming": "@Default.SwapTime",
@@ -289,8 +293,13 @@
       }
     ],
     "stanceReq": "Grounded",
-    "priority": "@Default.SkillPriority",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 3,
     "priorityTimeline": [
+      {
+        "time": 0,
+        "priority": "@Default.SkillPriority"
+      },
       {
         "time": 103,
         "priority": "@Default.BasicPriority"
@@ -326,7 +335,8 @@
     "input": "Basic",
     "inputType": "Hold",
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 88,
     "swapTiming": "@Default.SwapTime",
@@ -362,7 +372,8 @@
       }
     ],
     "stanceReq": "Grounded",
-    "priority": "@Default.BasicPriority + 1",
+    "priority": "@Default.BasicPriority",
+    "comboOrder": 1,
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 85,
     "swapTiming": "@Default.SwapTime",
@@ -542,14 +553,15 @@
     ],
     "comboWindow": "@Default.ComboWindow",
     "actionDuration": 308,
-    "freezeTime": 240,
+    "freezeTime": 133,
     "freezeStart": 107,
     "motionStop": 240,
     "damageTimeframe": {
       "start": 11,
       "end": 250
     },
-    "hitFrames": [19, 25, 29, 90, 98, 104, 108, 116, 124, 131, 140, 146, 152, 158, 164, 172, 178, 184, 190, 196, 204, 209, 214, 219, 224, 229, 234, 239]
+    "hitFrames": [19, 25, 29, 90, 98, 104, 108, 116, 124, 131, 140, 146, 152, 158, 164, 172, 178, 184, 190, 196, 204, 209, 214, 219, 224, 229, 234, 239],
+    "swapTiming": 256
   },
   "Suoming_Miasma Lock": {
     "name": "Miasma Lock",
@@ -786,13 +798,10 @@
       },
       {
         "type": "buff",
-        "name": "Suoming_Unison Boon",
-        "label": "Unison Boon",
+        "name": "Unison Boon",
         "target": "@Self",
-        "duration": 30,
-        "stat": "DMG Taken",
-        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
-        "maxStacks": 1
+        "source": "Suoming: Unison Boon",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%"
       },
       {
         "type": "buffAction",
@@ -869,13 +878,10 @@
       },
       {
         "type": "buff",
-        "name": "Suoming_Unison Boon",
-        "label": "Unison Boon",
+        "name": "Unison Boon",
         "target": "@Self",
-        "duration": 30,
-        "stat": "DMG Taken",
-        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
-        "maxStacks": 1
+        "source": "Suoming: Unison Boon",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%"
       }
     ],
     "hitMults": ["131.43%", "65.72%", "65.72%", "131.43%", "131.43%"],
@@ -1074,7 +1080,7 @@
       {
         "type": "buffAction",
         "action": "remove",
-        "name": "Suoming_Unison Boon",
+        "name": "Unison Boon",
         "target": "@Self",
         "value": "ALL"
       },
@@ -1186,13 +1192,10 @@
     "effects": [
       {
         "type": "buff",
-        "name": "Suoming_Unison Boon",
-        "label": "Unison Boon",
+        "name": "Unison Boon",
         "target": "@Self",
-        "duration": 30,
-        "stat": "DMG Taken",
-        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%",
-        "maxStacks": 1
+        "source": "Suoming: Unison Boon",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%"
       }
     ]
   },
@@ -1261,6 +1264,59 @@
         "stat": "Multiplicative Mult",
         "value": "50%",
         "applyTo": ["@Suoming(Engraved Heart)"]
+      }
+    ]
+  },
+  "Suoming_Unison Boon": {
+    "name": "Unison Boon",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnTrackerAdd[Unison Boon Grant]",
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Unison Boon",
+        "target": "@Self",
+        "source": "@EventSource",
+        "value": "(@Self.Sequence >= 6 ? 4.5 : 3)%"
+      }
+    ]
+  },
+  "Suoming_Sunken Seal, Forged Lock (Unison Boon)": {
+    "name": "Sunken Seal, Forged Lock (Unison Boon)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnSwapIn IF (@Self.HasBuff(@Suoming(Aligned Seals Electro DMG)))",
+    "actsForUnit": true,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Aligned Seals (Unison Boon)",
+        "label": "Aligned Seals (Unison Boon)",
+        "target": "@Self",
+        "duration": 8,
+        "stat": "Electro DMG Bonus",
+        "value": "Math.min(20 * @Self.BuffStacks(Unison Boon), 40)%",
+        "removeOnSwap": true
+      }
+    ]
+  },
+  "Suoming_Canopy Rumble (Unison Boon)": {
+    "name": "Canopy Rumble (Unison Boon)",
+    "category": "Inherent Skill",
+    "isPassive": true,
+    "triggerRule": "OnSwapIn IF (@Self.HasBuff(@Suoming(Canopy Rumble)))",
+    "actsForUnit": true,
+    "effects": [
+      {
+        "type": "buff",
+        "name": "Suoming_Canopy Rumble (Unison Boon)",
+        "label": "Canopy Rumble (Unison Boon)",
+        "target": "@Self",
+        "duration": 8,
+        "stat": "Skill DMG Amp",
+        "value": "(@Self.HasBuff(Unison Boon) ? 25 : 0)%",
+        "removeOnSwap": true
       }
     ]
   }
