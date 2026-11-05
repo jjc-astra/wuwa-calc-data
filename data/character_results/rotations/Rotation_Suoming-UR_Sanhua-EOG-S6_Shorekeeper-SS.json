@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "865ac5032e7aacfc",
+  "hash": "1e0ccc305be6c8b0",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -197,21 +197,6 @@
     },
     {
       "unit": "Suoming",
-      "action": "System_Dodge",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
       "action": "Suoming_Outro: Canopy Rumble",
       "timing": "Auto"
     },
@@ -391,21 +376,6 @@
     {
       "unit": "Suoming",
       "action": "Suoming_Engraved Heart",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "System_Dodge",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 2",
       "timing": "Auto"
     },
     {

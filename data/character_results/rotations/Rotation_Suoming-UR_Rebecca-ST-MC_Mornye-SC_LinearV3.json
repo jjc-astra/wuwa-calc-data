@@ -1,17 +1,7 @@
 {
   "format": 2,
-  "hash": "bfdc8e1d6fe7f20a",
+  "hash": "891dcf81228313c3",
   "rotation": [
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Huntress 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Huntress 2",
-      "timing": "Auto"
-    },
     {
       "unit": "Mornye",
       "action": "Mornye_Ground State Calibration 1",
@@ -79,6 +69,11 @@
     },
     {
       "unit": "Rebecca",
+      "action": "Rebecca_Tactical Dodge: Guts",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
       "action": "Rebecca_Guts 2",
       "timing": "Auto"
     },
@@ -89,22 +84,27 @@
     },
     {
       "unit": "Rebecca",
+      "action": "Rebecca_Guts: Heavy Attack",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Bang-bang-bang!: Guts",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Guts: Heavy Attack",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
       "action": "Impermanence Heron_Attack",
       "timing": "Instant_Cancel"
     },
     {
       "unit": "Rebecca",
       "action": "System_Dodge",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Come 'n' Get Me!",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Rat-tat-tat!: Huntress",
       "timing": "Auto"
     },
     {
@@ -232,7 +232,17 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Intro: Yo, It's Big Boomin' Time!",
+      "action": "Rebecca_Intro: Hey, Leadhead, Come 'n' Get Me!",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "System_Jump",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Huntress: Mid-air Attack",
       "timing": "Auto"
     },
     {
@@ -242,7 +252,12 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Guts 1",
+      "action": "Rebecca_It's Big Boomin' Time!",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Tactical Dodge: Guts",
       "timing": "Auto"
     },
     {
@@ -252,7 +267,12 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Guts 3",
+      "action": "Rebecca_Bang-bang-bang!: Guts",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Guts: Heavy Attack",
       "timing": "Auto"
     },
     {
@@ -263,16 +283,6 @@
     {
       "unit": "Rebecca",
       "action": "System_Dodge",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Come 'n' Get Me!",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Rat-tat-tat!: Huntress",
       "timing": "Auto"
     },
     {
@@ -415,12 +425,27 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Intro: Yo, It's Big Boomin' Time!",
+      "action": "Rebecca_Intro: Hey, Leadhead, Come 'n' Get Me!",
       "timing": "Auto"
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Guts 1",
+      "action": "System_Jump",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Huntress: Mid-air Attack",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_It's Big Boomin' Time!",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Tactical Dodge: Guts",
       "timing": "Auto"
     },
     {
@@ -430,7 +455,17 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Guts 3",
+      "action": "Rebecca_Bang-bang-bang!: Guts",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "System_Tune Break",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "Rebecca_Guts: Heavy Attack",
       "timing": "Auto"
     },
     {
@@ -441,16 +476,6 @@
     {
       "unit": "Rebecca",
       "action": "System_Dodge",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Come 'n' Get Me!",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Rat-tat-tat!: Huntress",
       "timing": "Auto"
     },
     {
@@ -490,7 +515,7 @@
     },
     {
       "unit": "Suoming",
-      "action": "System_Tune Break",
+      "action": "System_Dodge",
       "timing": "Auto"
     },
     {

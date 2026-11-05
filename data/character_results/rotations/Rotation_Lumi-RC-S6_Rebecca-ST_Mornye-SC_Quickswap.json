@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "d28974ff82142e60",
+  "hash": "6cf706efa23559ce",
   "rotation": [
     {
       "unit": "Lumi",
@@ -347,16 +347,6 @@
     },
     {
       "unit": "Rebecca",
-      "action": "Rebecca_Huntress 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "System_Tune Break",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
       "action": "Rebecca_Party 'til Dawn!",
       "timing": "Auto"
     },
@@ -378,6 +368,11 @@
     {
       "unit": "Lumi",
       "action": "Lumi_Energized Pounce",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Lumi",
+      "action": "System_Tune Break",
       "timing": "Auto"
     },
     {
@@ -793,7 +788,9 @@
         "electroDmgBonus": 60,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      }
+      },
+      "subSet2a": "Void Thunder",
+      "subSet2b": "Reel of Spliced Memories"
     },
     {
       "index": 1,

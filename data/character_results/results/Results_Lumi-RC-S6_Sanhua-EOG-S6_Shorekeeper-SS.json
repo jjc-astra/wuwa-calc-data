@@ -504,17 +504,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 30413.911368015415,
-      "firstLoopDps": 37019.52,
-      "avgLoopDps": 37019.52,
-      "twoMinDps": 35792.51666666667
+      "openerDps": 29243.413729128017,
+      "firstLoopDps": 36199.69914977109,
+      "avgLoopDps": 36199.69914977109,
+      "twoMinDps": 34847.725
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 672609
+            "dmg": 671478
           },
           {
             "label": "Sanhua",
@@ -533,7 +533,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 565181
+              "dmg": 564050
             },
             {
               "castType": "Liberation",
@@ -582,17 +582,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 5.15,
-          "Lumi": 17.4,
-          "Sanhua": 3.4
+          "Shorekeeper": 5.5,
+          "Lumi": 17.85,
+          "Sanhua": 3.6
         },
-        "duration": 25.95
+        "duration": 26.95
       },
       "firstLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 725100
+            "dmg": 722172
           },
           {
             "label": "Sanhua",
@@ -600,7 +600,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 34670
+            "dmg": 34599
           },
           {
             "label": "TuneBreak",
@@ -611,11 +611,11 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 592356
+              "dmg": 591152
             },
             {
               "castType": "Echo",
-              "dmg": 24364
+              "dmg": 22640
             },
             {
               "castType": "Intro",
@@ -655,11 +655,11 @@
             },
             {
               "castType": "Basic",
-              "dmg": 5262
+              "dmg": 5211
             },
             {
               "castType": "Skill",
-              "dmg": 2325
+              "dmg": 2305
             },
             {
               "castType": "Heavy",
@@ -672,17 +672,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 4.2,
-          "Lumi": 17.4,
-          "Sanhua": 3.4
+          "Shorekeeper": 4.033333333333333,
+          "Lumi": 17.85,
+          "Sanhua": 3.6
         },
-        "duration": 25
+        "duration": 25.483333333333334
       },
       "avgLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 725100
+            "dmg": 722172
           },
           {
             "label": "Sanhua",
@@ -690,7 +690,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 34670
+            "dmg": 34599
           },
           {
             "label": "TuneBreak",
@@ -701,11 +701,11 @@
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 592356
+              "dmg": 591152
             },
             {
               "castType": "Echo",
-              "dmg": 24364
+              "dmg": 22640
             },
             {
               "castType": "Intro",
@@ -745,11 +745,11 @@
             },
             {
               "castType": "Basic",
-              "dmg": 5262
+              "dmg": 5211
             },
             {
               "castType": "Skill",
-              "dmg": 2325
+              "dmg": 2305
             },
             {
               "castType": "Heavy",
@@ -762,17 +762,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 4.2,
-          "Lumi": 17.400000000000002,
-          "Sanhua": 3.4
+          "Shorekeeper": 4.033333333333333,
+          "Lumi": 17.849999999999998,
+          "Sanhua": 3.6
         },
-        "duration": 25
+        "duration": 25.483333333333334
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 3376918
+            "dmg": 3263827
           },
           {
             "label": "Sanhua",
@@ -780,7 +780,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 152282
+            "dmg": 151998
           },
           {
             "label": "TuneBreak",
@@ -795,7 +795,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 2738514
+              "dmg": 2632319
             },
             {
               "castType": "Liberation",
@@ -803,7 +803,7 @@
             },
             {
               "castType": "Echo",
-              "dmg": 97456
+              "dmg": 90560
             }
           ],
           "Sanhua": [
@@ -831,11 +831,11 @@
           "Shorekeeper": [
             {
               "castType": "Basic",
-              "dmg": 28046
+              "dmg": 27842
             },
             {
               "castType": "Skill",
-              "dmg": 10540
+              "dmg": 10460
             },
             {
               "castType": "Heavy",
@@ -852,9 +852,9 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 21.95,
-          "Lumi": 81.05,
-          "Sanhua": 17
+          "Shorekeeper": 21.633333333333333,
+          "Lumi": 80.36666666666666,
+          "Sanhua": 18
         },
         "duration": 120
       }

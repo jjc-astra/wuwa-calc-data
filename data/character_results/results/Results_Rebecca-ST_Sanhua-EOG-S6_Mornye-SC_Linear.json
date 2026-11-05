@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "41748c5b95429c1b",
+  "hash": "e65af79f524c2388",
   "build": "default",
   "rotationType": "linear",
   "author": "Astrais",
@@ -343,6 +343,8 @@
       "layout": "4 3 3 1 1",
       "mainSet": "Halo of Starry Radiance",
       "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
       "mainEcho": "Reactor Husk",
       "echoes": [
         {
@@ -493,9 +495,7 @@
         "electroDmgBonus": 0,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      },
-      "subSet2a": "",
-      "subSet2b": ""
+      }
     }
   ],
   "enemy": {
@@ -505,17 +505,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 44231.48623853211,
-      "firstLoopDps": 51654.4,
-      "avgLoopDps": 51659.066666666666,
-      "twoMinDps": 51117.89166666667
+      "openerDps": 43174.41860465116,
+      "firstLoopDps": 51492.09710047202,
+      "avgLoopDps": 51110.992638857904,
+      "twoMinDps": 50452.75833333333
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Rebecca",
-            "dmg": 943848
+            "dmg": 945319
           },
           {
             "label": "Sanhua",
@@ -523,7 +523,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 52140
+            "dmg": 52086
           },
           {
             "label": "TuneBreak",
@@ -542,7 +542,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 742038
+              "dmg": 741587
             },
             {
               "castType": "Heavy",
@@ -551,6 +551,10 @@
             {
               "castType": "TuneHack",
               "dmg": 129390
+            },
+            {
+              "castType": "Skill",
+              "dmg": 1922
             }
           ],
           "Sanhua": [
@@ -586,7 +590,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 44082
+              "dmg": 44028
             },
             {
               "castType": "Skill",
@@ -595,17 +599,17 @@
           ]
         },
         "fieldTime": {
-          "Mornye": 7.066666666666666,
-          "Sanhua": 3.25,
-          "Rebecca": 16.933333333333334
+          "Mornye": 7.166666666666667,
+          "Sanhua": 3.4,
+          "Rebecca": 17.383333333333333
         },
-        "duration": 27.25
+        "duration": 27.95
       },
       "firstLoop": {
         "team": [
           {
             "label": "Rebecca",
-            "dmg": 986446
+            "dmg": 967836
           },
           {
             "label": "Sanhua",
@@ -613,7 +617,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 77125
+            "dmg": 77088
           },
           {
             "label": "TuneBreak",
@@ -622,15 +626,15 @@
         ],
         "units": {
           "Rebecca": [
-            {
-              "castType": "Skill",
-              "dmg": 18101
-            },
             {
               "castType": "Outro",
               "dmg": 2483
             },
             {
+              "castType": "Skill",
+              "dmg": 18213
+            },
+            {
               "castType": "Intro",
               "dmg": 27140
             },
@@ -639,12 +643,12 @@
               "dmg": 27456
             },
             {
-              "castType": "Basic",
-              "dmg": 781876
-            },
-            {
               "castType": "TuneHack",
               "dmg": 129390
+            },
+            {
+              "castType": "Basic",
+              "dmg": 763154
             }
           ],
           "Sanhua": [
@@ -676,7 +680,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 62917
+              "dmg": 62866
             },
             {
               "castType": "Basic",
@@ -688,22 +692,22 @@
             },
             {
               "castType": "Heavy",
-              "dmg": 4288
+              "dmg": 4302
             }
           ]
         },
         "fieldTime": {
-          "Mornye": 5.233333333333333,
-          "Sanhua": 3.25,
-          "Rebecca": 16.516666666666666
+          "Mornye": 5.283333333333333,
+          "Sanhua": 3.4,
+          "Rebecca": 16.033333333333335
         },
-        "duration": 25
+        "duration": 24.716666666666665
       },
       "avgLoop": {
         "team": [
           {
             "label": "Rebecca",
-            "dmg": 986528.6666666666
+            "dmg": 968002.6666666666
           },
           {
             "label": "Sanhua",
@@ -711,7 +715,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 77159
+            "dmg": 77156
           },
           {
             "label": "TuneBreak",
@@ -721,12 +725,12 @@
         "units": {
           "Rebecca": [
             {
-              "castType": "Skill",
-              "dmg": 18175.666666666668
+              "castType": "Outro",
+              "dmg": 2634.3333333333335
             },
             {
-              "castType": "Outro",
-              "dmg": 2491
+              "castType": "Skill",
+              "dmg": 18228.333333333332
             },
             {
               "castType": "Intro",
@@ -737,12 +741,12 @@
               "dmg": 27456
             },
             {
-              "castType": "Basic",
-              "dmg": 781876
-            },
-            {
               "castType": "TuneHack",
               "dmg": 129390
+            },
+            {
+              "castType": "Basic",
+              "dmg": 763154
             }
           ],
           "Sanhua": [
@@ -774,7 +778,7 @@
             },
             {
               "castType": "Liberation",
-              "dmg": 62951
+              "dmg": 62934
             },
             {
               "castType": "Basic",
@@ -786,22 +790,22 @@
             },
             {
               "castType": "Heavy",
-              "dmg": 4288
+              "dmg": 4302
             }
           ]
         },
         "fieldTime": {
-          "Mornye": 5.233333333333333,
-          "Sanhua": 3.25,
-          "Rebecca": 16.516666666666666
+          "Mornye": 5.472222222222222,
+          "Sanhua": 3.4,
+          "Rebecca": 16.033333333333335
         },
-        "duration": 25
+        "duration": 24.905555555555555
       },
       "twoMin": {
         "team": [
           {
             "label": "Rebecca",
-            "dmg": 4652878
+            "dmg": 4573111
           },
           {
             "label": "Sanhua",
@@ -809,7 +813,7 @@
           },
           {
             "label": "Mornye",
-            "dmg": 360793
+            "dmg": 360744
           },
           {
             "label": "TuneBreak",
@@ -828,7 +832,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 3632416
+              "dmg": 3551823
             },
             {
               "castType": "Heavy",
@@ -840,11 +844,11 @@
             },
             {
               "castType": "Skill",
-              "dmg": 72740
+              "dmg": 72921
             },
             {
               "castType": "Outro",
-              "dmg": 9968
+              "dmg": 10613
             }
           ],
           "Sanhua": [
@@ -876,11 +880,11 @@
             },
             {
               "castType": "Heavy",
-              "dmg": 20176
+              "dmg": 20232
             },
             {
               "castType": "Liberation",
-              "dmg": 295903
+              "dmg": 295798
             },
             {
               "castType": "Skill",
@@ -893,9 +897,9 @@
           ]
         },
         "fieldTime": {
-          "Mornye": 28,
-          "Sanhua": 16.25,
-          "Rebecca": 75.75
+          "Mornye": 29.15,
+          "Sanhua": 17,
+          "Rebecca": 73.85
         },
         "duration": 120
       }

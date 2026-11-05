@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "b0d55829b55d94d6",
+  "hash": "821f22f2b9f2820c",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -274,11 +274,6 @@
       "timing": "Auto"
     },
     {
-      "unit": "Suoming",
-      "action": "Suoming_Unfurled Canopy 3",
-      "timing": "Swap"
-    },
-    {
       "unit": "Shorekeeper",
       "action": "Fallacy of No Return_Attack",
       "timing": "Simultaneous"
@@ -503,11 +498,6 @@
       "timing": "Auto"
     },
     {
-      "unit": "Suoming",
-      "action": "Suoming_Unfurled Canopy 3",
-      "timing": "Swap"
-    },
-    {
       "unit": "Shorekeeper",
       "action": "Fallacy of No Return_Attack",
       "timing": "Simultaneous"
@@ -713,11 +703,6 @@
       "unit": "Suoming",
       "action": "Suoming_Unfurled Canopy 2",
       "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Unfurled Canopy 3",
-      "timing": "Swap"
     },
     {
       "unit": "Shorekeeper",
@@ -1349,5 +1334,5 @@
     "hp": 3000000
   },
   "rotationType": "quickswap",
-  "author": "Pigeon"
+  "author": "Astrais"
 }

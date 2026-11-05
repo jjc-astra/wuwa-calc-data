@@ -505,17 +505,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 109623.59183673469,
-      "firstLoopDps": 110885.96,
-      "avgLoopDps": 110873.93333333333,
-      "twoMinDps": 103456.90833333334
+      "openerDps": 104195.94524119949,
+      "firstLoopDps": 111096.59318637275,
+      "avgLoopDps": 110946.6310873916,
+      "twoMinDps": 102404.525
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Hsin",
-            "dmg": 2061764
+            "dmg": 2039956
           },
           {
             "label": "Suoming",
@@ -523,7 +523,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 12679
+            "dmg": 12652
           },
           {
             "label": "TuneBreak",
@@ -534,15 +534,15 @@
           "Hsin": [
             {
               "castType": "Skill",
-              "dmg": 1824846
+              "dmg": 1805256
             },
             {
               "castType": "Basic",
-              "dmg": 149084
+              "dmg": 148694
             },
             {
               "castType": "Outro",
-              "dmg": 23279
+              "dmg": 22996
             },
             {
               "castType": "Liberation",
@@ -550,7 +550,7 @@
             },
             {
               "castType": "Echo",
-              "dmg": 49065
+              "dmg": 47520
             }
           ],
           "Suoming": [
@@ -570,7 +570,7 @@
           "Shorekeeper": [
             {
               "castType": "Basic",
-              "dmg": 6075
+              "dmg": 6048
             },
             {
               "castType": "Heavy",
@@ -587,17 +587,17 @@
           ]
         },
         "fieldTime": {
-          "Hsin": 10.6,
-          "Shorekeeper": 5.183333333333334,
-          "Suoming": 8.716666666666667
+          "Hsin": 11.016666666666667,
+          "Shorekeeper": 5.583333333333333,
+          "Suoming": 8.966666666666667
         },
-        "duration": 24.5
+        "duration": 25.566666666666666
       },
       "firstLoop": {
         "team": [
           {
             "label": "Hsin",
-            "dmg": 2083541
+            "dmg": 2083264
           },
           {
             "label": "Suoming",
@@ -605,7 +605,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 39084
+            "dmg": 39072
           },
           {
             "label": "TuneBreak",
@@ -616,19 +616,19 @@
           "Hsin": [
             {
               "castType": "Skill",
-              "dmg": 1826411
+              "dmg": 1826157
             },
             {
               "castType": "Outro",
-              "dmg": 27553
+              "dmg": 27392
             },
             {
               "castType": "Liberation",
-              "dmg": 31821
+              "dmg": 31917
             },
             {
               "castType": "Basic",
-              "dmg": 150236
+              "dmg": 150278
             },
             {
               "castType": "Echo",
@@ -656,7 +656,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 5532
+              "dmg": 5520
             },
             {
               "castType": "Skill",
@@ -673,17 +673,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 5.583333333333333,
-          "Suoming": 8.966666666666667,
-          "Hsin": 10.45
+          "Shorekeeper": 4.766666666666667,
+          "Suoming": 9.416666666666666,
+          "Hsin": 10.766666666666667
         },
-        "duration": 25
+        "duration": 24.95
       },
       "avgLoop": {
         "team": [
           {
             "label": "Hsin",
-            "dmg": 2083240.3333333333
+            "dmg": 2083220.6666666667
           },
           {
             "label": "Suoming",
@@ -691,7 +691,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 39084
+            "dmg": 39072
           },
           {
             "label": "TuneBreak",
@@ -702,19 +702,19 @@
           "Hsin": [
             {
               "castType": "Skill",
-              "dmg": 1826241.6666666667
+              "dmg": 1826157
             },
             {
               "castType": "Outro",
-              "dmg": 27445.666666666668
+              "dmg": 27392
             },
             {
               "castType": "Liberation",
-              "dmg": 31797
+              "dmg": 31873.666666666668
             },
             {
               "castType": "Basic",
-              "dmg": 150236
+              "dmg": 150278
             },
             {
               "castType": "Echo",
@@ -742,7 +742,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 5532
+              "dmg": 5520
             },
             {
               "castType": "Skill",
@@ -759,25 +759,25 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 5.583333333333333,
-          "Suoming": 8.966666666666667,
-          "Hsin": 10.450000000000001
+          "Shorekeeper": 4.8,
+          "Suoming": 9.416666666666666,
+          "Hsin": 10.766666666666666
         },
-        "duration": 25
+        "duration": 24.983333333333334
       },
       "twoMin": {
         "team": [
           {
             "label": "Hsin",
-            "dmg": 9099071
+            "dmg": 9052127
           },
           {
             "label": "Suoming",
-            "dmg": 2895991
+            "dmg": 2816724
           },
           {
             "label": "Shorekeeper",
-            "dmg": 169015
+            "dmg": 168940
           },
           {
             "label": "TuneBreak",
@@ -788,29 +788,29 @@
           "Hsin": [
             {
               "castType": "Skill",
-              "dmg": 7978231
+              "dmg": 7933243
             },
             {
               "castType": "Basic",
-              "dmg": 670468
+              "dmg": 670204
             },
             {
               "castType": "Outro",
-              "dmg": 124324
+              "dmg": 123880
             },
             {
               "castType": "Liberation",
-              "dmg": 134423
+              "dmg": 134720
             },
             {
               "castType": "Echo",
-              "dmg": 191625
+              "dmg": 190080
             }
           ],
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 2285461
+              "dmg": 2206194
             },
             {
               "castType": "Liberation",
@@ -824,7 +824,7 @@
           "Shorekeeper": [
             {
               "castType": "Basic",
-              "dmg": 28203
+              "dmg": 28128
             },
             {
               "castType": "Heavy",
@@ -845,9 +845,9 @@
           ]
         },
         "fieldTime": {
-          "Hsin": 47.9,
-          "Shorekeeper": 27.516666666666666,
-          "Suoming": 44.583333333333336
+          "Hsin": 48.85,
+          "Shorekeeper": 24.8,
+          "Suoming": 46.35
         },
         "duration": 120
       }

@@ -1,9 +1,9 @@
 {
   "format": 2,
-  "hash": "b0d55829b55d94d6",
+  "hash": "821f22f2b9f2820c",
   "build": "default",
   "rotationType": "quickswap",
-  "author": "Pigeon",
+  "author": "Astrais",
   "team": [
     {
       "index": 0,
@@ -505,17 +505,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 78628.46979865772,
-      "firstLoopDps": 83177.35700197238,
-      "avgLoopDps": 84160.6983704689,
-      "twoMinDps": 84533.08333333333
+      "openerDps": 75854.25048669695,
+      "firstLoopDps": 82444.28005284016,
+      "avgLoopDps": 83084.5174173508,
+      "twoMinDps": 83622.725
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1797649
+            "dmg": 1793232
           },
           {
             "label": "Sanhua",
@@ -538,7 +538,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 1656275
+              "dmg": 1651858
             },
             {
               "castType": "Liberation",
@@ -583,17 +583,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 4.583333333333333,
-          "Sanhua": 1.7,
-          "Suoming": 18.55
+          "Shorekeeper": 4.866666666666666,
+          "Sanhua": 1.8,
+          "Suoming": 19.016666666666666
         },
-        "duration": 24.833333333333332
+        "duration": 25.683333333333334
       },
       "firstLoop": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1913059
+            "dmg": 1884843
           },
           {
             "label": "Sanhua",
@@ -601,7 +601,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 33538
+            "dmg": 33552
           },
           {
             "label": "TuneBreak",
@@ -612,7 +612,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1771685
+              "dmg": 1743469
             },
             {
               "castType": "Echo",
@@ -656,7 +656,7 @@
             },
             {
               "castType": "Skill",
-              "dmg": 1735
+              "dmg": 1749
             },
             {
               "castType": "Echo",
@@ -669,17 +669,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 3.6166666666666667,
-          "Sanhua": 1.8166666666666667,
-          "Suoming": 19.916666666666668
+          "Shorekeeper": 3.8666666666666667,
+          "Sanhua": 1.9666666666666666,
+          "Suoming": 19.4
         },
-        "duration": 25.35
+        "duration": 25.233333333333334
       },
       "avgLoop": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 1913439.8333333333
+            "dmg": 1884843
           },
           {
             "label": "Sanhua",
@@ -687,7 +687,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 33538
+            "dmg": 33552
           },
           {
             "label": "TuneBreak",
@@ -698,7 +698,7 @@
           "Suoming": [
             {
               "castType": "Basic",
-              "dmg": 1772065.8333333333
+              "dmg": 1743469
             },
             {
               "castType": "Echo",
@@ -742,7 +742,7 @@
             },
             {
               "castType": "Skill",
-              "dmg": 1735
+              "dmg": 1749
             },
             {
               "castType": "Echo",
@@ -755,17 +755,17 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 3.3249999999999997,
-          "Sanhua": 1.8166666666666667,
-          "Suoming": 19.916666666666668
+          "Shorekeeper": 3.6722222222222225,
+          "Sanhua": 1.9666666666666668,
+          "Suoming": 19.400000000000002
         },
-        "duration": 25.058333333333334
+        "duration": 25.038888888888888
       },
       "twoMin": {
         "team": [
           {
             "label": "Suoming",
-            "dmg": 9185479
+            "dmg": 9076180
           },
           {
             "label": "Sanhua",
@@ -773,7 +773,7 @@
           },
           {
             "label": "Shorekeeper",
-            "dmg": 170143
+            "dmg": 170199
           },
           {
             "label": "TuneBreak",
@@ -788,7 +788,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 8478609
+              "dmg": 8369310
             },
             {
               "castType": "Liberation",
@@ -824,7 +824,7 @@
             },
             {
               "castType": "Skill",
-              "dmg": 8305
+              "dmg": 8361
             },
             {
               "castType": "Heavy",
@@ -841,9 +841,9 @@
           ]
         },
         "fieldTime": {
-          "Shorekeeper": 19.35,
-          "Sanhua": 8.966666666666667,
-          "Suoming": 90.71666666666667
+          "Shorekeeper": 20.983333333333334,
+          "Sanhua": 9.666666666666666,
+          "Suoming": 89.01666666666667
         },
         "duration": 120
       }

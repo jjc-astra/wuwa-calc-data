@@ -935,6 +935,7 @@
     "category": "Forte Circuit",
     "isPassive": true,
     "triggerRule": "OnHit[Self, Intro]",
+    "cooldown": 3,
     "effects": [
       {
         "type": "buff",
@@ -956,6 +957,7 @@
     "category": "Forte Circuit",
     "isPassive": true,
     "triggerRule": "OnHit[Self, @Rebecca(Rat-tat-tat!: Huntress)]",
+    "cooldown": 3,
     "effects": [
       {
         "type": "buff",
@@ -977,6 +979,7 @@
     "category": "Forte Circuit",
     "isPassive": true,
     "triggerRule": "OnHit[Self, @Rebecca(Bang-bang-bang!: Guts)]",
+    "cooldown": 3,
     "effects": [
       {
         "type": "buff",
@@ -998,6 +1001,7 @@
     "category": "Forte Circuit",
     "isPassive": true,
     "triggerRule": "OnHit[Self, @Rebecca(BOOM! Fireworks!)]",
+    "cooldown": 3,
     "effects": [
       {
         "type": "buff",

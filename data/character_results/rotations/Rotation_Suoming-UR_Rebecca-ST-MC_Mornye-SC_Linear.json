@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "ac7d6346f0e3b456",
+  "hash": "de9b23bad85ff331",
   "rotation": [
     {
       "unit": "Rebecca",
@@ -189,11 +189,6 @@
     },
     {
       "unit": "Suoming",
-      "action": "Suoming_Whirling Thunder 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
       "action": "Suoming_Unforsaken Mind",
       "timing": "Auto"
     },
@@ -254,11 +249,6 @@
     },
     {
       "unit": "Rebecca",
-      "action": "System_Tune Break",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
       "action": "Rebecca_Guts 1",
       "timing": "Auto"
     },
@@ -270,6 +260,11 @@
     {
       "unit": "Rebecca",
       "action": "Rebecca_Guts 3",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
+      "action": "System_Tune Break",
       "timing": "Auto"
     },
     {
@@ -374,11 +369,6 @@
     },
     {
       "unit": "Suoming",
-      "action": "Suoming_Whirling Thunder 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
       "action": "Suoming_Unforsaken Mind",
       "timing": "Auto"
     },
@@ -550,11 +540,6 @@
     {
       "unit": "Suoming",
       "action": "Suoming_Whirling Thunder 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Whirling Thunder 2",
       "timing": "Auto"
     },
     {

@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "41748c5b95429c1b",
+  "hash": "e65af79f524c2388",
   "rotation": [
     {
       "unit": "Mornye",
@@ -299,6 +299,11 @@
     },
     {
       "unit": "Rebecca",
+      "action": "System_Tune Break",
+      "timing": "Auto"
+    },
+    {
+      "unit": "Rebecca",
       "action": "Rebecca_Guts 1",
       "timing": "Auto"
     },
@@ -335,16 +340,6 @@
     {
       "unit": "Rebecca",
       "action": "Rebecca_BOOM! Fireworks!",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "Rebecca_Guts 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Rebecca",
-      "action": "System_Tune Break",
       "timing": "Auto"
     },
     {
@@ -752,6 +747,8 @@
       "layout": "4 3 3 1 1",
       "mainSet": "Halo of Starry Radiance",
       "subSet": "",
+      "subSet2a": "",
+      "subSet2b": "",
       "mainEcho": "Reactor Husk",
       "echoes": [
         {
@@ -902,9 +899,7 @@
         "electroDmgBonus": 0,
         "havocDmgBonus": 0,
         "physicalDmgBonus": 0
-      },
-      "subSet2a": "",
-      "subSet2b": ""
+      }
     }
   ],
   "settings": {

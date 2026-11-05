@@ -502,17 +502,17 @@
   },
   "results": {
     "dpsStats": {
-      "openerDps": 24620.852459016394,
-      "firstLoopDps": 28012.21297836938,
-      "avgLoopDps": 27497.93677204659,
-      "twoMinDps": 22941.991666666665
+      "openerDps": 23672.322426177176,
+      "firstLoopDps": 27169.844644317254,
+      "avgLoopDps": 26574.129190515127,
+      "twoMinDps": 22575.233333333334
     },
     "contribution": {
       "opener": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 429543
+            "dmg": 423276
           },
           {
             "label": "Sanhua",
@@ -527,7 +527,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 364661
+              "dmg": 358394
             },
             {
               "castType": "Liberation",
@@ -558,27 +558,27 @@
           ]
         },
         "fieldTime": {
-          "Sanhua": 3.4,
-          "Lumi": 16.933333333333334
+          "Sanhua": 3.6,
+          "Lumi": 17.283333333333335
         },
-        "duration": 20.333333333333332
+        "duration": 20.883333333333333
       },
       "firstLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 468047
+            "dmg": 461465
           },
           {
             "label": "Sanhua",
-            "dmg": 93131
+            "dmg": 92347
           }
         ],
         "units": {
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 379409
+              "dmg": 372827
             },
             {
               "castType": "Echo",
@@ -596,7 +596,7 @@
           "Sanhua": [
             {
               "castType": "Intro",
-              "dmg": 4720
+              "dmg": 4379
             },
             {
               "castType": "Skill",
@@ -612,32 +612,32 @@
             },
             {
               "castType": "Echo",
-              "dmg": 6257
+              "dmg": 5814
             }
           ]
         },
         "fieldTime": {
-          "Sanhua": 3.25,
-          "Lumi": 16.783333333333335
+          "Sanhua": 3.35,
+          "Lumi": 17.033333333333335
         },
-        "duration": 20.033333333333335
+        "duration": 20.383333333333333
       },
       "avgLoop": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 455381.6666666667
+            "dmg": 448799.6666666667
           },
           {
             "label": "Sanhua",
-            "dmg": 95493.66666666667
+            "dmg": 92869.66666666667
           }
         ],
         "units": {
           "Lumi": [
             {
               "castType": "Basic",
-              "dmg": 379513.6666666667
+              "dmg": 372931.6666666667
             },
             {
               "castType": "Echo",
@@ -655,15 +655,15 @@
           "Sanhua": [
             {
               "castType": "Intro",
-              "dmg": 4720
+              "dmg": 4606.333333333333
             },
             {
               "castType": "Skill",
-              "dmg": 18758.666666666668
+              "dmg": 17852
             },
             {
               "castType": "Liberation",
-              "dmg": 30132
+              "dmg": 28676
             },
             {
               "castType": "Heavy",
@@ -671,25 +671,25 @@
             },
             {
               "castType": "Echo",
-              "dmg": 6257
+              "dmg": 6109.333333333333
             }
           ]
         },
         "fieldTime": {
-          "Sanhua": 3.25,
-          "Lumi": 16.783333333333335
+          "Sanhua": 3.35,
+          "Lumi": 17.033333333333335
         },
-        "duration": 20.033333333333335
+        "duration": 20.383333333333333
       },
       "twoMin": {
         "team": [
           {
             "label": "Lumi",
-            "dmg": 2236114
+            "dmg": 2203519
           },
           {
             "label": "Sanhua",
-            "dmg": 454237
+            "dmg": 442821
           },
           {
             "label": "TuneBreak",
@@ -704,7 +704,7 @@
             },
             {
               "castType": "Basic",
-              "dmg": 1874145
+              "dmg": 1841550
             },
             {
               "castType": "Liberation",
@@ -722,11 +722,11 @@
             },
             {
               "castType": "Skill",
-              "dmg": 85209
+              "dmg": 81129
             },
             {
               "castType": "Liberation",
-              "dmg": 145310
+              "dmg": 138758
             },
             {
               "castType": "Heavy",
@@ -734,17 +734,17 @@
             },
             {
               "castType": "Echo",
-              "dmg": 30346
+              "dmg": 29903
             },
             {
               "castType": "Intro",
-              "dmg": 18880
+              "dmg": 18539
             }
           ]
         },
         "fieldTime": {
-          "Sanhua": 16.4,
-          "Lumi": 84.06666666666666
+          "Sanhua": 17,
+          "Lumi": 85.46666666666667
         },
         "duration": 120
       }

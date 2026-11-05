@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "hash": "b72dcfb2e6963eed",
+  "hash": "4652fff428004be4",
   "rotation": [
     {
       "unit": "Shorekeeper",
@@ -244,11 +244,6 @@
     },
     {
       "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 2",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
       "action": "Suoming_Outro: Canopy Rumble",
       "timing": "Auto"
     },
@@ -460,11 +455,6 @@
     {
       "unit": "Suoming",
       "action": "Suoming_Furled Canopy 1",
-      "timing": "Auto"
-    },
-    {
-      "unit": "Suoming",
-      "action": "Suoming_Furled Canopy 2",
       "timing": "Auto"
     },
     {
